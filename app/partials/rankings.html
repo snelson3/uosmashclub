@@ -1,0 +1,130 @@
+
+<!--TODO Add an upcoming tournaments sidebar !-->
+
+<div class="col-md-3"></div>
+<div class="col-md-6"><img src="img/fox.jpg" class="img-rounded img-thumbnail"></div>
+<div class="col-md-3"></div>
+<div class="col-md-4"></div>
+<div class="col-md-6"><h1>Oregon ELO Rankings</h1></div>
+<div class="col-md-2"></div>
+<!--TODO add a note somewhere on the site about out of state elo not being complete!-->
+<!--TODO Maybe add a page filter up top too, lots of forums do that!-->
+<!--TODO Make the search filter actually work<!-->
+<!--TODO Make the other stuff that needs angular actually work!-->
+<!--TODO remove or change how the allcaps are styled!-->
+<div class="col-md-8">FILTERS
+
+<!--TODO make the select default to all players!-->
+	<p>Player location:</p>
+	<select ng-model="playerloc">
+	<option value="all"> All players</option>
+	<option value="oregon"> Oregon only</option>
+	<option value="other"> Out of state only</option>
+	</select>
+
+	<br>
+
+	<form action="">
+	Show only players who have played within the last <input ng-model="playertime"> months.
+	</form>
+
+	<br>
+
+	<form>
+		<div class="checkbox">
+			<label><input type="checkbox" ng-model="playeratt"> Show only players who have been to more than one tournament?</label>
+		</div>
+	</form>
+</div>
+<div class="col-md-4">Search: <input ng-model="query"></div>
+
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Rank</th>
+			<th>Player</th>
+			<th>Elo</th>
+			<th>Games played</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>2</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>3</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>4</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>5</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>6</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>7</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>8</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>9</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+				<tr>
+			<td>10</td>
+			<td>Arya Stark</td>
+			<td>1313</td>
+			<td>23</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+<div class="col-md-2"></div>
+
+<div class="col-md-9"></div>
+
+<!--TODO Makesure the pagination has disabled and active states!-->
+<!--TODO Make the pagination actually work with angular and fetch stuff!-->
+<div class="col-md-3">
+	<ul class="pagination">
+		<li><a href="#">&laquo;</a></li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">&raquo;</a></li>
+	</ul>
+</div>
