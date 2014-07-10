@@ -1,0 +1,14 @@
+[
+{
+	"name": "Mickey Mouse",
+	"id": "mickey",
+	"main":"pikachu",
+	"gamesplayed":345,
+	"age":2006,
+	"hometown":"Disney Studios",
+	"ELO":"3200",
+	"rank":8,
+	"oldpr":["072012"],
+	"claimed":"yes"
+}
+]

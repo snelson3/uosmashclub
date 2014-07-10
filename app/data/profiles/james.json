@@ -1,0 +1,14 @@
+[
+{
+	"name": "James",
+	"id": "fox",
+	"main":"marth",
+	"gamesplayed":43,
+	"age":2002,
+	"hometown":"The Giant Peach",
+	"ELO":1234,
+	"rank":9,
+	"oldpr":["072012"],
+	"claimed":"no"
+}
+]

@@ -1,7 +1,3 @@
-
-
-<!--TODO Use angular to move this information out of the webpage !-->
-
 <!--TODO change the fox image to something better!-->
 
 <!--TODO Move the image and title code into index.html and use angular to get the right stuff!-->
@@ -16,13 +12,12 @@
 <div class="col-md-2">Display Power Rankings for what year?</div>
 <div class="col-md-2">
 	<select ng-model="tyear">
-	<option value="2014"> 2014</option>
-	<option value="2012"> 2012</option>
-	<option value="2007"> 2007</option></select>
+	<option value="072014"> 2014</option>
+	<option value="072012"> 2012</option></select>
 </div>
 
 <!--TODO make it so placings higher than before are blue and red otherwise!-->
-<!--TODO Edit the CSS and reduce the border, or find the right size for the main icons!-->
+<!--TODO HAve animations for going between the years-->
 <!--TODO Make the player name link to their profile page!-->
 <!--TODO make the main picture link to a page with everybody who mains that main! Or maybe just to the rankings page but with a filter for that character, I like that better!-->
 <table class="table table-bordered">
@@ -37,84 +32,12 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<td>1</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>2</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>3</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>4</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>5</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>6</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>7</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>8</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>9</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
-		</tr>
-			<tr>
-			<td>10</td>
-			<td>Arya Stark</td>
-			<td>1313</td>
-			<td>2012</td>
-			<td>2</td>
-			<td><div class="col-xs-1"><img src="img/fox.jpg" class="img-circle img-thumbnail"></div></td>
+		<tr ng-repeat="player in ranking | filter:tyear | orderBy:orderProp">
+			<td>{{player.rank}}</td>
+			<td><!--TODO<a href="#/profiles/{{player.id}}">{{player.name}}</a>!-->{{player.name}}</td>
+			<td>{{player.elo}}</td>
+			<td>{{player.age}}</td>
+			<td>{{player.old}}</td>
+			<td><div class="col-xs-2"><img ng-src="img/{{player.main}}.jpg" class="img-circle img-thumbnail"></div></td>
 		</tr>
 	</tbody>
