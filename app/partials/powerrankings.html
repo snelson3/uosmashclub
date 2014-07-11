@@ -34,7 +34,7 @@
 	<tbody>
 		<tr ng-repeat="player in ranking | filter:tyear | orderBy:orderProp">
 			<td>{{player.rank}}</td>
-			<td><!--TODO<a href="#/profiles/{{player.id}}">{{player.name}}</a>!-->{{player.name}}</td>
+			<td><a href="#/profiles/{{player.id}}">{{player.name}}</a></td>
 			<td>{{player.elo}}</td>
 			<td>{{player.age}}</td>
 			<td>{{player.old}}</td>

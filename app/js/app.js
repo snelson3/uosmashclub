@@ -16,7 +16,7 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/contact', {templateUrl: 'partials/contact.html', controller: 'MyCtrl1'});
   $routeProvider.when('/submit', {templateUrl: 'partials/submit.html', controller: 'MyCtrl1'});
   $routeProvider.when('/tourney', {templateUrl: 'partials/tournament.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/profile', {templateUrl: 'partials/profile.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/profile', {templateUrl: 'partials/profile.html', controller: 'ProfileCtrl'});
   //this is wrong the :playerId part I need to specify :playerId somewhere
   $routeProvider.when('/profiles/:playerId', {templateUrl: 'partials/profile.html', controller: 'ProfileCtrl'});
   $routeProvider.otherwise({redirectTo: '/rankings'});
