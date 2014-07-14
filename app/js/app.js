@@ -10,14 +10,13 @@ angular.module('myApp', [
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/rankings', {templateUrl: 'partials/rankings.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/rankings', {templateUrl: 'partials/rankings.html', controller: 'RankingCtrl'});
   $routeProvider.when('/pr', {templateUrl: 'partials/powerrankings.html', controller: 'PowerRankingCtrl'});
-  $routeProvider.when('/tournaments', {templateUrl: 'partials/tournaments.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/contact', {templateUrl: 'partials/contact.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/submit', {templateUrl: 'partials/submit.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/tourney', {templateUrl: 'partials/tournament.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/tournaments', {templateUrl: 'partials/tournaments.html', controller: 'DummyCtrl'});
+  $routeProvider.when('/contact', {templateUrl: 'partials/contact.html', controller: 'DummyCtrl'});
+  $routeProvider.when('/submit', {templateUrl: 'partials/submit.html', controller: 'DummyCtrl'});
+  $routeProvider.when('/tourney', {templateUrl: 'partials/tournament.html', controller: 'DummyCtrl'});
   $routeProvider.when('/profile', {templateUrl: 'partials/profile.html', controller: 'ProfileCtrl'});
-  //this is wrong the :playerId part I need to specify :playerId somewhere
   $routeProvider.when('/profiles/:playerId', {templateUrl: 'partials/profile.html', controller: 'ProfileCtrl'});
   $routeProvider.otherwise({redirectTo: '/rankings'});
 }]);

@@ -9,5 +9,6 @@
 	"ELO":1337,
 	"rank":7,
 	"oldpr":["072012"],
-	"claimed":"yes"
+	"claimed":"yes",
+	"tournaments":200
 }

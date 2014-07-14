@@ -1,5 +1,7 @@
-<div class="col-md-4"><img src="img/{{player.id}}.jpg" class="img-thumbnail img-circle"></div>
+<div class="col-md-4"><img ng-src="img/{{player.id}}.jpg" class="img-circle img-thumbnail"></div>
+						<!--THIS GIVES A 404 ERROR even though I have ng-src, fix it !-->
 <div class="col-md-8"><h1>{{player.name}}</h1></div>
+<!--<div class="col-md-4"></div>!--><!--TODO This makes people without pictures not look righht!-->
 <div class="col-md-4">
 	<p>Main: {{player.main}}</p>
 	<!--TODO make this not show up without secondaries!-->
@@ -12,8 +14,10 @@
 	<p>Position on the PR: {{player.rank}}</p>
 	<!--TODO Hide this if the player has not been on the old PR!-->
 	<!--TODO Make this go to the 2012 PR!-->
+	<!--TODO make it so if the image can't be found, it doesn't show the NAN spot, maybe a default or nothing!-->
 	<!--Make this get formatted nicer!-->
 	<p>Previous times been on the PR: <a href="#/pr" ng-repeat="year in player.oldpr">{{year}}</a>
+	</p></div>
 <!--	<li class="dropdown">
 		<a href="#" data-toggle="dropdown" class="dropdown-toggle">Tournaments Attended
 

@@ -8,5 +8,6 @@
 	"hometown":"Gotham",
 	"ELO":1210,
 	"rank":4,
-	"claimed":"no"
+	"claimed":"no",
+	"tournaments":30
 }
