@@ -56,6 +56,7 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
       $http.get('data/tournaments/' + $routeParams.tourneyId + '.json').success(function(data) {
         $scope.tournament = data;
       });
+      $scope.orderProp = "place";
     }]);
 
 webcontrollers.controller('DummyCtrl',[function(){}]);

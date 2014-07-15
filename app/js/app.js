@@ -21,3 +21,4 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/profiles/:playerId', {templateUrl: 'partials/profile.html', controller: 'ProfileCtrl'});
   $routeProvider.otherwise({redirectTo: '/rankings'});
 }]);
+

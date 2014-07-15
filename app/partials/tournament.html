@@ -27,11 +27,10 @@
 	</thead>
 	<tbody>
 	<!--Make sure its ordered by place!?!?!?-->
-		<tr ng-repeat="player in tournament.results">
+		<tr ng-repeat="player in tournament.results | orderBy:orderProp">
 			<th>{{player.place}}</th>
 			<th><a href="#/profiles/{{player.id}}">{{player.name}}</a></th>
-			<!--TODO make the colors red/blue based on positive/negative elo, probably a filter!-->
-			<th><p>{{player.eloshift}}</p></th>
+			<th><p ng-class="{blue: player.eloshift > 0, red: player.eloshift < 0}">{{player.eloshift}}</p></th>
 		</tr>
 	</tbody>
 </table>

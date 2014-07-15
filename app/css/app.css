@@ -28,3 +28,11 @@
   content: "";
   padding: 0;
 }
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
