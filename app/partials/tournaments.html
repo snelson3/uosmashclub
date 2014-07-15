@@ -8,11 +8,10 @@
 <div class="col-md-4"></div>
 
 <!--TODO make the link on past tournaments open up a partial partial view in here, with a back, not getting rid of the mango pic!-->
+<!--TODO add an animation so that this goes bwoom expanding and contracting like cool stuff!-->
 
-<!--TODO have some kind of icon for the More info spot!-->
-
-<!--TODO this needs to be in the right spot!-->
-<p> Upcoming Tournaments</p>
+<div class="col-md-4"></div>
+<div class="col-md-8"><p>Upcoming Tournaments</p></div>
 
 <table class="table table-bordered">
 	<thead>
@@ -21,16 +20,14 @@
 			<th>Name</th>
 			<th>City</th>
 			<th>Location</th>
-			<th>More info</th>
 		</tr>
 	</thead>
 	<tbody ng-repeat="tournament in futuretournaments">
 		<tr>
 			<td>{{tournament.date}}</td>
-			<td>{{tournament.name}}</td>
+			<td><a href="{{tournament.link}}" target="_blank">{{tournament.name}}</a></td>
 			<td>{{tournament.city}}</td>
 			<td>{{tournament.location}}</td>
-			<td><a href="{{tournament.link}}" target="_blank">More info</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -44,16 +41,14 @@
 			<th>Name</th>
 			<th>City</th>
 			<th>Entrants</th>
-			<th>Results</th>
 		</tr>
 	</thead>
 	<tbody ng-repeat="tournament in pasttournaments">
 		<tr>
 			<th>{{tournament.date}}</th>
-			<th>{{tournament.name}}</th>
+			<th><a href="#/tournaments/{{tournament.id}}">{{tournament.name}}</a></th>
 			<th>{{tournament.city}}</th>
 			<th>{{tournament.entrants}}</th>
-			<th><a href="#/tournaments/{{tournament.id}}">Click here</a></th>
 		</tr>
 	</tbody>
 </table>
