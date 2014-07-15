@@ -36,11 +36,26 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
         $scope.players = data;
         for (player in $scope.players) {
           $scope.getProfile($scope.players[player].name);
-          console.log($scope.profiles);
           }
-        console.log("PROFILES FINISHED" +$scope.profiles)});
+       });
       $scope.orderProp="-ELO";
   }]);
 
+  webcontrollers.controller('TournamentCtrl', ['$scope', '$http', 
+    function($scope,$http){
+      $http.get('data/upcomingtournaments.json').success(function(data) {
+        $scope.futuretournaments = data;
+      });
+      $http.get('data/pasttournaments.json').success(function(data) {
+        $scope.pasttournaments = data;
+      });
+    }]);
+
+  webcontrollers.controller('TourneyCtrl', ['$scope', '$http', '$routeParams',
+    function($scope,$http,$routeParams){
+      $http.get('data/tournaments/' + $routeParams.tourneyId + '.json').success(function(data) {
+        $scope.tournament = data;
+      });
+    }]);
 
 webcontrollers.controller('DummyCtrl',[function(){}]);

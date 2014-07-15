@@ -28,11 +28,6 @@
 !-->
 	<br>
 
-	<form>
-		<div class="checkbox">
-			<label><input type="checkbox" ng-model="playeratt"> Show only players who have been to more than one tournament?</label>
-		</div>
-	</form>
 </div>
 <div class="col-md-4">Search: <input ng-model="query"></div>
 
@@ -47,12 +42,13 @@
 			<th>Games played</th>
 		</tr>
 	</thead>
-	<tbody ng-app="angularUtils.directives.dirPagination">
+	<tbody>
 	<!--TODO Add Animations!-->
 	<!--I'm realizing using a database would make a lot of this easier, but oh well!-->
 	<!--TODO show only 5 players at a time (10 in production version)!-->
 	<!--TODO fix the variable names for playerlist.json, its weird (should have gotten rid of playerlist.json so)!-->
 	<!--TODO make the rows have a out of state thumbnail to the right if the player is out of state!-->
+	<!--TODO make the ng-repeat expression shorter!-->
 		<tr ng-repeat="player in profiles  | filter:playerloc | filter:query | orderBy:orderProp">
 			<td>{{$index+1}}</td>
 			<td><a href="#/profiles/{{player.id}}">{{player.name}}</a></td>

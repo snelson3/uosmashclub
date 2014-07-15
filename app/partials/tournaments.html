@@ -9,8 +9,11 @@
 
 <!--TODO make the link on past tournaments open up a partial partial view in here, with a back, not getting rid of the mango pic!-->
 
-<!--TODO use like $HTTP to fetch this data from elsewhere!-->
 <!--TODO have some kind of icon for the More info spot!-->
+
+<!--TODO this needs to be in the right spot!-->
+<p> Upcoming Tournaments</p>
+
 <table class="table table-bordered">
 	<thead>
 		<tr>
@@ -21,27 +24,13 @@
 			<th>More info</th>
 		</tr>
 	</thead>
-	<tbody>
+	<tbody ng-repeat="tournament in futuretournaments">
 		<tr>
-			<td>12/13</td>
-			<td>Smashing on the Blackwater</td>
-			<td>King's Landing</td>
-			<td>The Red Keep</td>
-			<td><a href="#" target="_blank">More info</a></td>
-		</tr>
-		<tr>
-			<td>12/13</td>
-			<td>Smashing on the Blackwater</td>
-			<td>King's Landing</td>
-			<td>The Red Keep</td>
-			<td><a href="#" target="_blank">More info</a></td>
-		</tr>
-		<tr>
-			<td>12/13</td>
-			<td>Smashing on the Blackwater</td>
-			<td>King's Landing</td>
-			<td>The Red Keep</td>
-			<td><a href="#" target="_blank">More info</a></td>
+			<td>{{tournament.date}}</td>
+			<td>{{tournament.name}}</td>
+			<td>{{tournament.city}}</td>
+			<td>{{tournament.location}}</td>
+			<td><a href="{{tournament.link}}" target="_blank">More info</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -58,13 +47,13 @@
 			<th>Results</th>
 		</tr>
 	</thead>
-	<tbody>
+	<tbody ng-repeat="tournament in pasttournaments">
 		<tr>
-			<th>10/5</th>
-			<th>Bloody Mummers Smashfest</th>
-			<th>Harrenhal</th>
-			<th>21</th>
-			<th><a href="#/tourney">Click here</a></th>
+			<th>{{tournament.date}}</th>
+			<th>{{tournament.name}}</th>
+			<th>{{tournament.city}}</th>
+			<th>{{tournament.entrants}}</th>
+			<th><a href="#/tournaments/{{tournament.id}}">Click here</a></th>
 		</tr>
 	</tbody>
 </table>
