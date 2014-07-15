@@ -6,9 +6,10 @@
 	"gamesplayed":345,
 	"age":2006,
 	"hometown":"Disney Studios",
-	"ELO":"3200",
+	"ELO":3200,
 	"rank":8,
 	"oldpr":["072012"],
 	"claimed":"yes",
-	"tournaments":100
+	"tournaments":100,
+	"location":"instate"
 }

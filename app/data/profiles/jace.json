@@ -9,5 +9,6 @@
 	"ELO":1234,
 	"rank":5,
 	"claimed":"yes",
-	"tournaments":230
+	"tournaments":230,
+	"location":"instate"
 }

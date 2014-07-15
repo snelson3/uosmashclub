@@ -25,20 +25,21 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
 //TODO get rid of the playerlist and just have it start reading from jsons if possible
   webcontrollers.controller('RankingCtrl', ['$scope', '$http', 
     function($scope, $http) {
-
-  $scope.profiles=[];    
-  $http.get('data/playerlist.json').success(function(data) {
-    $scope.players = data;
-  });
-  $scope.orderProp="ELO";
-
-  $scope.getProfile = function(pid) {
-    $http.get('data/profiles/'+pid+'.json').success(function(data)
-{
-  $scope.profiles[$scope.profiles.length] = data;
-}
-      );
-  };
+      $scope.profiles=[];    
+      var player = "";
+      $scope.getProfile = function(pid) {
+        $http.get('data/profiles/'+pid+'.json').success(function(data) {
+          $scope.profiles[$scope.profiles.length] = data;
+      });};
+      
+      $http.get('data/playerlist.json').success(function(data) {
+        $scope.players = data;
+        for (player in $scope.players) {
+          $scope.getProfile($scope.players[player].name);
+          console.log($scope.profiles);
+          }
+        console.log("PROFILES FINISHED" +$scope.profiles)});
+      $scope.orderProp="-ELO";
   }]);
 
 

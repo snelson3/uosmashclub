@@ -9,17 +9,14 @@
 <div class="col-md-2"></div>
 <!--TODO add a note somewhere on the site about out of state elo not being complete!-->
 <!--TODO Maybe add a page filter up top too, lots of forums do that!-->
-<!--TODO Make the search filter actually work<!-->
-<!--TODO Make the other stuff that needs angular actually work!-->
-<!--TODO remove or change how the allcaps are styled!-->
-<div class="col-md-8">FILTERS
+<div class="col-md-8">
 
 <!--TODO make the select default to all players!-->
 	<p>Player location:</p>
 	<select ng-model="playerloc">
-	<option value="all"> All players</option>
-	<option value="oregon"> Oregon only</option>
-	<option value="other"> Out of state only</option>
+	<option value=""> All players</option>
+	<option value="instate"> Oregon only</option>
+	<option value="outofstate"> Out of state only</option>
 	</select>
 
 	<br>
@@ -50,29 +47,31 @@
 			<th>Games played</th>
 		</tr>
 	</thead>
-	<tbody>
+	<tbody ng-app="angularUtils.directives.dirPagination">
 	<!--TODO Add Animations!-->
 	<!--I'm realizing using a database would make a lot of this easier, but oh well!-->
-	<!--TODO fetch the relevent data for each player from the JSON file for them!-->
 	<!--TODO show only 5 players at a time (10 in production version)!-->
 	<!--TODO fix the variable names for playerlist.json, its weird (should have gotten rid of playerlist.json so)!-->
-	<!--TODO the search bar doesn't work properly because i havent gotten rid of playerlistjson!-->
-		<tr ng-repeat="player in players  | filter:query | orderBy:orderProp"><!--TODO set an orderprop for elo!-->
-			<td ng-init="getProfile(player.name)">{{$index+1}}</td>
-			<td><a href="#/profiles/{{profiles[$index].id}}">{{profiles[$index].name}}</a></td>
-			<td>{{profiles[$index].ELO}}</td>
-			<td>{{profiles[$index].gamesplayed}}</td>
+	<!--TODO make the rows have a out of state thumbnail to the right if the player is out of state!-->
+		<tr ng-repeat="player in profiles  | filter:playerloc | filter:query | orderBy:orderProp">
+			<td>{{$index+1}}</td>
+			<td><a href="#/profiles/{{player.id}}">{{player.name}}</a></td>
+			<td>{{player.ELO}}</td>
+			<td>{{player.gamesplayed}}</td>
 		</tr>
 		</tbody>
 	</table>
 </div>
+
 <div class="col-md-2"></div>
 
 <div class="col-md-9"></div>
 
+<!--TODO Figure out whether you want to do pagination or something else (maybe just show the top 100 on this page, that ideas good!-->
 <!--TODO Makesure the pagination has disabled and active states!-->
 <!--TODO Make the pagination actually work with angular and fetch stuff!-->
 <div class="col-md-3">
+These buttons are broken for the time being, and I might remove them later 
 	<ul class="pagination">
 		<li><a href="#">&laquo;</a></li>
 		<li><a href="#">1</a></li>

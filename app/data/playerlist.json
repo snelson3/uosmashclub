@@ -1,38 +1,50 @@
 [
  {
- 	"name":"althalous"
+ 	"name":"althalous",
+ 	"ELO":"777"
  },
  {
- 	"name":"arya"
+ 	"name":"arya",
+ 	"ELO":"1313"
  },
   {
- 	"name":"batgirl"
+ 	"name":"batgirl",
+ 	"ELO":"1210"
  },
  {
- 	"name":"clegane"
+ 	"name":"clegane",
+ 	"ELO":"1003"
  },
  {
- 	"name":"elvis"
+ 	"name":"elvis",
+ 	"ELO":"1313"
  },
  {
- 	"name":"fraudlent"
+ 	"name":"fraudlent",
+ 	"ELO":"190"
  },
  {
- 	"name":"jace"
+ 	"name":"jace",
+ 	"ELO":"777"
  },
  {
- 	"name":"james"
+ 	"name":"james",
+ 	"ELO":"777"
  },
  {
- 	"name":"jimmyhand"
+ 	"name":"jimmyhand",
+ 	"ELO":"777"
  },
  {
- 	"name":"kibler"
+ 	"name":"kibler",
+ 	"ELO":"777"
  },
  {
- 	"name":"mickey"
+ 	"name":"mickey",
+ 	"ELO":"777"
  },
  {
- 	"name":"potter"
+ 	"name":"potter",
+ 	"ELO":"777"
  }
 ]
