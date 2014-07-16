@@ -49,6 +49,7 @@
 	<!--TODO fix the variable names for playerlist.json, its weird (should have gotten rid of playerlist.json so)!-->
 	<!--TODO make the rows have a out of state thumbnail to the right if the player is out of state!-->
 	<!--TODO make the ng-repeat expression shorter!-->
+	<!--TODO is it possible to get rid of playerlist.json!-->
 		<tr ng-repeat="player in profiles  | filter:playerloc | filter:query | orderBy:orderProp">
 			<td>{{$index+1}}</td>
 			<td><a href="#/profiles/{{player.id}}">{{player.name}}</a></td>

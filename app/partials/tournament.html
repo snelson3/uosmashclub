@@ -1,16 +1,11 @@
 <div class="col-md-4"></div>
 <div class="col-md-4"><h3>{{tournament.name}}</h3></div>
 <div class="col-md-4"></div>
-
-
-
-<!--TODO Lots of stuff to fetch from a json using angular!-->
 <div class="col-md-8">
 	<li>Date: {{tournament.date}}</li>
 	<li>Location: {{tournament.location}}</li>
 	<li>City: {{tournament.city}}</li>
-	<!--TODO Dynamically generate the number of entrants!-->
-	<li>Entrants: {{tournament.entrants}}</li>
+	<li>Entrants: {{entrants}}</li>
 </div>
 
 <!--TODO Change this to an embedded version of challonge, or just link to challonge directly!-->
@@ -26,7 +21,6 @@
 		</tr>
 	</thead>
 	<tbody>
-	<!--Make sure its ordered by place!?!?!?-->
 		<tr ng-repeat="player in tournament.results | orderBy:orderProp">
 			<th>{{player.place}}</th>
 			<th><a href="#/profiles/{{player.id}}">{{player.name}}</a></th>

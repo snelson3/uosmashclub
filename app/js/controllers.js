@@ -7,7 +7,6 @@ var webcontrollers = angular.module('myApp.controllers', [])
 
   webcontrollers.controller('PowerRankingCtrl', ['$scope', '$http', 
   	function($scope, $http) {
- /*TODO make 1 json file per power ranking and have a way to select which one. */
 	$http.get('data/pr/powerrankings.json').success(function(data) {
 		$scope.ranking = data;
 	});
@@ -53,8 +52,12 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
 
   webcontrollers.controller('TourneyCtrl', ['$scope', '$http', '$routeParams',
     function($scope,$http,$routeParams){
+      $scope.entrants = 0;
       $http.get('data/tournaments/' + $routeParams.tourneyId + '.json').success(function(data) {
         $scope.tournament = data;
+        for ($scope.entrant in data.results){
+          $scope.entrants +=1;
+        }
       });
       $scope.orderProp = "place";
     }]);
