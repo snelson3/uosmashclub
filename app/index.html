@@ -12,9 +12,13 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <script>
+    var img = $scope.img;
+    var ttl = $scope.img;
+  </script>
 </head>
 <body style="background-color:#656565">
-
+<!--TODO Seperate stuff out into modules!-->
 <!--TODO Get the bootstrap.js working!-->
 <!--TODO get the thing to work where you can make one of these active by the page, without duplicating code !-->
 <!--TODO Navbar is broken FIX IT !-->
@@ -37,6 +41,14 @@
         </ul>
         </div></nav>
 <div class="container">
+
+<div class="col-md-3"></div>
+<div class="col-md-6"><script>document.write('<img src="img/'+img+'.jpg" class="img-rounded img-thumbnail">')</script></div>
+<div class="col-md-3"></div>
+<div class="col-md-4"></div>
+<div class="col-md-4"><h1><script>document.write(ttl)</script></h1></div>
+<div class="col-md-4" ></div>
+
   <div ng-view></div>
 </div>
 

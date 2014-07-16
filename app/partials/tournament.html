@@ -24,7 +24,7 @@
 		<tr ng-repeat="player in tournament.results | orderBy:orderProp">
 			<th>{{player.place}}</th>
 			<th><a href="#/profiles/{{player.id}}">{{player.name}}</a></th>
-			<th><p ng-class="{blue: player.eloshift > 0, red: player.eloshift < 0}">{{player.eloshift}}</p></th>
+			<th><p ng-class="{blue: player.eloshift > 0, red: player.eloshift < 0}"><bdi ng-show="player.eloshift > 0">+</bdi>{{player.eloshift}}</p></th>
 		</tr>
 	</tbody>
 </table>

@@ -7,6 +7,8 @@ var webcontrollers = angular.module('myApp.controllers', [])
 
   webcontrollers.controller('PowerRankingCtrl', ['$scope', '$http', 
   	function($scope, $http) {
+      $scope.img ="fox";
+      $scope.ttl = "Power Rankings";
 	$http.get('data/pr/powerrankings.json').success(function(data) {
 		$scope.ranking = data;
 	});
@@ -17,13 +19,17 @@ $scope.tyear="072014";
 webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
     $http.get('data/profiles/' + $routeParams.playerId + '.json').success(function(data) {
+      //TODO make it so it will hide this without needing to have this null value in here
+      $scope.img = "none";
+      scope.ttl = "none";
       $scope.player = data;
     });
   }]);
 
-//TODO get rid of the playerlist and just have it start reading from jsons if possible
   webcontrollers.controller('RankingCtrl', ['$scope', '$http', 
     function($scope, $http) {
+      $scope.img = "falcon";
+      scope.ttl = "Oregon ELO Rankings";
       $scope.profiles=[];    
       var player = "";
       $scope.getProfile = function(pid) {
@@ -42,6 +48,8 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
 
   webcontrollers.controller('TournamentCtrl', ['$scope', '$http', 
     function($scope,$http){
+      $scope.img = "mango";
+      $scope.ttl = "Tournaments";
       $http.get('data/upcomingtournaments.json').success(function(data) {
         $scope.futuretournaments = data;
       });
@@ -52,6 +60,8 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
 
   webcontrollers.controller('TourneyCtrl', ['$scope', '$http', '$routeParams',
     function($scope,$http,$routeParams){
+      $scope.img = "none";
+      $scope.ttl = "none";
       $scope.entrants = 0;
       $http.get('data/tournaments/' + $routeParams.tourneyId + '.json').success(function(data) {
         $scope.tournament = data;
@@ -62,4 +72,21 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
       $scope.orderProp = "place";
     }]);
 
-webcontrollers.controller('DummyCtrl',[function(){}]);
+  webcontrollers.controller('ContactCtrl', ['$scope','$http',
+    function($scope,$http){
+      $scope.img = "icies"
+      $scope.ttl = "Contact Smashers Near You"
+      $http.get('data/facebookgroups.json').success(function(data) {
+        $scope.facebook = data;
+
+      });
+
+    }
+
+    ]);
+
+webcontrollers.controller('DummyCtrl',[function(){
+  $scope.img = "m2k"
+  $scope.ttl = "Submit a Tournament"
+
+}]);
