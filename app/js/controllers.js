@@ -74,11 +74,7 @@ webcontrollers.controller('DummyCtrl',['$scope',function($scope){
 }]);
 
 
-webcontrollers.controller('MainCtrl',['$scope',function($scope){
+webcontrollers.controller('MainCtrl',['$scope','$route',function($scope, $route){
+  $scope.$route = $route;
 
-  $scope.newHeader = function(img,ttl) {
-    $scope.img = img;
-    $scope.ttl = ttl;
-    console.log("ttl"); 
-      };
 }]);
