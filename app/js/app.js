@@ -10,7 +10,7 @@ angular.module('myApp', [
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/rankings', {templateUrl: 'partials/rankings.html', controller: 'RankingCtrl', img:'falcon', title:'Oregon ELO Rankings'});
+  $routeProvider.when('/rankings', {templateUrl: 'partials/rankings.html', controller: 'RankingCtrl', img:'falcon', title:'Oregon ELO Rankings', rankings:true});
   $routeProvider.when('/pr', {templateUrl: 'partials/powerrankings.html', controller: 'PowerRankingCtrl', img:'fox', title:'Power Rankings'});
   $routeProvider.when('/tournaments', {templateUrl: 'partials/tournaments.html', controller: 'TournamentCtrl', img:'mango', title:'Tournaments'});
   $routeProvider.when('/contact', {templateUrl: 'partials/contact.html', controller: 'ContactCtrl', img:'icies', title:'Contact Us'});
