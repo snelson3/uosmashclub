@@ -3,6 +3,7 @@
 	"name": "Sandor Clegane",
 	"id": "clegane",
 	"main":"marth",
+	"secondaries":["Bowser"],
 	"gamesplayed":1003,
 	"age":2001,
 	"hometown":"King's Landing",

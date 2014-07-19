@@ -12,16 +12,16 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/bootstrap.css">
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
-  <script>
-    var img = $scope.img;
-    var ttl = $scope.img;
-  </script>
 </head>
 <body style="background-color:#656565">
 <!--TODO Seperate stuff out into modules!-->
 <!--TODO Get the bootstrap.js working!-->
 <!--TODO get the thing to work where you can make one of these active by the page, without duplicating code !-->
+   <!--an onclick directive is probably how to go about doing this!-->
 <!--TODO Navbar is broken FIX IT !-->
+
+
+<div ng-controller="MainCtrl as main">
   <nav role="navigation" class="navbar navbar-inverse">
     <div class="navbar-header">
       <button type="button" data-taget="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -30,26 +30,35 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#/rankings" class="navbar-brand">Rankings</a> <!--this really should be something else!-->
+      <a href="#/rankings" class="navbar-brand" ng-click="main.newPage(rankings)">Rankings</a> <!--this really should be something else!-->
     </div>
     <div id="navbarCollapse" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#/pr">Power Rankings</a></li>
-        <li><a href="#/tournaments">Tournament Results</a></li>
-        <li><a href="#/contact">Contact Oregon Smashers</a></li>
-        <li><a href="#/submit">Submit a Tournament</a></li>
+        <li><a href="#/pr" class="active" ng-click="main.newPage(pr)">Power Rankings</a></li>
+        <li><a href="#/tournaments" ng-click="main.newPage(tournaments)">Tournament Results</a></li>
+        <li><a href="#/contact" ng-click="main.newPage(contact)">Contact Oregon Smashers</a></li>
+        <li><a href="#/submit" ng-click="main.newPage(submit)">Submit a Tournament</a></li>
         </ul>
         </div></nav>
+
+
+
 <div class="container">
 
+<!--I think the two divs that change need some kind of ng-update or something!-->
+<!--maybe I could use ngchcange or an onclick type event to load a method
+!-->
+
 <div class="col-md-3"></div>
-<div class="col-md-6"><script>document.write('<img src="img/'+img+'.jpg" class="img-rounded img-thumbnail">')</script></div>
+<div class="col-md-6"><img ng-src="img/{{img}}.jpg" class="img-rounded img-thumbnail"></div>
 <div class="col-md-3"></div>
 <div class="col-md-4"></div>
-<div class="col-md-4"><h1><script>document.write(ttl)</script></h1></div>
-<div class="col-md-4" ></div>
+<div class="col-md-4"><h1>{{ttl}}</h1></div>
+<div class="col-md-4"></div> 
+</div>
 
   <div ng-view></div>
+
 </div>
 
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
