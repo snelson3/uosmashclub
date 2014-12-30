@@ -1,9 +1,5 @@
 
-
-<!--TODO add a note somewhere on the site about out of state elo not being complete!-->
-<!--TODO Maybe add a page filter up top too, lots of forums do that!-->
-
-<!--TODO make the select default to all players!-->
+<div class="col-md-8">
 	<p>Player location:</p>
 	<select ng-model="playerloc">
 	<option value=""> All players</option>
@@ -13,11 +9,6 @@
 
 	<br>
 
-<!--
-	<form action="">
-	Show only players who have played within the last <input ng-model="playertime"> months.
-	</form>
-!-->
 	<br>
 
 </div>
@@ -25,6 +16,40 @@
 
 <div class="col-md-2"></div>
 <div class="col-md-8">
+
+<!--BEGIN CUTOFF HERE!-->
+<div ng-controller="AccordionDemoCtrl">
+  <p>
+    <button class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
+    <button class="btn btn-default btn-sm" ng-click="status.isFirstDisabled = ! status.isFirstDisabled">Enable / Disable first panel</button>
+  </p>
+
+  <label class="checkbox">
+    <input type="checkbox" ng-model="oneAtATime">
+    Open only one at a time
+  </label>
+  <accordion close-others="oneAtATime">
+    <accordion-group heading="Static Header, initially expanded" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+      This content is straight in the template.
+    </accordion-group>
+    <accordion-group heading="{{group.title}}" ng-repeat="group in groups">
+      {{group.content}}
+    </accordion-group>
+    <accordion-group heading="Dynamic Body Content">
+      <p>The body of the accordion group grows to fit the contents</p>
+        <button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
+        <div ng-repeat="item in items">{{item}}</div>
+    </accordion-group>
+    <accordion-group is-open="status.open">
+        <accordion-heading>
+            I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+        </accordion-heading>
+        This is just some content to illustrate fancy headings.
+    </accordion-group>
+  </accordion>
+</div>
+<!--END Cutoff Here****************************************************************!-->
+
 <table class="table table-bordered">
 	<thead>
 		<tr>
@@ -35,18 +60,12 @@
 		</tr>
 	</thead>
 	<tbody>
-	<!--TODO Add Animations!-->
-	<!--I'm realizing using a database would make a lot of this easier, but oh well!-->
-	<!--TODO show only 5 players at a time (10 in production version)!-->
-	<!--TODO fix the variable names for playerlist.json, its weird (should have gotten rid of playerlist.json so)!-->
-	<!--TODO make the rows have a out of state thumbnail to the right if the player is out of state!-->
-	<!--TODO make the ng-repeat expression shorter!-->
-	<!--TODO is it possible to get rid of playerlist.json!-->
 		<tr ng-repeat="player in profiles  | filter:playerloc | filter:query | orderBy:orderProp">
 			<td>{{$index+1}}</td>
 			<td><a href="#/profiles/{{player.id}}">{{player.name}}</a></td>
 			<td>{{player.ELO}}</td>
 			<td>{{player.gamesplayed}}</td>
+			<td ng-if="player.location=='outofstate'">Out of State</td>
 		</tr>
 		</tbody>
 	</table>
