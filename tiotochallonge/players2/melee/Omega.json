@@ -1,0 +1,21 @@
+{
+    "matches": [
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Omega"
+        }, 
+        {
+            "Player2": "BYE", 
+            "winner": "Omega", 
+            "Player1": "Omega"
+        }, 
+        {
+            "Player2": "Bazacko", 
+            "winner": "Bazacko", 
+            "Player1": "Omega"
+        }
+    ], 
+    "wins": 1, 
+    "name": "Omega"
+}

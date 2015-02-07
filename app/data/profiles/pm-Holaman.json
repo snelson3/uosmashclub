@@ -1,0 +1,79 @@
+{
+    "rating": 8.781981817697723, 
+    "name": "Holaman", 
+    "matches": [
+        {
+            "P1SkillCH": -0.910258781977749, 
+            "winner": "Holaman", 
+            "Player2": "Holaman", 
+            "Player1": "Shunsuke", 
+            "P2SkillCH": 7.881405258020575, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Fox", 
+            "Player2": "Holaman", 
+            "Player1": "Fox", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.6424996171051092, 
+            "winner": "Holaman", 
+            "Player2": "Holaman", 
+            "Player1": "Grop", 
+            "P2SkillCH": 4.910005120297988, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9318529146644234, 
+            "winner": "Petalchaser", 
+            "Player2": "Petalchaser", 
+            "Player1": "Holaman", 
+            "P2SkillCH": 4.569330765432966, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 10.378930972047442, 
+            "winner": "Quaid", 
+            "Player2": "Holaman", 
+            "Player1": "Quaid", 
+            "P2SkillCH": -0.923095779846614, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 8.424228922292738, 
+            "winner": "Jazz", 
+            "Player2": "Holaman", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.966804101927421, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.7794445146240534, 
+            "winner": "Mac", 
+            "Player2": "Holaman", 
+            "Player1": "Mac", 
+            "P2SkillCH": -0.0075867528660023, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2981581000721185, 
+            "winner": "Glaze", 
+            "Player2": "Glaze", 
+            "Player1": "Holaman", 
+            "P2SkillCH": 1.2171108323341322, 
+            "DATE": "11/21/2014 00:00:00"
+        }
+    ], 
+    "wins": 2, 
+    "num_tourneys": 3, 
+    "game": "pm", 
+    "games": 8, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "10/24/2014 00:00:00", 
+        "11/21/2014 00:00:00"
+    ]
+}

@@ -1,22 +1,65 @@
-<div class="col-md-4" ng-cloak><img ng-src="img/{{player.id}}.jpg" class="img-circle img-thumbnail"></div>
+<div class="col-md-4" ng-cloak><!--<img ng-src="img/{{player.id}}.jpg" class="img-circle img-thumbnail">!--></div>
 <div class="col-md-8"><h1>{{player.name}}</h1></div>
 <!--<div class="col-md-4"></div>!--><!--TODO This makes people without pictures not look righht!-->
 <div class="col-md-4">
-	<p>Main: {{player.main}}</p>
+	<!--<p>Main: {{player.main}}</p>
 	<!--TODO make this not show up without secondaries!-->
-	<p>Secondaries: <li ng-repeat="secondary in player.secondaries"><div class="col-md-1"></div>{{secondary}}</li></p>
+	<!--<p>Secondaries: <li ng-repeat="secondary in player.secondaries"><div class="col-md-1"></div>{{secondary}}</li></p>
 	<p>Ranked games played: {{player.gamesplayed}}</p>
 	<p>Played since: {{player.age}}</p>
 	<p>Hometown: {{player.hometown}}</p>
 	<p>Elo: {{player.ELO}}</p>
 	<!--TODO Hide this if the player is not on the PR!-->
-	<p>Position on the PR: {{player.rank}}</p>
+	<!--<p>Position on the PR: {{player.rank}}</p>
 	<!--TODO Hide this if the player has not been on the old PR!-->
 	<!--TODO Make this go to the 2012 PR!-->
 	<!--TODO make it so if the image can't be found, it doesn't show the NAN spot, maybe a default or nothing!-->
 	<!--Make this get formatted nicer!-->
-	<p>Previous times been on the PR: <a href="#/pr" ng-repeat="year in player.oldpr">{{year}}</a>
-	</p></div>
+	<!--<p>Previous times been on the PR: <a href="#/pr" ng-repeat="year in player.oldpr">{{year}}</a>
+	</p>!-->
+	</div>
+	<p>Game: {{player.game}}</p>
+	<p>Number of Tournaments: {{player.num_tourneys}}</p>
+	<p>Tournaments: {{player.tournaments}}</p><!--Eventually this should link!-->
+	<p>Games: {{player.games}}</p>
+	<p>Wins: {{player.wins}}</p>
+	<p>Rating: {{player.rating*50 | number:0}}</p>
+
+	Matches played
+
+<!--It would be nice if I could have only the oponent listed, no real reason to say the profile person a bunch of times!-->
+
+<table class="table table-bordered">
+	<thead>
+		<th>Date</th>
+		<th>Opponent</th>
+		<th>Winner</th>
+		<th>Skill Change</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="match in player.matches">
+			<th> {{match.DATE}}</th>
+			<th ng-hide="match.Player1 == player.name"> 
+			<a href="#/profiles/{{player.game}}-{{match.Player1}}">
+				{{match.Player1}}</a>
+			</th>
+
+			<th ng-hide="match.Player2 == player.name">
+			<a href="#/profiles/{{player.game}}-{{match.Player2}}">
+			{{match.Player2}} </th></a>
+			<th> {{match.winner}} </th>
+			<th ng-show="match.Player1 == player.name">
+			<p ng-class="{blue:match.P1SkillCH*40 > 0, red:match.P1SkillCH*40 < 0}"> 
+			{{match.P1SkillCH*50 | number:0}}
+			</p></th>
+
+			<th ng-show="match.Player2 == player.name">
+			<p ng-class="{blue:match.P2SkillCH*40 > 0, red:match.P2SkillCH*40 < 0}">
+			{{match.P2SkillCH*50 | number:0}}
+			</p></th>
+		</tr>
+	</tbody>
+</table>
 <!--	<li class="dropdown">
 		<a href="#" data-toggle="dropdown" class="dropdown-toggle">Tournaments Attended
 

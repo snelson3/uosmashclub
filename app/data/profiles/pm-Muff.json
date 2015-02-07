@@ -1,0 +1,54 @@
+{
+    "rating": 4.5428435662760425, 
+    "name": "Muff", 
+    "matches": [
+        {
+            "P1SkillCH": 0.7516046959098688, 
+            "winner": "LiquidBrick", 
+            "Player2": "LiquidBrick", 
+            "Player1": "Muff", 
+            "P2SkillCH": 1.239132664600433, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.30812295095898, 
+            "winner": "Thundrio", 
+            "Player2": "Muff", 
+            "Player1": "Thundrio", 
+            "P2SkillCH": -0.7756916373922458, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9604435070843778, 
+            "winner": "deLee", 
+            "Player2": "Muff", 
+            "Player1": "deLee", 
+            "P2SkillCH": 0.27296528757574023, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.5330444749466103, 
+            "winner": "Muff", 
+            "Player2": "Muff", 
+            "Player1": "PJBOB", 
+            "P2SkillCH": 4.513999094348225, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2200338741655461, 
+            "winner": "Onward to the Edge", 
+            "Player2": "Onward to the Edge", 
+            "Player1": "Muff", 
+            "P2SkillCH": 2.548524293594765, 
+            "DATE": "11/07/2014 00:00:00"
+        }
+    ], 
+    "wins": 1, 
+    "num_tourneys": 2, 
+    "game": "pm", 
+    "games": 5, 
+    "tournaments": [
+        "10/24/2014 00:00:00", 
+        "11/07/2014 00:00:00"
+    ]
+}

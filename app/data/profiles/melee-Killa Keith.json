@@ -1,0 +1,330 @@
+{
+    "rating": 36.37227353529712, 
+    "name": "Killa Keith", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Killa Keith", 
+            "Player2": "Bilby", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Killa Keith", 
+            "Player2": "Trash", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.8510743276654331, 
+            "winner": "Capncone", 
+            "Player2": "Capncone", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 5.334945948921728, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.8618244449140882, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": 4.813860057879143, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.629593111936316, 
+            "winner": "Killa Keith", 
+            "Player2": "Lens", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.773651360051371, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9294999805044597, 
+            "winner": "Riley", 
+            "Player2": "Riley", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 4.263643355084355, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9951198081746497, 
+            "winner": "Killa Keith", 
+            "Player2": "Bronte", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.9332943812179302, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.347394380119301, 
+            "winner": "Killa Keith", 
+            "Player2": "Thundrio", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.0904535629018568, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.9526844288353011, 
+            "winner": "Killa Keith", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.5054078280115526, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 2.3101395491225034, 
+            "winner": "Killa Keith", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -1.3613518288499584, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.8637506124331331, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Fox", 
+            "P2SkillCH": 2.261840464579187, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3849785960454284, 
+            "winner": "Adam", 
+            "Player2": "Adam", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 1.3181831975471034, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.6626909364108826, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.17732226566161557, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.02162142425457425, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Petalchaser", 
+            "P2SkillCH": 0.24473432760445135, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2552065224799911, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Brandon-chan", 
+            "P2SkillCH": 0.9562043258399875, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9005558697292741, 
+            "winner": "Innocent Killer", 
+            "Player2": "Killa Keith", 
+            "Player1": "Innocent Killer", 
+            "P2SkillCH": -0.35946012527921667, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3161291045851726, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.07681765405360963, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.35151416449088657, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Fox", 
+            "P2SkillCH": 1.0053680549672208, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3555394225106454, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Mac", 
+            "P2SkillCH": 0.8430612000152067, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9917226065898888, 
+            "winner": "Killa Keith", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.5053771423474629, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.2802470534679955, 
+            "winner": "Killa Keith", 
+            "Player2": "Capncone", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.05020472538559062, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.11406658474211895, 
+            "winner": "Killa Keith", 
+            "Player2": "Petalchaser", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.0035855132988587, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3865226009519205, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.11659063609006637, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3403898356310222, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.10044379932485725, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2071927476509572, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Fox", 
+            "P2SkillCH": 0.5427521861513824, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.17890585074488996, 
+            "winner": "Killa Keith", 
+            "Player2": "Christian", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.6827786480596032, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.2496493769591197, 
+            "winner": "Killa Keith", 
+            "Player2": "Riley", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.07760960048832644, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.6309075630362031, 
+            "winner": "Killa Keith", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.37043196100121634, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.34111052123468255, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.10532874309656393, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7058407337205637, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": 0.972240728730128, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.1521479320121628, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Fox", 
+            "P2SkillCH": 0.36993072236383284, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.13726895484081325, 
+            "winner": "Adam", 
+            "Player2": "Adam", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.37790665414964764, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.0662733432665803, 
+            "winner": "Killa Keith", 
+            "Player2": "This", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.01245845394986489, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.004183044884534581, 
+            "winner": "Killa Keith", 
+            "Player2": "Bazacko", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.01642344083943037, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.2642054134689005, 
+            "winner": "Killa Keith", 
+            "Player2": "Mac", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.13047942106986454, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1699070115776138, 
+            "winner": "Killa Keith", 
+            "Player2": "Jarod", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.19942268857826306, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.33117860418420264, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.12170530981487104, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.29799610887051386, 
+            "winner": "Adam", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.10914873173940265, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3342882622281529, 
+            "winner": "Killa Keith", 
+            "Player2": "Killa Keith", 
+            "Player1": "Jarod", 
+            "P2SkillCH": 0.2937468311138076, 
+            "DATE": "01/23/2015 00:00:00"
+        }
+    ], 
+    "wins": 27, 
+    "num_tourneys": 6, 
+    "game": "melee", 
+    "games": 39, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "10/24/2014 00:00:00", 
+        "11/21/2014 00:00:00", 
+        "12/11/2014 00:00:00", 
+        "01/09/2015 00:00:00", 
+        "01/23/2015 00:00:00"
+    ]
+}

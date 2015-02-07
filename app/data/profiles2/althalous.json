@@ -1,0 +1,16 @@
+
+{
+	"name": "Althalous",
+	"id": "althalous",
+	"main": "falcon",
+	"secondaries": ["sheik","ganondorf"],
+	"gamesplayed": 15,
+	"age":2009,
+	"hometown":"The House",
+	"ELO":777,
+	"rank":4,
+	"oldpr":["072012"],
+	"claimed":"yes",
+	"tournaments":4,
+	"location":"instate"
+}

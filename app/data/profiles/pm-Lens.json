@@ -1,0 +1,306 @@
+{
+    "rating": 33.274889473842734, 
+    "name": "Lens", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Lens", 
+            "Player2": "t0mmy", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Lens", 
+            "Player2": "Capncone", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.8510743276654331, 
+            "winner": "This", 
+            "Player2": "This", 
+            "Player1": "Lens", 
+            "P2SkillCH": 5.334945948921728, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.842707914898071, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Mac", 
+            "P2SkillCH": 4.764454596386319, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7178022677508231, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "LiquidBrick", 
+            "P2SkillCH": 3.6992485519185045, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9233627880607784, 
+            "winner": "Agent", 
+            "Player2": "Agent", 
+            "Player1": "Lens", 
+            "P2SkillCH": 4.262002333033244, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9350321563687558, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.9888813899379834, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.5150695207788765, 
+            "winner": "Lens", 
+            "Player2": "Quaid", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.0069190062534545405, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.5945399868663408, 
+            "winner": "Lens", 
+            "Player2": "Bazacko", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.30806907522733695, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2455526671841568, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Lens", 
+            "P2SkillCH": 1.1393325645056613, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7215819529393279, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "This", 
+            "P2SkillCH": 2.2446052709403013, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.932025668386288, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "t1mmy", 
+            "P2SkillCH": 1.7350634907786464, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3457748282226625, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Lens", 
+            "P2SkillCH": 1.179144739976497, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.7179600868775893, 
+            "winner": "Lens", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.1403816018705797, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.44290025885931783, 
+            "winner": "Lens", 
+            "Player2": "deLee", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.011721834178860746, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.18895557982332534, 
+            "winner": "Adam", 
+            "Player2": "Adam", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.8307437347240878, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.42043183398627804, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Agent", 
+            "P2SkillCH": 1.0844853547986126, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.4015818096796764, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "This", 
+            "P2SkillCH": 0.998868614231494, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.188440399345005, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.5753749032370052, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.22041799202654033, 
+            "winner": "Lens", 
+            "Player2": "Bronte", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.017765904214655848, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7544040992628496, 
+            "winner": "Brandon-chan", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Lens", 
+            "P2SkillCH": 1.7352368159289817, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.05984161790800613, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Mort", 
+            "P2SkillCH": 0.3061697173735638, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.6675695670989441, 
+            "winner": "Lens", 
+            "Player2": "This", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.2845544634383472, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.6104932497239872, 
+            "winner": "Lens", 
+            "Player2": "Agent", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.3047279970056245, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.4425299329077106, 
+            "winner": "Lens", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.20464482820423768, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9048435966533077, 
+            "winner": "Lens", 
+            "Player2": "Fox", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.5773055471104769, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1168494764755792, 
+            "winner": "Lens", 
+            "Player2": "Riley", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.013477770886311191, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3016062153159069, 
+            "winner": "Lens", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.11730327384768557, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.06981071594367094, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 0.20132093439858778, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.31152156539280185, 
+            "winner": "Adam", 
+            "Player2": "Lens", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.09695729243575357, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.37328566116218553, 
+            "winner": "Fox", 
+            "Player2": "Lens", 
+            "Player1": "Fox", 
+            "P2SkillCH": -0.2189221924116822, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.8376888986483308, 
+            "winner": "Riley", 
+            "Player2": "Riley", 
+            "Player1": "Lens", 
+            "P2SkillCH": 2.2211307969970875, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.02952647792117702, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Rus", 
+            "P2SkillCH": -0.0018833609505790605, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.13559661518478805, 
+            "winner": "Lens", 
+            "Player2": "deLee", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.04425446593020155, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.26189234766753344, 
+            "winner": "Lens", 
+            "Player2": "Bazacko", 
+            "Player1": "Lens", 
+            "P2SkillCH": -0.17530692694575478, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.38063549259033636, 
+            "winner": "This", 
+            "Player2": "This", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.61726882337069, 
+            "DATE": "01/23/2015 00:00:00"
+        }
+    ], 
+    "wins": 25, 
+    "num_tourneys": 6, 
+    "game": "pm", 
+    "games": 36, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "10/24/2014 00:00:00", 
+        "11/07/2014 00:00:00", 
+        "11/21/2014 00:00:00", 
+        "01/09/2015 00:00:00", 
+        "01/23/2015 00:00:00"
+    ]
+}

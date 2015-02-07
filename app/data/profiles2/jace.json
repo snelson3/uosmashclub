@@ -1,0 +1,14 @@
+
+{
+	"name": "Jace the Mind Sculptor",
+	"id": "jace",
+	"main":"falco",
+	"gamesplayed":999,
+	"age":2011,
+	"hometown":"Ravnica",
+	"ELO":1234,
+	"rank":5,
+	"claimed":"yes",
+	"tournaments":230,
+	"location":"instate"
+}

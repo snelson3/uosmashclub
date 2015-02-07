@@ -1,0 +1,31 @@
+{
+    "matches": [
+        {
+            "Player2": "Bacon", 
+            "winner": "Bacon", 
+            "Player1": "David"
+        }, 
+        {
+            "Player2": "Bacon", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Bacon", 
+            "winner": "Bacon", 
+            "Player1": "Shunsuke"
+        }, 
+        {
+            "Player2": "Glaze", 
+            "winner": "Bacon", 
+            "Player1": "Bacon"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "deLee", 
+            "Player1": "Bacon"
+        }
+    ], 
+    "wins": 3, 
+    "name": "Bacon"
+}

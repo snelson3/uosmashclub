@@ -1,0 +1,21 @@
+{
+    "matches": [
+        {
+            "Player2": "Jazz", 
+            "winner": "Jazz", 
+            "Player1": "Gavin"
+        }, 
+        {
+            "Player2": "Dr. Gurbich", 
+            "winner": "Gavin", 
+            "Player1": "Gavin"
+        }, 
+        {
+            "Player2": "Glaze", 
+            "winner": "Glaze", 
+            "Player1": "Gavin"
+        }
+    ], 
+    "wins": 1, 
+    "name": "Gavin"
+}

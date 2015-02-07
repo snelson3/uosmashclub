@@ -1,11 +1,53 @@
 [
-	{
-	"date":"10/5",
-	"name":"Bloody Mummers Smashfest",
-	"city":"Harrenhall",
-	"location":"Courtyard",
-	"entrants":11,
-	"id":"bloodymummers1"
-	}
 
+	{
+	"Game": "Melee",
+	"Date": "10/10/2014",
+	"id":"20141010m"
+	},
+
+	{"Game": "Project M",
+	"Date": "10/10/2014",
+	"id":"20141010pm"
+	},
+
+	{"Game": "Melee",
+	"Date": "10/24/2014",
+	"id":"20141024m"
+	},
+
+	{"Game": "Project M",
+	"Date": "10/24/2014",
+	"id":"20141024pm"
+	},
+
+	{"Game": "Melee",
+	"Date": "11/07/2014",
+	"id":"20141107m"
+	},
+
+	{"Game": "Project M",
+	"Date": "11/07/2014",
+	"id": "20141107pm"
+	},
+
+	{"Game": "Melee",
+	"Date": "11/21/2014",
+	"id": "20141121m"
+	},
+
+	{"Game": "Project M",
+	"Date": "11/21/2014",
+	"id": "20141121pm"
+	},
+
+	{"Game": "Melee",
+	"Date": "12/11/2014",
+	"id": "20141211m"
+	},	
+
+	{"Game": "Project M",
+	"Date": "12/11/2014",
+	"id": "20141211pm"
+	}
 ]

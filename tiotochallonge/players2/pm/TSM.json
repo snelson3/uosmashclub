@@ -1,0 +1,21 @@
+{
+    "matches": [
+        {
+            "Player2": "Macho Man Randy Savage", 
+            "winner": "Macho Man Randy Savage", 
+            "Player1": "TSM"
+        }, 
+        {
+            "Player2": "Onward To The Edge", 
+            "winner": "TSM", 
+            "Player1": "TSM"
+        }, 
+        {
+            "Player2": "Quaid", 
+            "winner": "Quaid", 
+            "Player1": "TSM"
+        }
+    ], 
+    "wins": 1, 
+    "name": "TSM"
+}

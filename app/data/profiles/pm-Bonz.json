@@ -1,0 +1,46 @@
+{
+    "rating": -1.2872280578250344, 
+    "name": "Bonz", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "LilP", 
+            "Player2": "Bonz", 
+            "Player1": "LilP", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.471769375222614, 
+            "winner": "LiquidBrick", 
+            "Player2": "Bonz", 
+            "Player1": "LiquidBrick", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.28083017135662836, 
+            "winner": "Glaze", 
+            "Player2": "Glaze", 
+            "Player1": "Bonz", 
+            "P2SkillCH": 1.1609132786962633, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1154209820705887, 
+            "winner": "Brandon-chan", 
+            "Player2": "Bonz", 
+            "Player1": "Brandon-chan", 
+            "P2SkillCH": 0.22413146404034734, 
+            "DATE": "11/07/2014 00:00:00"
+        }
+    ], 
+    "wins": 0, 
+    "num_tourneys": 2, 
+    "game": "pm", 
+    "games": 4, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "11/07/2014 00:00:00"
+    ]
+}

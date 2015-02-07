@@ -1,0 +1,36 @@
+{
+    "matches": [
+        {
+            "Player2": "t1mmy", 
+            "winner": "t1mmy", 
+            "Player1": "Mort"
+        }, 
+        {
+            "Player2": "t1mmy", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "t1mmy", 
+            "winner": "t1mmy", 
+            "Player1": "Ben D. Wieners"
+        }, 
+        {
+            "Player2": "t1mmy", 
+            "winner": "t1mmy", 
+            "Player1": "Dr. Gurbich"
+        }, 
+        {
+            "Player2": "Bacon", 
+            "winner": "t1mmy", 
+            "Player1": "t1mmy"
+        }, 
+        {
+            "Player2": "t1mmy", 
+            "winner": "The Rap Game Bernie Madoff", 
+            "Player1": "The Rap Game Bernie Madoff"
+        }
+    ], 
+    "wins": 4, 
+    "name": "t1mmy"
+}

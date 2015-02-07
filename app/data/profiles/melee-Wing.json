@@ -1,0 +1,54 @@
+{
+    "rating": 3.728198412264879, 
+    "name": "Wing", 
+    "matches": [
+        {
+            "P1SkillCH": -0.910258781977749, 
+            "winner": "DBA", 
+            "Player2": "DBA", 
+            "Player1": "Wing", 
+            "P2SkillCH": 7.881405258020575, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.471769375222614, 
+            "winner": "LilP", 
+            "Player2": "Wing", 
+            "Player1": "LilP", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 5.693647704618673, 
+            "winner": "Wing", 
+            "Player2": "Onward to the Edge", 
+            "Player1": "Wing", 
+            "P2SkillCH": -1.0004741667256418, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.013759582757671751, 
+            "winner": "Adam", 
+            "Player2": "Wing", 
+            "Player1": "Adam", 
+            "P2SkillCH": 0.0628518514119385, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 4.040394780421835, 
+            "winner": "Dr. Gurbich", 
+            "Player2": "Wing", 
+            "Player1": "Dr. Gurbich", 
+            "P2SkillCH": -0.2361114505437225, 
+            "DATE": "11/07/2014 00:00:00"
+        }
+    ], 
+    "wins": 1, 
+    "num_tourneys": 2, 
+    "game": "melee", 
+    "games": 5, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "11/07/2014 00:00:00"
+    ]
+}

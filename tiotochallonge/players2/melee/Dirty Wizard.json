@@ -1,0 +1,46 @@
+{
+    "matches": [
+        {
+            "Player2": "Madvillain", 
+            "winner": "Dirty Wizard", 
+            "Player1": "Dirty Wizard"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "Capncone", 
+            "Player1": "Dirty Wizard"
+        }, 
+        {
+            "Player2": "Dirty Wizard", 
+            "winner": "Mac", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "BYE", 
+            "winner": "Dirty Wizard", 
+            "Player1": "Dirty Wizard"
+        }, 
+        {
+            "Player2": "Mort", 
+            "winner": "Mort", 
+            "Player1": "Dirty Wizard"
+        }, 
+        {
+            "Player2": "Dirty Wizard", 
+            "winner": "Dirty Wizard", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Dirty Wizard", 
+            "winner": "Dirty Wizard", 
+            "Player1": "Baditude"
+        }, 
+        {
+            "Player2": "Fox", 
+            "winner": "Fox", 
+            "Player1": "Dirty Wizard"
+        }
+    ], 
+    "wins": 4, 
+    "name": "Dirty Wizard"
+}

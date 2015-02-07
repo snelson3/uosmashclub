@@ -1,0 +1,226 @@
+{
+    "rating": 25.593887022810286, 
+    "name": "Bronte", 
+    "matches": [
+        {
+            "P1SkillCH": 0.36700872737901236, 
+            "winner": "Adam", 
+            "Player2": "Bronte", 
+            "Player1": "Adam", 
+            "P2SkillCH": 0.7938979972622171, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 8.832978040640786, 
+            "winner": "Bronte", 
+            "Player2": "Shunsuke", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.7195143101211166, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2552547212083418, 
+            "winner": "Dirty Wizard", 
+            "Player2": "Dirty Wizard", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 1.5470977929087546, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.16424402255050197, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "David", 
+            "P2SkillCH": 2.111115412344482, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.4183472297689512, 
+            "winner": "Agent", 
+            "Player2": "Bronte", 
+            "Player1": "Agent", 
+            "P2SkillCH": 0.2146906081337292, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.264437654977824, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Shunsuke", 
+            "P2SkillCH": 2.488422564160789, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 2.978938640618356, 
+            "winner": "Bronte", 
+            "Player2": "Glaze", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.5257581675095455, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7563616195657907, 
+            "winner": "deLee", 
+            "Player2": "deLee", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 2.0834248769541794, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.5618867369264464, 
+            "winner": "Bronte", 
+            "Player2": "Petalchaser", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.26832146450950667, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.22041799202654033, 
+            "winner": "Lens", 
+            "Player2": "Bronte", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.017765904214655848, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.839366114845717, 
+            "winner": "Bronte", 
+            "Player2": "Omega", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 0.4494537778790537, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.820051739006054, 
+            "winner": "Bronte", 
+            "Player2": "Thundrio", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.6209865977700737, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.1949549408060811, 
+            "winner": "Innocent Killer", 
+            "Player2": "Bronte", 
+            "Player1": "Innocent Killer", 
+            "P2SkillCH": -0.3426847016025363, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.43103123833961376, 
+            "winner": "Brandon-chan", 
+            "Player2": "Bronte", 
+            "Player1": "Brandon-chan", 
+            "P2SkillCH": -0.15278017819583312, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.7031345306426502, 
+            "winner": "Bronte", 
+            "Player2": "Capncone", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.14335075662224028, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.14895162810849172, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Petalchaser", 
+            "P2SkillCH": 0.6620929902727148, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.08830158889683304, 
+            "winner": "Agent", 
+            "Player2": "Agent", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 0.28929559375170655, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.4079546006292336, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Mold", 
+            "P2SkillCH": 0.807783762574342, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.5830089725102638, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Mac", 
+            "P2SkillCH": 1.069043341449202, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.906981215815506, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Fox", 
+            "P2SkillCH": 2.204413276812904, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.06981071594367094, 
+            "winner": "Lens", 
+            "Player2": "Lens", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 0.20132093439858778, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.31676768880411643, 
+            "winner": "Agent", 
+            "Player2": "Bronte", 
+            "Player1": "Agent", 
+            "P2SkillCH": -0.15453828801772218, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.2637316790443407, 
+            "winner": "Bronte", 
+            "Player2": "Glaze", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.0606850777238126, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.5635900017997884, 
+            "winner": "Bronte", 
+            "Player2": "Mold", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.3239603236109865, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.09617592827473231, 
+            "winner": "Fox", 
+            "Player2": "Bronte", 
+            "Player1": "Fox", 
+            "P2SkillCH": -0.03517265422069471, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.5985708176051325, 
+            "winner": "Dirty Wizard", 
+            "Player2": "Bronte", 
+            "Player1": "Dirty Wizard", 
+            "P2SkillCH": -0.48411185028746573, 
+            "DATE": "01/23/2015 00:00:00"
+        }
+    ], 
+    "wins": 14, 
+    "num_tourneys": 6, 
+    "game": "pm", 
+    "games": 26, 
+    "tournaments": [
+        "10/24/2014 00:00:00", 
+        "11/07/2014 00:00:00", 
+        "11/21/2014 00:00:00", 
+        "12/11/2014 00:00:00", 
+        "01/09/2015 00:00:00", 
+        "01/23/2015 00:00:00"
+    ]
+}

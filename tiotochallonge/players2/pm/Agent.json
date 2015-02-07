@@ -1,0 +1,156 @@
+{
+    "matches": [
+        {
+            "Player2": "Mac", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Wing", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Brandon-chan", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "This", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Fox", 
+            "winner": "Fox", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Onward To The Edge"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Macho Man Randy Savage"
+        }, 
+        {
+            "Player2": "Fox", 
+            "winner": "Fox", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Innocent Killer"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Bazacko"
+        }, 
+        {
+            "Player2": "T1mmy", 
+            "winner": "T1mmy", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "BYE", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Bacon", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "This", 
+            "winner": "This", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Innocent Killer"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Mort"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Lens", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Dirty Wizard"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Glaze"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "BYE", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Brandon-chan", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "This", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Radam", 
+            "winner": "Radam", 
+            "Player1": "Agent"
+        }
+    ], 
+    "wins": 20, 
+    "name": "Agent"
+}

@@ -1,0 +1,66 @@
+{
+    "matches": [
+        {
+            "Player2": "Madvillain", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "Poop", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Fox", 
+            "Player1": "Fox"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "LiquidBrick", 
+            "Player1": "LiquidBrick"
+        }, 
+        {
+            "Player2": "Shunsuke", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Innocent Killer", 
+            "Player1": "Innocent Killer"
+        }, 
+        {
+            "Player2": "Muff", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "deLee", 
+            "Player1": "Grand"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "deLee", 
+            "Player1": "Bacon"
+        }, 
+        {
+            "Player2": "Bazacko", 
+            "winner": "Bazacko", 
+            "Player1": "deLee"
+        }
+    ], 
+    "wins": 6, 
+    "name": "deLee"
+}

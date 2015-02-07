@@ -1,0 +1,852 @@
+{
+    "Date": "10/24/2014 00:00:00", 
+    "Matches": [
+        {
+            "winner": "Adam", 
+            "number": "0", 
+            "rnd": "1", 
+            "Player2": "BYE", 
+            "Player1": "Adam", 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.7140311952381211, 
+            "winner": "Lens", 
+            "number": "1", 
+            "rnd": "1", 
+            "Player2": "deLee", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.3750273377645854, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 1.6015551611987462, 
+            "winner": "Glaze", 
+            "number": "2", 
+            "rnd": "1", 
+            "Player2": "Madvillain", 
+            "Player1": "Glaze", 
+            "P2SkillCH": 0.06268922009727618, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "t1mmy", 
+            "number": "3", 
+            "rnd": "1", 
+            "Player2": "Jazz", 
+            "Player1": "t1mmy", 
+            "P2SkillCH": -0.910258781977749, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 3.1251476817099793, 
+            "winner": "t0mmy", 
+            "number": "4", 
+            "rnd": "1", 
+            "Player2": "LiquidBrick", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": -0.7377642570638656, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -1.1641056916797332, 
+            "winner": "Petalchaser", 
+            "number": "5", 
+            "rnd": "1", 
+            "Player2": "Petalchaser", 
+            "Player1": "TSM", 
+            "P2SkillCH": 4.138916178581509, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.5616155728785657, 
+            "winner": "Fox", 
+            "number": "6", 
+            "rnd": "1", 
+            "Player2": "Rus", 
+            "Player1": "Fox", 
+            "P2SkillCH": 1.056319912247961, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 5.751285978790712, 
+            "winner": "Bazacko", 
+            "number": "7", 
+            "rnd": "1", 
+            "Player2": "Holaman", 
+            "Player1": "Bazacko", 
+            "P2SkillCH": -0.20322880382376063, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.9951198081746497, 
+            "winner": "Killa Keith", 
+            "number": "8", 
+            "rnd": "1", 
+            "Player2": "Bronte", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.9332943812179302, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 2.7863807761906454, 
+            "winner": "Thundrio", 
+            "number": "9", 
+            "rnd": "1", 
+            "Player2": "Shunsuke", 
+            "Player1": "Thundrio", 
+            "P2SkillCH": -0.33421163454766756, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.910258781977749, 
+            "winner": "The Wizard of Dirt", 
+            "number": "10", 
+            "rnd": "1", 
+            "Player2": "The Wizard of Dirt", 
+            "Player1": "Deadalis", 
+            "P2SkillCH": 7.881405258020575, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.6905466416567414, 
+            "winner": "Brandon-chan", 
+            "number": "11", 
+            "rnd": "1", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Onward to the Edge", 
+            "P2SkillCH": 1.437082603199208, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.08189732438066955, 
+            "winner": "Agent", 
+            "number": "12", 
+            "rnd": "1", 
+            "Player2": "Agent", 
+            "Player1": "Bilby", 
+            "P2SkillCH": 2.2206832591921675, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 1.9816337477299157, 
+            "winner": "Riley", 
+            "number": "13", 
+            "rnd": "1", 
+            "Player2": "Capncone", 
+            "Player1": "Riley", 
+            "P2SkillCH": -0.3967808128477124, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.17865102740428185, 
+            "winner": "Mac", 
+            "number": "14", 
+            "rnd": "1", 
+            "Player2": "Mac", 
+            "Player1": "This", 
+            "P2SkillCH": 0.522300514716143, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Innocent Killer", 
+            "number": "15", 
+            "rnd": "1", 
+            "Player2": "Macho Man Randy Savage", 
+            "Player1": "Innocent Killer", 
+            "P2SkillCH": -0.910258781977749, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.5630965744156313, 
+            "winner": "Adam", 
+            "number": "16", 
+            "rnd": "2", 
+            "Player2": "Lens", 
+            "Player1": "Adam", 
+            "P2SkillCH": 0.07994241295307702, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.7675496330623801, 
+            "winner": "t1mmy", 
+            "number": "17", 
+            "rnd": "2", 
+            "Player2": "t1mmy", 
+            "Player1": "Glaze", 
+            "P2SkillCH": 8.183039085325493, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 1.4797409257943954, 
+            "winner": "t0mmy", 
+            "number": "18", 
+            "rnd": "2", 
+            "Player2": "Petalchaser", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": -0.058446376772257835, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.6968953972336749, 
+            "winner": "Fox", 
+            "number": "19", 
+            "rnd": "2", 
+            "Player2": "Bazacko", 
+            "Player1": "Fox", 
+            "P2SkillCH": 0.7149264387962759, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 1.347394380119301, 
+            "winner": "Killa Keith", 
+            "number": "20", 
+            "rnd": "2", 
+            "Player2": "Thundrio", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.0904535629018568, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.07471293803596879, 
+            "winner": "Brandon-chan", 
+            "number": "21", 
+            "rnd": "2", 
+            "Player2": "Brandon-chan", 
+            "Player1": "The Wizard of Dirt", 
+            "P2SkillCH": 1.8399115728912925, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.04493543074296191, 
+            "winner": "Riley", 
+            "number": "22", 
+            "rnd": "2", 
+            "Player2": "Riley", 
+            "Player1": "Agent", 
+            "P2SkillCH": 1.137547212207778, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -1.0310388345058286, 
+            "winner": "Innocent Killer", 
+            "number": "23", 
+            "rnd": "2", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Mac", 
+            "P2SkillCH": 12.275392131108088, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 0.7083956090580941, 
+            "winner": "Adam", 
+            "number": "24", 
+            "rnd": "3", 
+            "Player2": "t1mmy", 
+            "Player1": "Adam", 
+            "P2SkillCH": 0.31602690313932413, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.1050440187595072, 
+            "winner": "Fox", 
+            "number": "25", 
+            "rnd": "3", 
+            "Player2": "Fox", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": 1.0620767822073915, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 1.9526844288353011, 
+            "winner": "Killa Keith", 
+            "number": "26", 
+            "rnd": "3", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.5054078280115526, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.5812472894544456, 
+            "winner": "Innocent Killer", 
+            "number": "27", 
+            "rnd": "3", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Riley", 
+            "P2SkillCH": 4.970306262964609, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -1.0493985388274218, 
+            "winner": "Fox", 
+            "number": "28", 
+            "rnd": "4", 
+            "Player2": "Fox", 
+            "Player1": "Adam", 
+            "P2SkillCH": 2.63945686867374, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": 2.3101395491225034, 
+            "winner": "Killa Keith", 
+            "number": "29", 
+            "rnd": "4", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -1.3613518288499584, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.8637506124331331, 
+            "winner": "Killa Keith", 
+            "number": "30", 
+            "rnd": "5", 
+            "Player2": "Killa Keith", 
+            "Player1": "Fox", 
+            "P2SkillCH": 2.261840464579187, 
+            "winners": "True"
+        }, 
+        {
+            "P1SkillCH": -0.3849785960454284, 
+            "winner": "Adam", 
+            "number": "31", 
+            "rnd": "6", 
+            "Player2": "Adam", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 1.3181831975471034, 
+            "winners": "True"
+        }, 
+        {
+            "winner": "deLee", 
+            "number": "32", 
+            "rnd": "-1", 
+            "Player2": "deLee", 
+            "Player1": "BYE", 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 3.298531972951949, 
+            "winner": "Madvillain", 
+            "number": "33", 
+            "rnd": "-1", 
+            "Player2": "Jazz", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": -0.6741928859211725, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 1.151344629117343, 
+            "winner": "LiquidBrick", 
+            "number": "34", 
+            "rnd": "-1", 
+            "Player2": "TSM", 
+            "Player1": "LiquidBrick", 
+            "P2SkillCH": 0.38091668738764284, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -2.421451469968691, 
+            "winner": "Holaman", 
+            "number": "35", 
+            "rnd": "-1", 
+            "Player2": "Holaman", 
+            "Player1": "Rus", 
+            "P2SkillCH": 6.048531349207423, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 6.7631821436307895, 
+            "winner": "Bronte", 
+            "number": "36", 
+            "rnd": "-1", 
+            "Player2": "Shunsuke", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.6471629669818526, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 6.912878254028648, 
+            "winner": "Deadalis", 
+            "number": "37", 
+            "rnd": "-1", 
+            "Player2": "Onward to the Edge", 
+            "Player1": "Deadalis", 
+            "P2SkillCH": -1.059960540182626, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.13816219477692115, 
+            "winner": "Capncone", 
+            "number": "38", 
+            "rnd": "-1", 
+            "Player2": "Capncone", 
+            "Player1": "Bilby", 
+            "P2SkillCH": 0.9455496427237975, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 1.9916993154535092, 
+            "winner": "This", 
+            "number": "39", 
+            "rnd": "-1", 
+            "Player2": "Macho Man Randy Savage", 
+            "Player1": "This", 
+            "P2SkillCH": 0.14846151226757343, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.06589067390655146, 
+            "winner": "Petalchaser", 
+            "number": "40", 
+            "rnd": "-2", 
+            "Player2": "Petalchaser", 
+            "Player1": "deLee", 
+            "P2SkillCH": 1.818175697443273, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.45838466467462347, 
+            "winner": "Bazacko", 
+            "number": "41", 
+            "rnd": "-2", 
+            "Player2": "Bazacko", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": 5.140729916838492, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 3.105953116403988, 
+            "winner": "LiquidBrick", 
+            "number": "42", 
+            "rnd": "-2", 
+            "Player2": "Lens", 
+            "Player1": "LiquidBrick", 
+            "P2SkillCH": -1.1775146279073532, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.11681426451874266, 
+            "winner": "Glaze", 
+            "number": "43", 
+            "rnd": "-2", 
+            "Player2": "Glaze", 
+            "Player1": "Holaman", 
+            "P2SkillCH": 1.0810178720234944, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.3789519571488196, 
+            "winner": "Agent", 
+            "number": "44", 
+            "rnd": "-2", 
+            "Player2": "Agent", 
+            "Player1": "Bronte", 
+            "P2SkillCH": 2.155666470893175, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.46881514379746037, 
+            "winner": "Mac", 
+            "number": "45", 
+            "rnd": "-2", 
+            "Player2": "Mac", 
+            "Player1": "Deadalis", 
+            "P2SkillCH": 0.44158931883342945, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 1.7104377281830132, 
+            "winner": "Capncone", 
+            "number": "46", 
+            "rnd": "-2", 
+            "Player2": "Thundrio", 
+            "Player1": "Capncone", 
+            "P2SkillCH": -0.2738777357696627, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 2.5694688856223777, 
+            "winner": "This", 
+            "number": "47", 
+            "rnd": "-2", 
+            "Player2": "The Wizard of Dirt", 
+            "Player1": "This", 
+            "P2SkillCH": -0.613316080668687, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 3.597917879517766, 
+            "winner": "Petalchaser", 
+            "number": "48", 
+            "rnd": "-3", 
+            "Player2": "Bazacko", 
+            "Player1": "Petalchaser", 
+            "P2SkillCH": -1.5942942230544332, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.6759530767302877, 
+            "winner": "Glaze", 
+            "number": "49", 
+            "rnd": "-3", 
+            "Player2": "Glaze", 
+            "Player1": "LiquidBrick", 
+            "P2SkillCH": 2.5643178555720354, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.07993732890439276, 
+            "winner": "Mac", 
+            "number": "50", 
+            "rnd": "-3", 
+            "Player2": "Mac", 
+            "Player1": "Agent", 
+            "P2SkillCH": 0.7615035643433572, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 1.5990033937752983, 
+            "winner": "Capncone", 
+            "number": "51", 
+            "rnd": "-3", 
+            "Player2": "This", 
+            "Player1": "Capncone", 
+            "P2SkillCH": -0.32149520453844893, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.20889524580539032, 
+            "winner": "Brandon-chan", 
+            "number": "52", 
+            "rnd": "-4", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Petalchaser", 
+            "P2SkillCH": 1.3959715902781902, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.23813284236130272, 
+            "winner": "Riley", 
+            "number": "53", 
+            "rnd": "-4", 
+            "Player2": "Riley", 
+            "Player1": "Glaze", 
+            "P2SkillCH": 1.2357207145202018, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.7575453823682068, 
+            "winner": "t1mmy", 
+            "number": "54", 
+            "rnd": "-4", 
+            "Player2": "t1mmy", 
+            "Player1": "Mac", 
+            "P2SkillCH": 6.385167139765759, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.8377260031114133, 
+            "winner": "t0mmy", 
+            "number": "55", 
+            "rnd": "-4", 
+            "Player2": "t0mmy", 
+            "Player1": "Capncone", 
+            "P2SkillCH": 2.6111671547769326, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 2.686820877656107, 
+            "winner": "Brandon-chan", 
+            "number": "56", 
+            "rnd": "-5", 
+            "Player2": "Riley", 
+            "Player1": "Brandon-chan", 
+            "P2SkillCH": -0.9352961960748623, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -1.391255138573328, 
+            "winner": "t0mmy", 
+            "number": "57", 
+            "rnd": "-5", 
+            "Player2": "t0mmy", 
+            "Player1": "t1mmy", 
+            "P2SkillCH": 2.2782122427074505, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.07247830719535386, 
+            "winner": "Adam", 
+            "number": "58", 
+            "rnd": "-6", 
+            "Player2": "Adam", 
+            "Player1": "Brandon-chan", 
+            "P2SkillCH": 0.5886322448597028, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": -0.37987301325886236, 
+            "winner": "Innocent Killer", 
+            "number": "59", 
+            "rnd": "-6", 
+            "Player2": "Innocent Killer", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": 2.5045168742761064, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.8116679905314754, 
+            "winner": "Adam", 
+            "number": "60", 
+            "rnd": "-7", 
+            "Player2": "Innocent Killer", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.21980889087609512, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.8460007604243813, 
+            "winner": "Adam", 
+            "number": "61", 
+            "rnd": "-8", 
+            "Player2": "Fox", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.253128409344459, 
+            "winners": "False"
+        }, 
+        {
+            "P1SkillCH": 0.6626909364108826, 
+            "winner": "Adam", 
+            "number": "62", 
+            "rnd": "7", 
+            "Player2": "Killa Keith", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.17732226566161557, 
+            "winners": "True"
+        }
+    ], 
+    "Game": "Melee Singles", 
+    "Entrants": [
+        {
+            "wins": 0, 
+            "elochange": -1.36513155772073, 
+            "place": 1, 
+            "name": "Rus", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 0, 
+            "elochange": 0.05626487039625161, 
+            "place": 1, 
+            "name": "Bilby", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 0, 
+            "elochange": -0.3694138985258846, 
+            "place": 1, 
+            "name": "Onward to the Edge", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 0, 
+            "elochange": -0.7617972697101756, 
+            "place": 1, 
+            "name": "Macho Man Randy Savage", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 0, 
+            "elochange": -0.9813746015295202, 
+            "place": 1, 
+            "name": "Shunsuke", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 0, 
+            "elochange": -1.5844516678989216, 
+            "place": 1, 
+            "name": "Jazz", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 0, 
+            "elochange": -0.7831890042920904, 
+            "place": 1, 
+            "name": "TSM", 
+            "fakewins": 0
+        }, 
+        {
+            "wins": 1, 
+            "elochange": 5.962116809902405, 
+            "place": 1, 
+            "name": "Holaman", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 1, 
+            "elochange": 2.422049477519126, 
+            "place": 1, 
+            "name": "Thundrio", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 1, 
+            "elochange": 7.193376239315919, 
+            "place": 1, 
+            "name": "The Wizard of Dirt", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 0, 
+            "elochange": 0.44091801167113687, 
+            "place": 1, 
+            "name": "deLee", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 1, 
+            "elochange": 2.9028365283746016, 
+            "place": 1, 
+            "name": "Madvillain", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 1, 
+            "elochange": 6.471434615848359, 
+            "place": 1, 
+            "name": "Deadalis", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 1, 
+            "elochange": -0.38354101971615506, 
+            "place": 1, 
+            "name": "Lens", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 1, 
+            "elochange": 7.3175245676999, 
+            "place": 1, 
+            "name": "Bronte", 
+            "fakewins": 1
+        }, 
+        {
+            "wins": 2, 
+            "elochange": 4.41832402394172, 
+            "place": 1, 
+            "name": "This", 
+            "fakewins": 2
+        }, 
+        {
+            "wins": 2, 
+            "elochange": 4.251476970437988, 
+            "place": 1, 
+            "name": "Agent", 
+            "fakewins": 2
+        }, 
+        {
+            "wins": 2, 
+            "elochange": 2.843580411727178, 
+            "place": 1, 
+            "name": "LiquidBrick", 
+            "fakewins": 2
+        }, 
+        {
+            "wins": 2, 
+            "elochange": 10.012648111371046, 
+            "place": 1, 
+            "name": "Bazacko", 
+            "fakewins": 2
+        }, 
+        {
+            "wins": 3, 
+            "elochange": 21.374383247677823, 
+            "place": 1, 
+            "name": "t1mmy", 
+            "fakewins": 3
+        }, 
+        {
+            "wins": 3, 
+            "elochange": 9.2876681329649, 
+            "place": 1, 
+            "name": "Petalchaser", 
+            "fakewins": 3
+        }, 
+        {
+            "wins": 3, 
+            "elochange": -0.06319081898110568, 
+            "place": 1, 
+            "name": "Mac", 
+            "fakewins": 3
+        }, 
+        {
+            "wins": 3, 
+            "elochange": 4.241208413370593, 
+            "place": 1, 
+            "name": "Glaze", 
+            "fakewins": 3
+        }, 
+        {
+            "wins": 3, 
+            "elochange": 2.838358188928588, 
+            "place": 1, 
+            "name": "Riley", 
+            "fakewins": 3
+        }, 
+        {
+            "wins": 3, 
+            "elochange": 3.0204839487229833, 
+            "place": 1, 
+            "name": "Capncone", 
+            "fakewins": 3
+        }, 
+        {
+            "wins": 4, 
+            "elochange": 3.84316559921578, 
+            "place": 1, 
+            "name": "Fox", 
+            "fakewins": 4
+        }, 
+        {
+            "wins": 4, 
+            "elochange": 26.050459806643325, 
+            "place": 1, 
+            "name": "Innocent Killer", 
+            "fakewins": 4
+        }, 
+        {
+            "wins": 4, 
+            "elochange": 6.781900508817891, 
+            "place": 1, 
+            "name": "Brandon-chan", 
+            "fakewins": 4
+        }, 
+        {
+            "wins": 4, 
+            "elochange": 9.009350972970388, 
+            "place": 1, 
+            "name": "t0mmy", 
+            "fakewins": 4
+        }, 
+        {
+            "wins": 5, 
+            "elochange": 8.304877769123898, 
+            "place": 1, 
+            "name": "Killa Keith", 
+            "fakewins": 5
+        }, 
+        {
+            "wins": 7, 
+            "elochange": 4.449268774419849, 
+            "place": 1, 
+            "name": "Adam", 
+            "fakewins": 8
+        }
+    ], 
+    "g": "melee"
+}

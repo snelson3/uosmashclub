@@ -1,0 +1,31 @@
+{
+    "matches": [
+        {
+            "Player2": "LiquidBrick", 
+            "winner": "LiquidBrick", 
+            "Player1": "Muff"
+        }, 
+        {
+            "Player2": "Muff", 
+            "winner": "Thundrio", 
+            "Player1": "Thundrio"
+        }, 
+        {
+            "Player2": "Muff", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "Muff", 
+            "winner": "Muff", 
+            "Player1": "PJBOB"
+        }, 
+        {
+            "Player2": "Onward to the Edge", 
+            "winner": "Onward to the Edge", 
+            "Player1": "Muff"
+        }
+    ], 
+    "wins": 1, 
+    "name": "Muff"
+}

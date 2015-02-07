@@ -1,0 +1,76 @@
+{
+    "matches": [
+        {
+            "Player2": "Mac", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "David", 
+            "winner": "Mac", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Trash", 
+            "winner": "Mac", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Glaze", 
+            "winner": "Mac", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Lens", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Mac", 
+            "Player1": "Capncone"
+        }, 
+        {
+            "Player2": "Bazacko", 
+            "winner": "Bazacko", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Mac", 
+            "Player1": "Glaze"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Mac", 
+            "Player1": "Quaid"
+        }, 
+        {
+            "Player2": "Brandon-chan", 
+            "winner": "Brandon-chan", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Holaman", 
+            "winner": "Mac", 
+            "Player1": "Mac"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Mac", 
+            "Player1": "Dirty Wizard"
+        }, 
+        {
+            "Player2": "This", 
+            "winner": "This", 
+            "Player1": "Mac"
+        }
+    ], 
+    "wins": 8, 
+    "name": "Mac"
+}

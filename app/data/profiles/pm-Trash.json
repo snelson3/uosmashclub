@@ -1,0 +1,71 @@
+{
+    "rating": 5.0061454704932515, 
+    "name": "Trash", 
+    "matches": [
+        {
+            "P1SkillCH": -0.910258781977749, 
+            "winner": "Trash", 
+            "Player2": "Trash", 
+            "Player1": "Harrison", 
+            "P2SkillCH": 7.881405258020575, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Adam", 
+            "Player2": "Trash", 
+            "Player1": "Adam", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 5.766967768203809, 
+            "winner": "Mac", 
+            "Player2": "Trash", 
+            "Player1": "Mac", 
+            "P2SkillCH": -1.080869978657951, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.6583245724620816, 
+            "winner": "The good the bad and the Gabin", 
+            "Player2": "The good the bad and the Gabin", 
+            "Player1": "Trash", 
+            "P2SkillCH": 8.390561499035758, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.21452962208203274, 
+            "winner": "LiquidBrick", 
+            "Player2": "LiquidBrick", 
+            "Player1": "Trash", 
+            "P2SkillCH": 0.46747442560728203, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3088137670784761, 
+            "winner": "deLee", 
+            "Player2": "Trash", 
+            "Player1": "deLee", 
+            "P2SkillCH": 0.18267322908649675, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 7.260071364753124, 
+            "winner": "Juba", 
+            "Player2": "Trash", 
+            "Player1": "Juba", 
+            "P2SkillCH": -0.651337176331559, 
+            "DATE": "01/23/2015 00:00:00"
+        }
+    ], 
+    "wins": 1, 
+    "num_tourneys": 3, 
+    "game": "pm", 
+    "games": 7, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "01/09/2015 00:00:00", 
+        "01/23/2015 00:00:00"
+    ]
+}

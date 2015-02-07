@@ -1,0 +1,56 @@
+{
+    "matches": [
+        {
+            "Player2": "DBA", 
+            "winner": "Thundrio", 
+            "Player1": "Thundrio"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Brandon-chan", 
+            "Player1": "Brandon-chan"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "LiquidBrick", 
+            "Player1": "LiquidBrick"
+        }, 
+        {
+            "Player2": "Petalchaser", 
+            "winner": "Petalchaser", 
+            "Player1": "Thundrio"
+        }, 
+        {
+            "Player2": "Muff", 
+            "winner": "Thundrio", 
+            "Player1": "Thundrio"
+        }, 
+        {
+            "Player2": "The rap game Paul Revere", 
+            "winner": "The rap game Paul Revere", 
+            "Player1": "Thundrio"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Thundrio", 
+            "Player1": "This"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Thundrio", 
+            "Player1": "Mort"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }
+    ], 
+    "wins": 4, 
+    "name": "Thundrio"
+}

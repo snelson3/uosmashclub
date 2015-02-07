@@ -1,0 +1,54 @@
+{
+    "rating": 4.781668630515128, 
+    "name": "David", 
+    "matches": [
+        {
+            "P1SkillCH": -0.910258781977749, 
+            "winner": "David", 
+            "Player2": "David", 
+            "Player1": "Grop", 
+            "P2SkillCH": 7.881405258020575, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Riley", 
+            "Player2": "David", 
+            "Player1": "Riley", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 5.766967768203809, 
+            "winner": "t0mmy", 
+            "Player2": "David", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": -1.080869978657951, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3029382388415094, 
+            "winner": "Brandon-chan", 
+            "Player2": "Brandon-chan", 
+            "Player1": "David", 
+            "P2SkillCH": 0.39910779293679255, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 7.598106020582524, 
+            "winner": "Ben D. Wieners", 
+            "Player2": "David", 
+            "Player1": "Ben D. Wieners", 
+            "P2SkillCH": -1.4398739764447441, 
+            "DATE": "11/07/2014 00:00:00"
+        }
+    ], 
+    "wins": 1, 
+    "num_tourneys": 2, 
+    "game": "melee", 
+    "games": 5, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "11/07/2014 00:00:00"
+    ]
+}

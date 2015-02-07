@@ -1,0 +1,66 @@
+{
+    "matches": [
+        {
+            "Player2": "Capncone", 
+            "winner": "Capncone", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Madvillain", 
+            "Player1": "Madvillain"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "deLee", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Petalchaser", 
+            "winner": "Petalchaser", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "deLee", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Petalchaser", 
+            "winner": "Petalchaser", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "Gavin", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "Jazz", 
+            "winner": "deLee", 
+            "Player1": "deLee"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "This", 
+            "Player1": "This"
+        }
+    ], 
+    "wins": 4, 
+    "name": "deLee"
+}

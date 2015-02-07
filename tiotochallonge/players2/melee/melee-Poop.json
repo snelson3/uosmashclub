@@ -1,0 +1,16 @@
+{
+    "matches": [
+        {
+            "Player2": "Poop", 
+            "winner": "Agent", 
+            "Player1": "Agent"
+        }, 
+        {
+            "Player2": "#onlypikachu", 
+            "winner": "#onlypikachu", 
+            "Player1": "Poop"
+        }
+    ], 
+    "wins": 0, 
+    "name": "Poop"
+}

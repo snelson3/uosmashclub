@@ -1,0 +1,26 @@
+{
+    "matches": [
+        {
+            "Player2": "Liquidbrick", 
+            "winner": "T0mmy", 
+            "Player1": "T0mmy"
+        }, 
+        {
+            "Player2": "TSM", 
+            "winner": "Liquidbrick", 
+            "Player1": "Liquidbrick"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Liquidbrick", 
+            "Player1": "Liquidbrick"
+        }, 
+        {
+            "Player2": "Glaze", 
+            "winner": "Glaze", 
+            "Player1": "Liquidbrick"
+        }
+    ], 
+    "wins": 2, 
+    "name": "Liquidbrick"
+}

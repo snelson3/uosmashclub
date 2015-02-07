@@ -1,0 +1,76 @@
+{
+    "matches": [
+        {
+            "Player2": "Bronte", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "Shunsuke", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "Dirty Wizard", 
+            "winner": "Dirty Wizard", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "Petalchaser", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "Bronte", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Bronte", 
+            "winner": "Bronte", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Omega", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "Thundrio", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "Bronte", 
+            "winner": "Innocent Killer", 
+            "Player1": "Innocent Killer"
+        }, 
+        {
+            "Player2": "Bronte", 
+            "winner": "Brandon-chan", 
+            "Player1": "Brandon-chan"
+        }, 
+        {
+            "Player2": "Bronte", 
+            "winner": "Bronte", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }, 
+        {
+            "Player2": "Bronte", 
+            "winner": "Bronte", 
+            "Player1": "Petalchaser"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Agent", 
+            "Player1": "Bronte"
+        }
+    ], 
+    "wins": 8, 
+    "name": "Bronte"
+}

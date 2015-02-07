@@ -1,0 +1,16 @@
+{
+    "matches": [
+        {
+            "Player2": "Prime", 
+            "winner": "Fox", 
+            "Player1": "Fox"
+        }, 
+        {
+            "Player2": "Shunsuke", 
+            "winner": "Shunsuke", 
+            "Player1": "Prime"
+        }
+    ], 
+    "wins": 0, 
+    "name": "Prime"
+}

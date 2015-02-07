@@ -22,7 +22,7 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
     });
   }]);
 
-  webcontrollers.controller('RankingCtrl', ['$scope', '$http', 
+  webcontrollers.controller('pmRankingCtrl', ['$scope', '$http', 
     function($scope, $http) {
       $scope.profiles=[];    
       var player = "";
@@ -31,14 +31,33 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
           $scope.profiles[$scope.profiles.length] = data;
       });};
       
-      $http.get('data/playerlist.json').success(function(data) {
+      $http.get('data/pm-playerlist.json').success(function(data) {
         $scope.players = data;
         for (player in $scope.players) {
           $scope.getProfile($scope.players[player].name);
           }
        });
-      $scope.orderProp="-ELO";
+      $scope.orderProp="-rating";
   }]);
+
+    webcontrollers.controller('meleeRankingCtrl', ['$scope', '$http', 
+    function($scope, $http) {
+      $scope.profiles=[];    
+      var player = "";
+      $scope.getProfile = function(pid) {
+        $http.get('data/profiles/'+pid+'.json').success(function(data) {
+          $scope.profiles[$scope.profiles.length] = data;
+      });};
+      
+      $http.get('data/melee-playerlist.json').success(function(data) {
+        $scope.players = data;
+        for (player in $scope.players) {
+          $scope.getProfile($scope.players[player].name);
+          }
+       });
+      $scope.orderProp="-rating";
+  }]);
+
 
   webcontrollers.controller('TournamentCtrl', ['$scope', '$http', 
     function($scope,$http){
@@ -59,7 +78,7 @@ webcontrollers.controller('ProfileCtrl', ['$scope', '$routeParams', '$http',
           $scope.entrants +=1;
         }
       });
-      $scope.orderProp = "place";
+      $scope.orderProp = "-elochange";
     }]);
 
   webcontrollers.controller('ContactCtrl', ['$scope','$http',

@@ -1,0 +1,21 @@
+{
+    "matches": [
+        {
+            "Player2": "Ben D. Wieners", 
+            "winner": "Innocent Killer", 
+            "Player1": "Innocent Killer"
+        }, 
+        {
+            "Player2": "Ben D. Wieners", 
+            "winner": "Ben D. Wieners", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Mort", 
+            "winner": "Mort", 
+            "Player1": "Ben D. Wieners"
+        }
+    ], 
+    "wins": 1, 
+    "name": "Ben D. Wieners"
+}

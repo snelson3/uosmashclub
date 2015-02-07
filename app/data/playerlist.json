@@ -1,50 +1,312 @@
 [
- {
- 	"name":"althalous",
- 	"ELO":"777"
- },
- {
- 	"name":"arya",
- 	"ELO":"1313"
- },
-  {
- 	"name":"batgirl",
- 	"ELO":"1210"
- },
- {
- 	"name":"clegane",
- 	"ELO":"1003"
- },
- {
- 	"name":"elvis",
- 	"ELO":"1313"
- },
- {
- 	"name":"fraudlent",
- 	"ELO":"190"
- },
- {
- 	"name":"jace",
- 	"ELO":"777"
- },
- {
- 	"name":"james",
- 	"ELO":"777"
- },
- {
- 	"name":"jimmyhand",
- 	"ELO":"777"
- },
- {
- 	"name":"kibler",
- 	"ELO":"777"
- },
- {
- 	"name":"mickey",
- 	"ELO":"777"
- },
- {
- 	"name":"potter",
- 	"ELO":"777"
- }
+    {
+        "GAME": "pm", 
+        "name": "pm-deLee", 
+        "ELO": 6
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-TSM", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Onward To The Edge", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Innocent Killer", 
+        "ELO": 10
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Dr. Gurbich", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Fox", 
+        "ELO": 25
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Mort", 
+        "ELO": 7
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Capncone", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Agent", 
+        "ELO": 20
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Grand", 
+        "ELO": 2
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Gavin", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-#onlypikachu", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Trash", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Macho Man Randy Savage", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Poop", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Amanda Huggenkiss", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-T1mmy", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-PJBOB", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Onward to the Edge", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Jazz", 
+        "ELO": 7
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Killa Keith", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Lens", 
+        "ELO": 21
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Dirty Wizard", 
+        "ELO": 7
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Mac", 
+        "ELO": 8
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-The Rap Game Paul Revere", 
+        "ELO": 5
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-LilP", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Ben D. Wieners", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Rus", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Grop", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Omega", 
+        "ELO": 2
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Madvillain", 
+        "ELO": 2
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Prime", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Bonz", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Alex", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-t1mmy", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Thundrio", 
+        "ELO": 4
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-This", 
+        "ELO": 20
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Glaze", 
+        "ELO": 7
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Shunsuke", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-David", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Bronte", 
+        "ELO": 8
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Holaman", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Muff", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-LiquidBrick", 
+        "ELO": 6
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Deadalis", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Wing", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Tofurkey", 
+        "ELO": 2
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-DBA", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-salt", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Bacon", 
+        "ELO": 3
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Bazacko", 
+        "ELO": 9
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Radam", 
+        "ELO": 29
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Rap game Paul Revere", 
+        "ELO": 1
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Quaid", 
+        "ELO": 2
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Baditude", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-The rap game Paul Revere", 
+        "ELO": 5
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Harrison", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Petalchaser", 
+        "ELO": 7
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Mold", 
+        "ELO": 4
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Brandon-chan", 
+        "ELO": 17
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-t0mmy", 
+        "ELO": 0
+    }, 
+    {
+        "GAME": "pm", 
+        "name": "pm-Bilby", 
+        "ELO": 1
+    }
 ]

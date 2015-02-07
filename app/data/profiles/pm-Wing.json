@@ -1,0 +1,70 @@
+{
+    "rating": 13.635149014912352, 
+    "name": "Wing", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Wing", 
+            "Player2": "David", 
+            "Player1": "Wing", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Agent", 
+            "Player2": "Wing", 
+            "Player1": "Agent", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.6424996171051092, 
+            "winner": "Wing", 
+            "Player2": "Wing", 
+            "Player1": "Bilby", 
+            "P2SkillCH": 4.910005120297988, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9318529146644234, 
+            "winner": "LiquidBrick", 
+            "Player2": "LiquidBrick", 
+            "Player1": "Wing", 
+            "P2SkillCH": 4.569330765432966, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1562268896263479, 
+            "winner": "Adam", 
+            "Player2": "Adam", 
+            "Player1": "Wing", 
+            "P2SkillCH": 0.13679489771200082, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.4957043346515242, 
+            "winner": "Wing", 
+            "Player2": "Wing", 
+            "Player1": "Petalchaser", 
+            "P2SkillCH": 3.6157420478803495, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.1144464750042236, 
+            "winner": "Grand", 
+            "Player2": "Grand", 
+            "Player1": "Wing", 
+            "P2SkillCH": 6.4745781043813935, 
+            "DATE": "11/07/2014 00:00:00"
+        }
+    ], 
+    "wins": 3, 
+    "num_tourneys": 2, 
+    "game": "pm", 
+    "games": 7, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "11/07/2014 00:00:00"
+    ]
+}

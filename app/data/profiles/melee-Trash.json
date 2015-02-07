@@ -1,0 +1,87 @@
+{
+    "rating": 11.315587318637613, 
+    "name": "Trash", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Trash", 
+            "Player2": "Harrison", 
+            "Player1": "Trash", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.4717693752226175, 
+            "winner": "Killa Keith", 
+            "Player2": "Trash", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.6424996171051092, 
+            "winner": "Trash", 
+            "Player2": "Trash", 
+            "Player1": "LilP", 
+            "P2SkillCH": 4.910005120297988, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9318529146644234, 
+            "winner": "Mac", 
+            "Player2": "Mac", 
+            "Player1": "Trash", 
+            "P2SkillCH": 4.569330765432966, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 10.378930972047442, 
+            "winner": "Christian", 
+            "Player2": "Trash", 
+            "Player1": "Christian", 
+            "P2SkillCH": -0.923095779846614, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.05062248630150279, 
+            "winner": "This", 
+            "Player2": "This", 
+            "Player1": "Trash", 
+            "P2SkillCH": 0.4501643611135009, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3768090654105105, 
+            "winner": "LiquidBrick", 
+            "Player2": "LiquidBrick", 
+            "Player1": "Trash", 
+            "P2SkillCH": 1.0328877336702753, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9636501637393593, 
+            "winner": "Trash", 
+            "Player2": "Trash", 
+            "Player1": "Chris Pringle", 
+            "P2SkillCH": 1.9933185054177454, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3048304076313837, 
+            "winner": "Gavin rising", 
+            "Player2": "Gavin rising", 
+            "Player1": "Trash", 
+            "P2SkillCH": 4.055936026949226, 
+            "DATE": "01/23/2015 00:00:00"
+        }
+    ], 
+    "wins": 3, 
+    "num_tourneys": 3, 
+    "game": "melee", 
+    "games": 9, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "01/09/2015 00:00:00", 
+        "01/23/2015 00:00:00"
+    ]
+}

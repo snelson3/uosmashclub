@@ -1,0 +1,21 @@
+{
+    "matches": [
+        {
+            "Player2": "Amanda Huggenkiss", 
+            "winner": "Poop", 
+            "Player1": "Poop"
+        }, 
+        {
+            "Player2": "Amanda Huggenkiss", 
+            "winner": "Amanda Huggenkiss", 
+            "Player1": "Madvillain"
+        }, 
+        {
+            "Player2": "Dirty Wizard", 
+            "winner": "Dirty Wizard", 
+            "Player1": "Amanda Huggenkiss"
+        }
+    ], 
+    "wins": 1, 
+    "name": "Amanda Huggenkiss"
+}

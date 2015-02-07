@@ -1,0 +1,26 @@
+{
+    "matches": [
+        {
+            "Player2": "BYE", 
+            "winner": "Omega", 
+            "Player1": "Omega"
+        }, 
+        {
+            "Player2": "Brandon-chan", 
+            "winner": "Brandon-chan", 
+            "Player1": "Omega"
+        }, 
+        {
+            "Player2": "Omega", 
+            "winner": "Omega", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Omega", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }
+    ], 
+    "wins": 2, 
+    "name": "Omega"
+}

@@ -1,0 +1,112 @@
+{
+    "rating": 10.704853977246032, 
+    "name": "Bazacko", 
+    "matches": [
+        {
+            "P1SkillCH": 5.751285978790712, 
+            "winner": "Bazacko", 
+            "Player2": "Holaman", 
+            "Player1": "Bazacko", 
+            "P2SkillCH": -0.20322880382376063, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.6968953972336749, 
+            "winner": "Fox", 
+            "Player2": "Bazacko", 
+            "Player1": "Fox", 
+            "P2SkillCH": 0.7149264387962759, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.45838466467462347, 
+            "winner": "Bazacko", 
+            "Player2": "Bazacko", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": 5.140729916838492, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.597917879517766, 
+            "winner": "Petalchaser", 
+            "Player2": "Bazacko", 
+            "Player1": "Petalchaser", 
+            "P2SkillCH": -1.5942942230544332, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.9784699244557711, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Bazacko", 
+            "P2SkillCH": 4.63851933041464, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.058771026085093325, 
+            "winner": "Glaze", 
+            "Player2": "Glaze", 
+            "Player1": "Bazacko", 
+            "P2SkillCH": 0.8685268314968262, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.07265031491831131, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Bazacko", 
+            "P2SkillCH": 0.06165970507170471, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.41937043133204455, 
+            "winner": "Bazacko", 
+            "Player2": "Bazacko", 
+            "Player1": "Omega", 
+            "P2SkillCH": 1.9516046245079508, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.8492485420478779, 
+            "winner": "This", 
+            "Player2": "Bazacko", 
+            "Player1": "This", 
+            "P2SkillCH": -0.19450074759533464, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.07315357922873922, 
+            "winner": "Bazacko", 
+            "Player2": "Bazacko", 
+            "Player1": "Onward to the Edge", 
+            "P2SkillCH": 0.9436389592258276, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.004183044884534581, 
+            "winner": "Killa Keith", 
+            "Player2": "Bazacko", 
+            "Player1": "Killa Keith", 
+            "P2SkillCH": 0.01642344083943037, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 2.492192042814402, 
+            "winner": "deLee", 
+            "Player2": "Bazacko", 
+            "Player1": "deLee", 
+            "P2SkillCH": -1.0603697754803356, 
+            "DATE": "01/23/2015 00:00:00"
+        }
+    ], 
+    "wins": 4, 
+    "num_tourneys": 4, 
+    "game": "melee", 
+    "games": 12, 
+    "tournaments": [
+        "10/24/2014 00:00:00", 
+        "11/07/2014 00:00:00", 
+        "11/21/2014 00:00:00", 
+        "01/23/2015 00:00:00"
+    ]
+}

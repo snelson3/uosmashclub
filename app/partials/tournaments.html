@@ -29,17 +29,15 @@
 	<thead>
 		<tr>
 			<th>Date</th>
-			<th>Name</th>
-			<th>City</th>
-			<th>Entrants</th>
+			<th>Game</th>
+			<th>Results</th>
 		</tr>
 	</thead>
 	<tbody ng-repeat="tournament in pasttournaments">
 		<tr>
-			<th>{{tournament.date}}</th>
-			<th><a href="#/tournaments/{{tournament.id}}">{{tournament.name}}</a></th>
-			<th>{{tournament.city}}</th>
-			<th>{{tournament.entrants}}</th>
+			<th>{{tournament.Date}}</th>
+			<th>{{tournament.Game}}</th>
+			<th><a href="#/tournaments/{{tournament.id}}">results</th>
 		</tr>
 	</tbody>
 </table>

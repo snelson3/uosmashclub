@@ -1,0 +1,36 @@
+{
+    "matches": [
+        {
+            "Player2": "Glaze", 
+            "winner": "Mold", 
+            "Player1": "Mold"
+        }, 
+        {
+            "Player2": "Mold", 
+            "winner": "Bacon", 
+            "Player1": "Bacon"
+        }, 
+        {
+            "Player2": "Mold", 
+            "winner": "This", 
+            "Player1": "This"
+        }, 
+        {
+            "Player2": "Mold", 
+            "winner": "This", 
+            "Player1": "This"
+        }, 
+        {
+            "Player2": "Mold", 
+            "winner": "Mold", 
+            "Player1": "BYE"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "Capncone", 
+            "Player1": "Mold"
+        }
+    ], 
+    "wins": 2, 
+    "name": "Mold"
+}

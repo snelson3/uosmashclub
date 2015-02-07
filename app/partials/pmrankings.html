@@ -1,0 +1,46 @@
+
+<div class="col-md-8">
+	
+
+
+</div>
+<!--<div class="col-md-4">Search: <input ng-model="query"></div> !-->
+
+<div class="col-md-2"></div>
+<div class="col-md-8">
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Rank</th>
+			<th>Player</th>
+			<th>Skill</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="player in profiles | filter:query | filter:GAME | orderBy:orderProp" ng-show="player.num_tourneys >= 1">
+			<td>{{$index+1}}</td>
+			<td><a href="#/profiles/pm-{{player.name}}">{{player.name}}</a></td>
+			<td><p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating*50 > 1000.0, gold: player.rating*50 > 1700.0}">{{player.rating*50 | number:0}}</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+
+<div class="col-md-2"></div>
+
+<div class="col-md-9"></div>
+
+<!--TODO Figure out whether you want to do pagination or something else (maybe just show the top 100 on this page, that ideas good!-->
+<!--TODO Makesure the pagination has disabled and active states!-->
+<!--TODO Make the pagination actually work with angular and fetch stuff!-->
+<!--<div class="col-md-3">
+These buttons are broken for the time being, and I might remove them later 
+	<ul class="pagination">
+		<li><a href="#">&laquo;</a></li>
+		<li><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">&raquo;</a></li>
+	</ul>
+</div>!-->

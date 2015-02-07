@@ -1,0 +1,116 @@
+{
+    "matches": [
+        {
+            "Player2": "Mac", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Glaze", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Fox", 
+            "Player1": "Fox"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Lens", 
+            "Player1": "LiquidBrick"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Killa Keith", 
+            "Player1": "Killa Keith"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Radam", 
+            "Player1": "Radam"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "LiquidBrick", 
+            "Player1": "LiquidBrick"
+        }, 
+        {
+            "Player2": "deLee", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Liquidbrick", 
+            "Player1": "Liquidbrick"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Lens", 
+            "Player1": "Bonz"
+        }, 
+        {
+            "Player2": "t1mmy", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Sadam", 
+            "Player1": "Sadam"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Lens", 
+            "Player1": "This"
+        }, 
+        {
+            "Player2": "Brandon-chan", 
+            "winner": "Brandon-chan", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Jazz", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Brandon-chan", 
+            "Player1": "Brandon-chan"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Lens", 
+            "Player1": "Holaman"
+        }, 
+        {
+            "Player2": "Petalchaser", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Agent", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Fox", 
+            "winner": "Fox", 
+            "Player1": "Lens"
+        }
+    ], 
+    "wins": 12, 
+    "name": "Lens"
+}

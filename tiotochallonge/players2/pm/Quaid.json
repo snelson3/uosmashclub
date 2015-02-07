@@ -1,0 +1,26 @@
+{
+    "matches": [
+        {
+            "Player2": "Holaman", 
+            "winner": "Quaid", 
+            "Player1": "Quaid"
+        }, 
+        {
+            "Player2": "Quaid", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Quaid", 
+            "winner": "Quaid", 
+            "Player1": "TSM"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Mac", 
+            "Player1": "Quaid"
+        }
+    ], 
+    "wins": 2, 
+    "name": "Quaid"
+}

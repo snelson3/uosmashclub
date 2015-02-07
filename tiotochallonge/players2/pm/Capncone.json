@@ -1,0 +1,51 @@
+{
+    "matches": [
+        {
+            "Player2": "Capncone", 
+            "winner": "Capncone", 
+            "Player1": "Grop"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "Lens", 
+            "Player1": "Lens"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "Shunsuke", 
+            "Player1": "Shunsuke"
+        }, 
+        {
+            "Player2": "Mac", 
+            "winner": "Mac", 
+            "Player1": "Capncone"
+        }, 
+        {
+            "Player2": "Madvillain", 
+            "winner": "Capncone", 
+            "Player1": "Capncone"
+        }, 
+        {
+            "Player2": "This", 
+            "winner": "This", 
+            "Player1": "Capncone"
+        }, 
+        {
+            "Player2": "salt", 
+            "winner": "Capncone", 
+            "Player1": "Capncone"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "This", 
+            "Player1": "This"
+        }, 
+        {
+            "Player2": "Capncone", 
+            "winner": "Bronte", 
+            "Player1": "Bronte"
+        }
+    ], 
+    "wins": 3, 
+    "name": "Capncone"
+}

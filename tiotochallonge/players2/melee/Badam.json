@@ -1,0 +1,51 @@
+{
+    "matches": [
+        {
+            "Player2": "BYE", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "Lens", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "T1mmy", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "Fox", 
+            "winner": "Fox", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "Badam", 
+            "winner": "Badam", 
+            "Player1": "Killa Keith"
+        }, 
+        {
+            "Player2": "Badam", 
+            "winner": "Badam", 
+            "Player1": "Brandon-chan"
+        }, 
+        {
+            "Player2": "Innocent Killer", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "Fox", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }, 
+        {
+            "Player2": "Killa Keith", 
+            "winner": "Badam", 
+            "Player1": "Badam"
+        }
+    ], 
+    "wins": 8, 
+    "name": "Badam"
+}

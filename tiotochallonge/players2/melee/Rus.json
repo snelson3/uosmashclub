@@ -1,0 +1,26 @@
+{
+    "matches": [
+        {
+            "Player2": "Rus", 
+            "winner": "Fox", 
+            "Player1": "Fox"
+        }, 
+        {
+            "Player2": "Holaman", 
+            "winner": "Holaman", 
+            "Player1": "Rus"
+        }, 
+        {
+            "Player2": "Rus", 
+            "winner": "Fox", 
+            "Player1": "Fox"
+        }, 
+        {
+            "Player2": "Holaman", 
+            "winner": "Holaman", 
+            "Player1": "Rus"
+        }
+    ], 
+    "wins": 0, 
+    "name": "Rus"
+}
