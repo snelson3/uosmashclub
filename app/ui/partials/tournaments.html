@@ -1,0 +1,47 @@
+
+<!--TODO add an animation so that this goes bwoom expanding and contracting like cool stuff!-->
+
+<div class="col-md-4"></div>
+<div class="col-md-8"><p>Upcoming Tournaments</p></div>
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Name</th>
+			<th>City</th>
+			<th>Location</th>
+		</tr>
+	</thead>
+	<tbody ng-repeat="tournament in futuretournaments">
+		<tr>
+			<td>{{tournament.date}}</td>
+			<td><a href="{{tournament.link}}" target="_blank">{{tournament.name}}</a></td>
+			<td>{{tournament.city}}</td>
+			<td>{{tournament.location}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Past Tournaments</p>
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Game</th>
+			<th>Results</th>
+		</tr>
+	</thead>
+	<tbody ng-repeat="tournament in pasttournaments | orderBy: orderProp">
+		<tr>
+			<th>{{tournament.Date}}</th>
+			<th>{{tournament.Game}}</th>
+			<th><a href="#/tournaments/{{tournament.id}}">results</th>
+		</tr>
+	</tbody>
+</table>
+
+
+<!--TODO Make sure to only display like 10 per page (eventually, no need to launch with this feature as it will take time to accrue tournament results)!-->
+

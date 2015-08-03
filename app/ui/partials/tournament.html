@@ -1,0 +1,74 @@
+<div class="col-md-4"></div>
+<div class="col-md-4"><h3>UO Smash Club</h3></div>
+<div class="col-md-4"></div>
+<div class="col-md-8">
+	<li>Date: {{tournament.Date}}</li>
+	<li>Event: {{tournament.Game}}</li>
+</div>
+
+<!--TODO Change this to an embedded version of challonge with the bracket, or just link to challonge directly!-->
+<!--Have buttons up here for standings and then for individual matches
+		brackets should have a table like
+		//round, winners/losers, player 1, player 2, victor, p1 truskill change, p2 truskill change
+!-->
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<!--<th>Place</th>!-->
+			<th>Name</th>
+			<th>Rank Change</th>
+			<th>Wins</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="player in tournament.Entrants | orderBy:orderProp" ng-hide="player.rankchange == 0">
+			<!--<th>{{$index+1}}</th>!-->
+			<th><a href="#/profiles/{{tournament.g}}-{{player.name}}">{{player.name}}</a></th>
+			<th><p ng-class="{blue: player.rankchange > 0, red: player.rankchange < 0}" >
+					{{player.rankchange}}
+			<th>{{player.wins}}</th>
+		</tr>
+	</tbody>
+</table>
+
+
+<!--Since this table exists it would be nice to filter out BYES's and also allow filtering/searching to be useful!-->
+<table class="table table-bordered">
+	<thead>
+		<th>Round</th>
+		<th>Match</th>
+		<th>Player 1</th>
+		<th>Player 2</th>
+		<th>Winner</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="match in tournament.Matches | orderBy:orderProp" ng-hide="match.Player1 == BYE" ng-hide="match.Player2 == 'BYE'">
+			<th> {{match.rnd}}</th>
+			<th> {{match.number}}</th>
+			<th> <a href="#/profiles/{{tournament.g}}-{{match.Player1}}">{{match.Player1}}</a> <p ng-class="{blue: match.P1SkillCH > 0, red: match.P1SkillCH < 0.0}">{{match.P1SkillCH*50 | number:0}}</p></th>
+			<th><a href="#/profiles/{{tournament.g}}-{{match.Player2}}"> {{match.Player2}}</a> <p ng-class="{blue: match.P2SkillCH > 0, red: match.P2SkillCH < 0.0}">{{match.P2SkillCH*50 | number:0}}</p></th>
+			<th> <a href="#/profiles/{{tournament.g}}-{match.winner}}">{{match.winner}}</a></th>
+		</tr>
+	</tbody>
+</table>
+<!--
+Losers
+<table class = "table table-bordered">
+	<thead>
+		<th>Round</th>
+		<th>Match</th>
+		<th>Player 1</th>
+		<th>Player 2</th>
+		<th>Winner</th>
+	</thead>
+	<tbody>
+		<tr ng-repeat="match in tournament.Matches | orderBy:orderProp" ng-hide="match.Player1 == BYE" ng-hide="match.Player2 == 'BYE'" ng-show="match.rnd < 0">
+			<th> {{match.rnd}}</th>
+			<th> {{match.number}}</th>
+			<th> {{match.Player1}}</th>
+			<th> {{match.Player2}}</th>
+			<th> {{match.winner}}</th>
+		</tr>
+	</tbody>
+</table>!-->

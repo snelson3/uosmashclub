@@ -1,11 +1,19 @@
 <!--TODO List
+change myApp to uosmash
+fix git
+Add a favico (the smash ball with uo wings)
+combine meleeranking and pmranking controllers
+move a lot of the functionality in the controllers to services
  1) Go through and fix all the little TODO's
  1.1) Fix the errors that show up in the JS
  2) Get animations working
+ add a search bar to the profile page, so you can filter to show matches only by a person (and filter tournamentresults)
+ and filter on the rankings page
  2.1) Make the tabs active by the page, without duplicating code
  3) Write some unit/E2E tests
  4) Separate the app out into modules (rename myApp and stuff)
  4.1) Try to get rid of playerlist.json
+ 4.2) Get rid of pasttournaments.json
  5) Use a database instead of json files
 !-->
 
@@ -17,13 +25,13 @@
   <title>University of Oregon Smash Club</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="ui/bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="ui/bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" type="text/css" href="ui/css/app.css"/>
+  <link rel="stylesheet" type="text/css" href="ui/css/bootstrap.css">
+  <script src="ui/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js" type="text/javascript"></script>
 </head>
-<body style="background-color:#656565" ng-controller="MainCtrl as main">
+<body ng-class="{body: 1 == 1}" style="background-color:#000000" ng-controller="mainController as main">
 
   <nav role="navigation" class="navbar navbar-inverse">
     <div class="navbar-header">
@@ -36,8 +44,8 @@
     </div>
     <div id="navbarCollapse" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#/meleerankings" class="navbar-brand">Melee Rankings</a> </li>
-        <li><a href="#/pmrankings" class="navbar-brand">Project M Rankings</a></li>
+        <li><a href="#/meleerankings">Melee Rankings</a> </li>
+        <li><a href="#/pmrankings">Project M Rankings</a></li>
         <li><a href="#/tournaments">Tournament Results</a></li>
         <li><a href="#/contact">Contact Oregon Smashers</a></li>
         <li><a href="#/rules">Getting Started/Rules</a></li>
@@ -53,16 +61,22 @@
 <div ng-if="$route.current.img" class="col-md-4"></div> 
 
   <div ng-view></div>
-</div>
 
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
+</div>
+  <script src="ui/bower_components/jquery/jquery.min.js" type="text/javascript"></script>
+  <script src="ui/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+  <script src="ui/bower_components/angular/angular.js" type="text/javascript"></script>
+  <script src="ui/bower_components/angular-route/angular-route.js" type="text/javascript"></script>
+  <script src="ui/js/app.js" type="text/javascript"></script>
+  <script src="ui/js/services/services.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/contact.controller.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/main.controller.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/meleeranking.controller.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/pmranking.controller.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/profile.controller.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/tournamentresults.controller.js" type="text/javascript"></script>
+  <script src="ui/js/controllers/tournaments.controller.js" type="text/javascript"></script>
+  <script src="ui/js/filters.js" type="text/javascript"></script>
+  <script src="ui/js/directives/directives.js" type="text/javascript"></script>
 </body>
 </html>
