@@ -12,8 +12,7 @@ config(['$routeProvider', function($routeProvider) {
   //can i get this to work but not actually change the URL?
   $routeProvider.when('/tournaments/:tourneyId', {templateUrl: 'ui/partials/tournament.html', controller: 'tournamentResultsController',img:'mango', title:'Tournaments'});
   $routeProvider.when('/profiles/:playerId', {templateUrl: 'ui/partials/profile.html', controller: 'profileController'});
-  //TODO add a 404 page
   $routeProvider.when('/rules',{templateUrl: 'ui/partials/rules.html',img:'foxo',title:'Ruleset'})
-  $routeProvider.otherwise({redirectTo: 'ui/pmrankings'});
+  $routeProvider.otherwise({redirectTo: 'pmrankings'});
 }]);
 
