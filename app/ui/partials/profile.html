@@ -9,14 +9,6 @@
 	<p>Played since: {{player.age}}</p>
 	<p>Hometown: {{player.hometown}}</p>
 	<p>Elo: {{player.ELO}}</p>
-	<!--TODO Hide this if the player is not on the PR!-->
-	<!--<p>Position on the PR: {{player.rank}}</p>
-	<!--TODO Hide this if the player has not been on the old PR!-->
-	<!--TODO Make this go to the 2012 PR!-->
-	<!--TODO make it so if the image can't be found, it doesn't show the NAN spot, maybe a default or nothing!-->
-	<!--Make this get formatted nicer!-->
-	<!--<p>Previous times been on the PR: <a href="#/pr" ng-repeat="year in player.oldpr">{{year}}</a>
-	</p>!-->
 	</div>
 	<p>Game: {{player.game}}</p>
 	<p>Number of Tournaments: {{player.num_tourneys}}</p>
@@ -26,8 +18,6 @@
 	<p>Rating: {{player.rating*50 | number:0}}</p>
 
 	Matches played
-
-<!--It would be nice if I could have only the oponent listed, no real reason to say the profile person a bunch of times!-->
 
 <table class="table table-bordered">
 	<thead>
@@ -60,26 +50,3 @@
 		</tr>
 	</tbody>
 </table>
-<!--	<li class="dropdown">
-		<a href="#" data-toggle="dropdown" class="dropdown-toggle">Tournaments Attended
-
-TODO figure out how to list the last tournaments they played in
-	<b class="caret"></b></a>
-		<ul class="dropdown-menu">
-		<!--TODO Make these go to the right tourney!->
-			<li><a href="#/tourney">Bloody Mummers Smashfest</a></li>
-		</ul>
-	</li>
-<br>
-
-!-->
-
-<!--TODO give this actual functionality and hide it if the profile has already been claimed!-->
-<!--button type="button" class="btn btn-warning">Claim Profile!-->
-
-
-<!--TODOAmount of games played should be dynamically generated along with elo!-->
-<!--TODO a table with the last games played!-->
-<!--TODO Fun stat analysis like nemesis (who beats you most in tournament) and whatever the opposite is!-->
-<!--TODO algorithmically decide the best tournanment (whichever tournament made you go up the most elo)!-->
-<!--TODO Moneymatch Feature?!-->
