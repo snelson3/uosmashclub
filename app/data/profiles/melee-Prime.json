@@ -1,0 +1,62 @@
+{
+    "rating": -2.0083927738127336, 
+    "name": "Prime", 
+    "matches": [
+        {
+            "P1SkillCH": -0.910258781977749, 
+            "winner": "Glaze", 
+            "Player2": "Glaze", 
+            "Player1": "Prime", 
+            "P2SkillCH": 7.881405258020575, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 6.471769375222614, 
+            "winner": "Mac", 
+            "Player2": "Prime", 
+            "Player1": "Mac", 
+            "P2SkillCH": -0.881930911244261, 
+            "DATE": "10/10/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.5174184114356777, 
+            "winner": "Thundrio", 
+            "Player2": "Thundrio", 
+            "Player1": "Prime", 
+            "P2SkillCH": 0.03482777805074022, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.1430809895998824, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Prime", 
+            "P2SkillCH": 2.117652421155345, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.2369303014271118, 
+            "winner": "Mort", 
+            "Player2": "Mort", 
+            "Player1": "Prime", 
+            "P2SkillCH": 0.12046461054052315, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1725291961463693, 
+            "winner": "Dirty Wizard", 
+            "Player2": "Dirty Wizard", 
+            "Player1": "Prime", 
+            "P2SkillCH": 0.08679112267572009, 
+            "DATE": "05/29/2015 00:00:00"
+        }
+    ], 
+    "wins": 0, 
+    "num_tourneys": 2, 
+    "game": "melee", 
+    "games": 6, 
+    "tournaments": [
+        "10/10/2014 00:00:00", 
+        "05/29/2015 00:00:00"
+    ]
+}

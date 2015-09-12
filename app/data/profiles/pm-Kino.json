@@ -1,0 +1,71 @@
+{
+    "rating": 4.469979541803035, 
+    "name": "Kino", 
+    "matches": [
+        {
+            "P1SkillCH": 6.358930652156946, 
+            "winner": "t0mmy", 
+            "Player2": "Kino", 
+            "Player1": "t0mmy", 
+            "P2SkillCH": -2.462441021998398, 
+            "DATE": "02/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.6335755855841629, 
+            "winner": "Mold", 
+            "Player2": "Mold", 
+            "Player1": "Kino", 
+            "P2SkillCH": 0.2701549394503928, 
+            "DATE": "02/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -2.7210917266713572, 
+            "winner": "Kino", 
+            "Player2": "Kino", 
+            "Player1": "Silent", 
+            "P2SkillCH": 5.989947830710106, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.004812493578555177, 
+            "winner": "Adam", 
+            "Player2": "Kino", 
+            "Player1": "Adam", 
+            "P2SkillCH": 0.018497032453757, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.027086084774984087, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "Kino", 
+            "P2SkillCH": 0.4186806971437207, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.18770602246026868, 
+            "winner": "deLee", 
+            "Player2": "Kino", 
+            "Player1": "deLee", 
+            "P2SkillCH": 0.1920765837211249, 
+            "DATE": "03/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.0712374465572978, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "Kino", 
+            "P2SkillCH": 0.2749490608889822, 
+            "DATE": "03/06/2015 00:00:00"
+        }
+    ], 
+    "wins": 1, 
+    "num_tourneys": 3, 
+    "game": "pm", 
+    "games": 7, 
+    "tournaments": [
+        "02/06/2015 00:00:00", 
+        "02/20/2015 00:00:00", 
+        "03/06/2015 00:00:00"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "rating": 13.63486433540899, 
+    "name": "Raymond", 
+    "matches": [
+        {
+            "P1SkillCH": 0.2303297059378977, 
+            "winner": "Mold", 
+            "Player2": "Raymond", 
+            "Player1": "Mold", 
+            "P2SkillCH": 1.026161766024206, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.5929826718604616, 
+            "winner": "Kuwabara", 
+            "Player2": "Raymond", 
+            "Player1": "Kuwabara", 
+            "P2SkillCH": 0.15304946960711518, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.954452705369448, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Joe", 
+            "P2SkillCH": 5.182315870709321, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.03825204096894197, 
+            "winner": "Brandon-chan", 
+            "Player2": "Raymond", 
+            "Player1": "Brandon-chan", 
+            "P2SkillCH": 0.2906716064693171, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.3557633977700725, 
+            "winner": "Jazz", 
+            "Player2": "Raymond", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.09104202429721653, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3747073623757533, 
+            "winner": "Gavin", 
+            "Player2": "Gavin", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.7587734473493768, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.219599301592737, 
+            "winner": "Raymond", 
+            "Player2": "Onward to the Edge", 
+            "Player1": "Raymond", 
+            "P2SkillCH": -0.6128867834264344, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.583255131752134, 
+            "winner": "Glaze", 
+            "Player2": "Glaze", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.8761039045714725, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.6062985496719655, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Glaze", 
+            "P2SkillCH": 2.832416795732261, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.004586790011330777, 
+            "winner": "Agent", 
+            "Player2": "Raymond", 
+            "Player1": "Agent", 
+            "P2SkillCH": 0.019977559185914373, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1837632420090003, 
+            "winner": "deLee", 
+            "Player2": "Raymond", 
+            "Player1": "deLee", 
+            "P2SkillCH": -0.08618435860873497, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.004028183798659768, 
+            "winner": "This", 
+            "Player2": "Raymond", 
+            "Player1": "This", 
+            "P2SkillCH": 0.009388564041652003, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.0259462711998939, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Prime", 
+            "P2SkillCH": 0.8172376379023873, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.010014458817991567, 
+            "winner": "Mort", 
+            "Player2": "Mort", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.07340102888737476, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.4962248255807928, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Normi", 
+            "P2SkillCH": 1.2292490999959096, 
+            "DATE": "05/29/2015 00:00:00"
+        }
+    ], 
+    "wins": 5, 
+    "num_tourneys": 5, 
+    "game": "pm", 
+    "games": 15, 
+    "tournaments": [
+        "04/03/2015 00:00:00", 
+        "04/17/2015 00:00:00", 
+        "05/01/2015 00:00:00", 
+        "05/15/2015 00:00:00", 
+        "05/29/2015 00:00:00"
+    ]
+}

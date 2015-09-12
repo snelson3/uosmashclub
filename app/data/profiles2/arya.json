@@ -1,0 +1,14 @@
+{
+	"name": "Arya Stark",
+	"id": "arya",
+	"main": "marth",
+	"gamesplayed": 60,
+	"age": 2011,
+	"hometown": "Winterfell",
+	"ELO": 1313,
+	"rank": 1,
+	"oldpr": ["072012"],
+	"claimed": "no",
+	"tournaments":10,
+	"location":"instate"
+}

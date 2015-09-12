@@ -1,0 +1,16 @@
+
+{
+	"name": "Sandor Clegane",
+	"id": "clegane",
+	"main":"marth",
+	"secondaries":["Bowser"],
+	"gamesplayed":1003,
+	"age":2001,
+	"hometown":"King's Landing",
+	"ELO":1003,
+	"rank":2,
+	"oldpr":["072012"],
+	"claimed":"no",
+	"tournaments":12,
+	"location":"instate"
+}

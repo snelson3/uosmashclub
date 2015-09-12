@@ -1,0 +1,121 @@
+{
+    "rating": 8.423325339496227, 
+    "name": "Raymond", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Frox", 
+            "Player2": "Raymond", 
+            "Player1": "Frox", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.09840174582222971, 
+            "winner": "Mort", 
+            "Player2": "Mort", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.4097231829100991, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.012546566520045488, 
+            "winner": "deLee", 
+            "Player2": "deLee", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.46377922597891263, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.11276687181138101, 
+            "winner": "KMD", 
+            "Player2": "KMD", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 1.8527115460746657, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.011263116096650094, 
+            "winner": "Lens", 
+            "Player2": "Raymond", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.10551990456489513, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.13614723450900001, 
+            "winner": "Gavin", 
+            "Player2": "Raymond", 
+            "Player1": "Gavin", 
+            "P2SkillCH": 0.16913690973344409, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.08389433486780362, 
+            "winner": "LiquidBrick", 
+            "Player2": "Raymond", 
+            "Player1": "LiquidBrick", 
+            "P2SkillCH": 0.1181688450446785, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -2.327809688811218, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Austin ", 
+            "P2SkillCH": 3.516187490791399, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.16650802305747092, 
+            "winner": "KMD", 
+            "Player2": "KMD", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 1.1383117889608876, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.04109359043310157, 
+            "winner": "Thundrio", 
+            "Player2": "Thundrio", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.005336434678621771, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.1430809895998824, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Prime", 
+            "P2SkillCH": 2.117652421155345, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.4816473347581578, 
+            "winner": "Raymond", 
+            "Player2": "Raymond", 
+            "Player1": "Mort", 
+            "P2SkillCH": 3.5354604327669374, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.0762157574491571, 
+            "winner": "Dirty Wizard", 
+            "Player2": "Dirty Wizard", 
+            "Player1": "Raymond", 
+            "P2SkillCH": 0.25514806894143405, 
+            "DATE": "05/29/2015 00:00:00"
+        }
+    ], 
+    "wins": 3, 
+    "num_tourneys": 5, 
+    "game": "melee", 
+    "games": 13, 
+    "tournaments": [
+        "04/03/2015 00:00:00", 
+        "04/17/2015 00:00:00", 
+        "05/01/2015 00:00:00", 
+        "05/15/2015 00:00:00", 
+        "05/29/2015 00:00:00"
+    ]
+}

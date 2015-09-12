@@ -1,0 +1,345 @@
+{
+    "rating": 15.547861947731132, 
+    "name": "Jazz", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "t1mmy", 
+            "Player2": "Jazz", 
+            "Player1": "t1mmy", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.298531972951949, 
+            "winner": "Madvillain", 
+            "Player2": "Jazz", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": -0.6741928859211725, 
+            "DATE": "10/24/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -2.607983269359309, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "Alex", 
+            "P2SkillCH": 5.995319016693287, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1831920580492632, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.09528092087360918, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.738334997028959, 
+            "winner": "deLee", 
+            "Player2": "Jazz", 
+            "Player1": "deLee", 
+            "P2SkillCH": -1.2050554547799024, 
+            "DATE": "11/07/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.21653755932007357, 
+            "winner": "Lens", 
+            "Player2": "Jazz", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.15049413288965852, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.08114975652683931, 
+            "winner": "Baditude", 
+            "Player2": "Baditude", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 2.9397691396694547, 
+            "DATE": "11/21/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.03921841888655919, 
+            "winner": "Reptile", 
+            "Player2": "Reptile", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.5933951685719485, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.028624701646558393, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.007593660991940254, 
+            "DATE": "12/11/2014 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.77656807985195, 
+            "winner": "Madvillain", 
+            "Player2": "Jazz", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": -0.29719757558692983, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.8798570671264248, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "Gavin", 
+            "P2SkillCH": 2.128635071762128, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 2.8998696432501987, 
+            "winner": "Jazz", 
+            "Player2": "Dizzy", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -2.829091565735352, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -2.5724165918804847, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "Mr Lee", 
+            "P2SkillCH": 2.498981067190355, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.024851850347399562, 
+            "winner": "Brandon-chan", 
+            "Player2": "Brandon-chan", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.03254036409330041, 
+            "DATE": "01/09/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 8.178072312661392, 
+            "winner": "Chanman", 
+            "Player2": "Jazz", 
+            "Player1": "Chanman", 
+            "P2SkillCH": -0.28772653323355435, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -1.031324561256529, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "TO", 
+            "P2SkillCH": 1.294229061476079, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.07737856178767721, 
+            "winner": "Agent", 
+            "Player2": "Agent", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.2982138498918623, 
+            "DATE": "01/23/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.18537173742682533, 
+            "winner": "Reptile", 
+            "Player2": "Reptile", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.4993920108674246, 
+            "DATE": "02/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.4275474028820732, 
+            "winner": "Jazz", 
+            "Player2": "Bazacko", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.6788310809416789, 
+            "DATE": "02/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.24820582427318527, 
+            "winner": "Dirty Wizard", 
+            "Player2": "Dirty Wizard", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 1.2105451033219516, 
+            "DATE": "02/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.09203076400958565, 
+            "winner": "This", 
+            "Player2": "Jazz", 
+            "Player1": "This", 
+            "P2SkillCH": -0.014835120964900028, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.2076505820331906, 
+            "winner": "deLee", 
+            "Player2": "Jazz", 
+            "Player1": "deLee", 
+            "P2SkillCH": -0.4572218606920604, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.05766530756682897, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.1882482196911468, 
+            "DATE": "03/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.9379932925075547, 
+            "winner": "Jazz", 
+            "Player2": "Gavin", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.7063500735415698, 
+            "DATE": "03/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.5470389373117399, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "Mort", 
+            "P2SkillCH": 1.0825456993612264, 
+            "DATE": "03/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.3493089652140693, 
+            "winner": "Madvillain", 
+            "Player2": "Madvillain", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 1.048667836188395, 
+            "DATE": "03/06/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.5525996505270605, 
+            "winner": "Jazz", 
+            "Player2": "Ann", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -1.011078656885605, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1088376542835725, 
+            "winner": "Glaze", 
+            "Player2": "Jazz", 
+            "Player1": "Glaze", 
+            "P2SkillCH": -0.05217265231955537, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7513637484346738, 
+            "winner": "Jazz", 
+            "Player2": "Jazz", 
+            "Player1": "KMD", 
+            "P2SkillCH": 0.6199625509926285, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.08066887828089797, 
+            "winner": "Bronte", 
+            "Player2": "Bronte", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.15559223793400534, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.1195053671493227, 
+            "winner": "Bronte", 
+            "Player2": "Jazz", 
+            "Player1": "Bronte", 
+            "P2SkillCH": -0.06288548209129807, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.5990013797582243, 
+            "winner": "Madvillain", 
+            "Player2": "Jazz", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": -0.2509495541906741, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.30342921246279353, 
+            "winner": "Dizzy", 
+            "Player2": "Dizzy", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 4.527863407141668, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.5928638759953131, 
+            "winner": "Jazz", 
+            "Player2": "deLee", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.37146327946437196, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.06717119645453984, 
+            "winner": "Agent", 
+            "Player2": "Agent", 
+            "Player1": "Jazz", 
+            "P2SkillCH": 0.1293922493956181, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.005541631967929561, 
+            "winner": "Fox", 
+            "Player2": "Fox", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.0071455722634254926, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.2233099994581309, 
+            "winner": "Gavin", 
+            "Player2": "Jazz", 
+            "Player1": "Gavin", 
+            "P2SkillCH": -0.09005914170204576, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.5328225653181669, 
+            "winner": "Jazz", 
+            "Player2": "Mold", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.43113150606280115, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.34405354925650755, 
+            "winner": "Jazz", 
+            "Player2": "Silent", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.38929976472497607, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.24825618627955137, 
+            "winner": "Capncone", 
+            "Player2": "Jazz", 
+            "Player1": "Capncone", 
+            "P2SkillCH": -0.02749554587945724, 
+            "DATE": "05/29/2015 00:00:00"
+        }
+    ], 
+    "wins": 13, 
+    "num_tourneys": 13, 
+    "game": "melee", 
+    "games": 40, 
+    "tournaments": [
+        "10/24/2014 00:00:00", 
+        "11/07/2014 00:00:00", 
+        "11/21/2014 00:00:00", 
+        "12/11/2014 00:00:00", 
+        "01/09/2015 00:00:00", 
+        "01/23/2015 00:00:00", 
+        "02/06/2015 00:00:00", 
+        "02/20/2015 00:00:00", 
+        "03/06/2015 00:00:00", 
+        "04/17/2015 00:00:00", 
+        "05/01/2015 00:00:00", 
+        "05/15/2015 00:00:00", 
+        "05/29/2015 00:00:00"
+    ]
+}

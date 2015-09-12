@@ -1,0 +1,674 @@
+[
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Matt", 
+        "ELO": "0.88740173649"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "pm", 
+        "name": "pm-Capncone", 
+        "ELO": "14.7254734275"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Amanda Huggenkiss", 
+        "ELO": "4.91901097614"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Bzzyb", 
+        "ELO": "6.71371928536"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Poop", 
+        "ELO": "5.91860436812"
+    }, 
+    {
+        "num_tourneys": 9, 
+        "GAME": "pm", 
+        "name": "pm-Dirty Wizard", 
+        "ELO": "26.617825789"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Chris Pringle", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Tloo", 
+        "ELO": "16.1130014419"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Grop", 
+        "ELO": "4.91901097614"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "pm", 
+        "name": "pm-Madvillain", 
+        "ELO": "17.9190740899"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Prime", 
+        "ELO": "-1.49551381213"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Juba", 
+        "ELO": "17.6731829522"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-rnd", 
+        "ELO": "15.4507813019"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Holaman", 
+        "ELO": "8.7819818177"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "pm", 
+        "name": "pm-Adam", 
+        "ELO": "40.5278861569"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Wing", 
+        "ELO": "13.6351490149"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-orangec", 
+        "ELO": "-0.321007267571"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Mr Lee", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-DBA", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-=", 
+        "ELO": "-0.781717383589"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "pm", 
+        "name": "pm-Agent", 
+        "ELO": "32.598516415"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Quaid", 
+        "ELO": "13.3624198058"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Dizzy", 
+        "ELO": "15.7815128858"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "pm", 
+        "name": "pm-Brandon-chan", 
+        "ELO": "32.5436414299"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-t0mmy", 
+        "ELO": "4.91708945707"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "pm", 
+        "name": "pm-deLee", 
+        "ELO": "22.6176700465"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-TSM", 
+        "ELO": "5.84084919975"
+    }, 
+    {
+        "num_tourneys": 6, 
+        "GAME": "pm", 
+        "name": "pm-Silent", 
+        "ELO": "1.61585405205"
+    }, 
+    {
+        "num_tourneys": 15, 
+        "GAME": "pm", 
+        "name": "pm-Fox", 
+        "ELO": "39.2485483163"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "pm", 
+        "name": "pm-Mort", 
+        "ELO": "26.6909938323"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Frox", 
+        "ELO": "16.1813783798"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "pm", 
+        "name": "pm-wqqqqwrt", 
+        "ELO": "25.8407696006"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-zebra", 
+        "ELO": "5.80610661139"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Grand", 
+        "ELO": "13.1943685607"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Coffee", 
+        "ELO": "6.43515599992"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Austin ", 
+        "ELO": "-0.651912558003"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Joe", 
+        "ELO": "-1.28475137647"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-MAUI", 
+        "ELO": "10.807432768"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Rus", 
+        "ELO": "0.754485432342"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Kbara", 
+        "ELO": "9.43469624686"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Tony Stefano", 
+        "ELO": "12.2576115172"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-t1mmy", 
+        "ELO": "23.054971144"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "pm", 
+        "name": "pm-Thundrio", 
+        "ELO": "22.3218546444"
+    }, 
+    {
+        "num_tourneys": 14, 
+        "GAME": "pm", 
+        "name": "pm-This", 
+        "ELO": "34.7433139524"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Kino", 
+        "ELO": "4.4699795418"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-David", 
+        "ELO": "-1.49462927639"
+    }, 
+    {
+        "num_tourneys": 14, 
+        "GAME": "pm", 
+        "name": "pm-Bronte", 
+        "ELO": "28.9076790053"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Daft", 
+        "ELO": "8.73463213035"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Tofurkey", 
+        "ELO": "13.1642280293"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Bling", 
+        "ELO": "1.2832296194"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Bart", 
+        "ELO": "22.0735900432"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Bort", 
+        "ELO": "0.124007705338"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "pm", 
+        "name": "pm-Bazacko", 
+        "ELO": "26.8163507918"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Ntron", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Baditude", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Bikes", 
+        "ELO": "9.85757068746"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Marshmellow", 
+        "ELO": "-0.872766773544"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Bilby", 
+        "ELO": "3.56896237759"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Gafter Dark", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 4, 
+        "GAME": "pm", 
+        "name": "pm-KMD", 
+        "ELO": "15.9007118559"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Rebel without applause", 
+        "ELO": "7.55772791759"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Macho Man Randy Savage", 
+        "ELO": "7.60239290547"
+    }, 
+    {
+        "num_tourneys": 8, 
+        "GAME": "pm", 
+        "name": "pm-Riley", 
+        "ELO": "26.5525285476"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Adi", 
+        "ELO": "-0.247708528503"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Normi", 
+        "ELO": "4.28182155944"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-PJBOB", 
+        "ELO": "-2.44330325692"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-thankless", 
+        "ELO": "1.525019975"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "pm", 
+        "name": "pm-Lens", 
+        "ELO": "35.5915836575"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-LilP", 
+        "ELO": "5.91860436812"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-PSU Presidente", 
+        "ELO": "0.14073241031"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Onward to the edge", 
+        "ELO": "11.0769437144"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "pm", 
+        "name": "pm-LiquidBrick", 
+        "ELO": "21.0365407172"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Rayman", 
+        "ELO": "6.84295860361"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-MCAT", 
+        "ELO": "8.81413118257"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Jarod", 
+        "ELO": "18.806998605"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Ann", 
+        "ELO": "0.355611646514"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Scuba", 
+        "ELO": "15.5905656445"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Chanman", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Harrison", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Dr. Gurbich", 
+        "ELO": "-0.183633459764"
+    }, 
+    {
+        "num_tourneys": 11, 
+        "GAME": "pm", 
+        "name": "pm-Glaze", 
+        "ELO": "15.3483261543"
+    }, 
+    {
+        "num_tourneys": 9, 
+        "GAME": "pm", 
+        "name": "pm-Gavin", 
+        "ELO": "19.5740192453"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Jesog", 
+        "ELO": "2.07359534614"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-#onlypikachu", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Trash", 
+        "ELO": "4.72626458341"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Kuwabara", 
+        "ELO": "14.2212083913"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Jake", 
+        "ELO": "0.864896742571"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Christian", 
+        "ELO": "0.811647925229"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "pm", 
+        "name": "pm-Raymond", 
+        "ELO": "13.6348643354"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Jerk", 
+        "ELO": "0.710761934772"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Slomex", 
+        "ELO": "0.793716239748"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "pm", 
+        "name": "pm-Jazz", 
+        "ELO": "21.7722540202"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "pm", 
+        "name": "pm-Killa Keith", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Puddles", 
+        "ELO": "1.24912988832"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-TO", 
+        "ELO": "0.591487686988"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "pm", 
+        "name": "pm-Mac", 
+        "ELO": "22.7098763414"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Scooba", 
+        "ELO": "17.2092666542"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Ben D. Wieners", 
+        "ELO": "0.548824188373"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Omega", 
+        "ELO": "1.60987188659"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Bonz", 
+        "ELO": "-1.28722805783"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Alex", 
+        "ELO": "-2.62103697886"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Falcomaster69", 
+        "ELO": "7.35839021664"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "pm", 
+        "name": "pm-Shunsuke", 
+        "ELO": "8.59718404105"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Muff", 
+        "ELO": "4.54284356628"
+    }, 
+    {
+        "num_tourneys": 9, 
+        "GAME": "pm", 
+        "name": "pm-Reptile", 
+        "ELO": "15.9188270843"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Omega Male", 
+        "ELO": "9.90855187378"
+    }, 
+    {
+        "num_tourneys": 10, 
+        "GAME": "pm", 
+        "name": "pm-Mold", 
+        "ELO": "26.6820139816"
+    }, 
+    {
+        "num_tourneys": 7, 
+        "GAME": "pm", 
+        "name": "pm-Onward to the Edge", 
+        "ELO": "10.4464449171"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "pm", 
+        "name": "pm-Nightmare Ki", 
+        "ELO": "7.61782904508"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-NGWN", 
+        "ELO": "1.17033681577"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-salt", 
+        "ELO": "-0.468445822561"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "pm", 
+        "name": "pm-Deadalis", 
+        "ELO": "-0.0283506536343"
+    }
+]

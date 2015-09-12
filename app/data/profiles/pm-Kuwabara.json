@@ -1,0 +1,103 @@
+{
+    "rating": 14.221208391304092, 
+    "name": "Kuwabara", 
+    "matches": [
+        {
+            "P1SkillCH": -0.23455411226588652, 
+            "winner": "Kuwabara", 
+            "Player2": "Kuwabara", 
+            "Player1": "Glaze", 
+            "P2SkillCH": 8.9724072454567, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.11091243826948016, 
+            "winner": "This", 
+            "Player2": "Kuwabara", 
+            "Player1": "This", 
+            "P2SkillCH": 0.666961368121548, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.24270798186091724, 
+            "winner": "Kuwabara", 
+            "Player2": "Kuwabara", 
+            "Player1": "Silent", 
+            "P2SkillCH": 2.1310523684018747, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.7634276932424324, 
+            "winner": "rnd", 
+            "Player2": "rnd", 
+            "Player1": "Kuwabara", 
+            "P2SkillCH": 4.348566788921875, 
+            "DATE": "02/20/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 10.356390225372106, 
+            "winner": "Scuba", 
+            "Player2": "Kuwabara", 
+            "Player1": "Scuba", 
+            "P2SkillCH": -0.906294329183849, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 3.3718227694799445, 
+            "winner": "Kuwabara", 
+            "Player2": "KMD", 
+            "Player1": "Kuwabara", 
+            "P2SkillCH": -1.2973078806868248, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.5929826718604616, 
+            "winner": "Kuwabara", 
+            "Player2": "Raymond", 
+            "Player1": "Kuwabara", 
+            "P2SkillCH": 0.15304946960711518, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.2703722482601094, 
+            "winner": "Dirty Wizard", 
+            "Player2": "Dirty Wizard", 
+            "Player1": "Kuwabara", 
+            "P2SkillCH": 0.36494341521867923, 
+            "DATE": "04/03/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 1.3744989243489272, 
+            "winner": "Kuwabara", 
+            "Player2": "PSU Presidente", 
+            "Player1": "Kuwabara", 
+            "P2SkillCH": 0.13988528181623394, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.018459668134788387, 
+            "winner": "Lens", 
+            "Player2": "Kuwabara", 
+            "Player1": "Lens", 
+            "P2SkillCH": 0.060799899309603944, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 2.504567337505936, 
+            "winner": "Madvillain", 
+            "Player2": "Kuwabara", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": -2.009222584988578, 
+            "DATE": "04/17/2015 00:00:00"
+        }
+    ], 
+    "wins": 5, 
+    "num_tourneys": 3, 
+    "game": "pm", 
+    "games": 11, 
+    "tournaments": [
+        "02/20/2015 00:00:00", 
+        "04/03/2015 00:00:00", 
+        "04/17/2015 00:00:00"
+    ]
+}

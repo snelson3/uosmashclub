@@ -1,0 +1,120 @@
+{
+    "rating": 6.9267652311675185, 
+    "name": "Silent", 
+    "matches": [
+        {
+            "P1SkillCH": 7.881405258020575, 
+            "winner": "Silent", 
+            "Player2": "Joe", 
+            "Player1": "Silent", 
+            "P2SkillCH": -0.910258781977749, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.05347655096324644, 
+            "winner": "Fox", 
+            "Player2": "Silent", 
+            "Player1": "Fox", 
+            "P2SkillCH": 0.8948236017430595, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 8.153637958103143, 
+            "winner": "PSU Presidente", 
+            "Player2": "Silent", 
+            "Player1": "PSU Presidente", 
+            "P2SkillCH": -3.034963636282118, 
+            "DATE": "04/17/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.4765702836496821, 
+            "winner": "Gavin", 
+            "Player2": "Silent", 
+            "Player1": "Gavin", 
+            "P2SkillCH": -0.2781021103558263, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.6224832951759272, 
+            "winner": "Jerk", 
+            "Player2": "Jerk", 
+            "Player1": "Silent", 
+            "P2SkillCH": 6.1887725178725645, 
+            "DATE": "05/01/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 2.9529571327540722, 
+            "winner": "Silent", 
+            "Player2": "Coffee", 
+            "Player1": "Silent", 
+            "P2SkillCH": -2.0172563843293645, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.08115104342949664, 
+            "winner": "Glaze", 
+            "Player2": "Silent", 
+            "Player1": "Glaze", 
+            "P2SkillCH": 0.08697767730481942, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.35940939818830486, 
+            "winner": "Madvillain", 
+            "Player2": "Silent", 
+            "Player1": "Madvillain", 
+            "P2SkillCH": -0.2868413906770826, 
+            "DATE": "05/15/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.007115887093682716, 
+            "winner": "Fox", 
+            "Player2": "Silent", 
+            "Player1": "Fox", 
+            "P2SkillCH": 0.007663438091913832, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.34405354925650755, 
+            "winner": "Jazz", 
+            "Player2": "Silent", 
+            "Player1": "Jazz", 
+            "P2SkillCH": -0.38929976472497607, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.009353752310166996, 
+            "winner": "Gavin", 
+            "Player2": "Gavin", 
+            "Player1": "Silent", 
+            "P2SkillCH": 0.11370422530674418, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": -0.31298097253933044, 
+            "winner": "Mold", 
+            "Player2": "Mold", 
+            "Player1": "Silent", 
+            "P2SkillCH": 0.5070333326984908, 
+            "DATE": "05/29/2015 00:00:00"
+        }, 
+        {
+            "P1SkillCH": 0.018255540698172368, 
+            "winner": "Capncone", 
+            "Player2": "Capncone", 
+            "Player1": "Silent", 
+            "P2SkillCH": 0.08678329835324305, 
+            "DATE": "05/29/2015 00:00:00"
+        }
+    ], 
+    "wins": 2, 
+    "num_tourneys": 4, 
+    "game": "melee", 
+    "games": 13, 
+    "tournaments": [
+        "04/17/2015 00:00:00", 
+        "05/01/2015 00:00:00", 
+        "05/15/2015 00:00:00", 
+        "05/29/2015 00:00:00"
+    ]
+}

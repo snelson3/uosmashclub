@@ -1,0 +1,638 @@
+[
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Matt", 
+        "ELO": "1.53918739696"
+    }, 
+    {
+        "num_tourneys": 4, 
+        "GAME": "melee", 
+        "name": "melee-Capncone", 
+        "ELO": "23.3772060494"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Amanda Huggenkiss", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-The Wizard of Dirt", 
+        "ELO": "7.19337623932"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Poop", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 8, 
+        "GAME": "melee", 
+        "name": "melee-Dirty Wizard", 
+        "ELO": "19.3079210724"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Chris Pringle", 
+        "ELO": "-0.329465503886"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Tloo", 
+        "ELO": "13.6796381436"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Grop", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "melee", 
+        "name": "melee-Madvillain", 
+        "ELO": "17.1148158549"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-Prime", 
+        "ELO": "-2.00839277381"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Juba", 
+        "ELO": "7.73252859889"
+    }, 
+    {
+        "num_tourneys": 4, 
+        "GAME": "melee", 
+        "name": "melee-Holaman", 
+        "ELO": "4.14681641436"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "melee", 
+        "name": "melee-Adam", 
+        "ELO": "41.2579562362"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-Wing", 
+        "ELO": "3.72819841226"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-orangec", 
+        "ELO": "-0.443026905008"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Mr Lee", 
+        "ELO": "7.32530497479"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-DBA", 
+        "ELO": "11.0911940662"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-=", 
+        "ELO": "-0.487864882142"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "melee", 
+        "name": "melee-Agent", 
+        "ELO": "23.0767601292"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "melee", 
+        "name": "melee-Dizzy", 
+        "ELO": "15.4664076781"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "melee", 
+        "name": "melee-Brandon-chan", 
+        "ELO": "31.8501080846"
+    }, 
+    {
+        "num_tourneys": 6, 
+        "GAME": "melee", 
+        "name": "melee-t0mmy", 
+        "ELO": "28.1066749249"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "melee", 
+        "name": "melee-deLee", 
+        "ELO": "14.0790481658"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-TSM", 
+        "ELO": "-0.783189004292"
+    }, 
+    {
+        "num_tourneys": 4, 
+        "GAME": "melee", 
+        "name": "melee-Silent", 
+        "ELO": "6.92676523117"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "melee", 
+        "name": "melee-Reptil", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 15, 
+        "GAME": "melee", 
+        "name": "melee-Fox", 
+        "ELO": "35.271463682"
+    }, 
+    {
+        "num_tourneys": 12, 
+        "GAME": "melee", 
+        "name": "melee-Mort", 
+        "ELO": "16.0354445724"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Frox", 
+        "ELO": "13.5105893167"
+    }, 
+    {
+        "num_tourneys": 6, 
+        "GAME": "melee", 
+        "name": "melee-wqqqqwrt", 
+        "ELO": "32.5324656615"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-zebra", 
+        "ELO": "8.15468807537"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Grand", 
+        "ELO": "8.15134410405"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-Coffee", 
+        "ELO": "-1.06104323893"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Austin ", 
+        "ELO": "-1.93599582771"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Joe", 
+        "ELO": "-1.06832698381"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-MAUI", 
+        "ELO": "-0.508431107084"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "melee", 
+        "name": "melee-Rus", 
+        "ELO": "4.5523382059"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "melee", 
+        "name": "melee-Kbara", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Tony Stefano", 
+        "ELO": "-0.89825178021"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "melee", 
+        "name": "melee-t1mmy", 
+        "ELO": "26.2978547936"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "melee", 
+        "name": "melee-Thundrio", 
+        "ELO": "26.9478091191"
+    }, 
+    {
+        "num_tourneys": 14, 
+        "GAME": "melee", 
+        "name": "melee-This", 
+        "ELO": "30.4617881022"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Kino", 
+        "ELO": "-1.42378538922"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-David", 
+        "ELO": "4.78166863052"
+    }, 
+    {
+        "num_tourneys": 14, 
+        "GAME": "melee", 
+        "name": "melee-Bronte", 
+        "ELO": "25.4838421483"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Daft", 
+        "ELO": "6.21449596062"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Bling", 
+        "ELO": "-3.18693728638"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Bart", 
+        "ELO": "17.7635565468"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Bort", 
+        "ELO": "1.26614805974"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Muff", 
+        "ELO": "-0.431701195464"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Ntron", 
+        "ELO": "0.912646313291"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Baditude", 
+        "ELO": "8.40106538104"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Bikes", 
+        "ELO": "8.00289771963"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-Bilby", 
+        "ELO": "4.97527584654"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "melee", 
+        "name": "melee-Gafter Dark", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 4, 
+        "GAME": "melee", 
+        "name": "melee-KMD", 
+        "ELO": "11.5170408307"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Rebel without applause", 
+        "ELO": "15.5578938671"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Macho Man Randy Savage", 
+        "ELO": "-0.76179726971"
+    }, 
+    {
+        "num_tourneys": 8, 
+        "GAME": "melee", 
+        "name": "melee-Riley", 
+        "ELO": "27.7088499745"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Adi", 
+        "ELO": "-1.06190556011"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Normi", 
+        "ELO": "6.04217711652"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-PJBOB", 
+        "ELO": "-0.479916963628"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "melee", 
+        "name": "melee-Lens", 
+        "ELO": "25.6743441975"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-LilP", 
+        "ELO": "4.91901097614"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-PSU Presidente", 
+        "ELO": "6.36393074274"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Onward to the edge", 
+        "ELO": "7.32668028771"
+    }, 
+    {
+        "num_tourneys": 6, 
+        "GAME": "melee", 
+        "name": "melee-LiquidBrick", 
+        "ELO": "20.259646474"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Rayman", 
+        "ELO": "-0.860789173597"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-MCAT", 
+        "ELO": "1.22769254895"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Jarod", 
+        "ELO": "27.2555096429"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Ann", 
+        "ELO": "-0.808941669807"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Scuba", 
+        "ELO": "8.30442945008"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Chanman", 
+        "ELO": "8.41978397849"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Harrison", 
+        "ELO": "-1.79218969322"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Dr. Gurbich", 
+        "ELO": "10.9319340624"
+    }, 
+    {
+        "num_tourneys": 14, 
+        "GAME": "melee", 
+        "name": "melee-Glaze", 
+        "ELO": "25.6434975031"
+    }, 
+    {
+        "num_tourneys": 9, 
+        "GAME": "melee", 
+        "name": "melee-Gavin", 
+        "ELO": "22.3544123753"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Jesog", 
+        "ELO": "6.99291313986"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-#onlypikachu", 
+        "ELO": "4.91901097614"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "melee", 
+        "name": "melee-Trash", 
+        "ELO": "10.3076236197"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Christian", 
+        "ELO": "8.80411733408"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "melee", 
+        "name": "melee-Raymond", 
+        "ELO": "8.4233253395"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Jerk", 
+        "ELO": "6.25408134983"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Slomex", 
+        "ELO": "-1.50606869874"
+    }, 
+    {
+        "num_tourneys": 13, 
+        "GAME": "melee", 
+        "name": "melee-Jazz", 
+        "ELO": "15.5478619477"
+    }, 
+    {
+        "num_tourneys": 6, 
+        "GAME": "melee", 
+        "name": "melee-Killa Keith", 
+        "ELO": "36.3676115288"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Puddles", 
+        "ELO": "-1.13531699421"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-TO", 
+        "ELO": "0.199335659142"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "melee", 
+        "name": "melee-Mac", 
+        "ELO": "30.0881711974"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Scooba", 
+        "ELO": "-1.08605769966"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Ben D. Wieners", 
+        "ELO": "6.03842641271"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Omega", 
+        "ELO": "0.0369851664216"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Bonz", 
+        "ELO": "-0.142145029553"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-Alex", 
+        "ELO": "-1.84825008304"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Falcomaster69", 
+        "ELO": "1.66177579872"
+    }, 
+    {
+        "num_tourneys": 3, 
+        "GAME": "melee", 
+        "name": "melee-Shunsuke", 
+        "ELO": "7.92231465692"
+    }, 
+    {
+        "num_tourneys": 5, 
+        "GAME": "melee", 
+        "name": "melee-Bazacko", 
+        "ELO": "11.688413784"
+    }, 
+    {
+        "num_tourneys": 9, 
+        "GAME": "melee", 
+        "name": "melee-Reptile", 
+        "ELO": "19.0398056562"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "melee", 
+        "name": "melee-Omega Male", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 9, 
+        "GAME": "melee", 
+        "name": "melee-Mold", 
+        "ELO": "13.9178723851"
+    }, 
+    {
+        "num_tourneys": 6, 
+        "GAME": "melee", 
+        "name": "melee-Onward to the Edge", 
+        "ELO": "11.6952604934"
+    }, 
+    {
+        "num_tourneys": 2, 
+        "GAME": "melee", 
+        "name": "melee-Nightmare Ki", 
+        "ELO": "-0.40348665317"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-NGWN", 
+        "ELO": "-0.400524393408"
+    }, 
+    {
+        "num_tourneys": 0, 
+        "GAME": "melee", 
+        "name": "melee-salt", 
+        "ELO": "0.0"
+    }, 
+    {
+        "num_tourneys": 1, 
+        "GAME": "melee", 
+        "name": "melee-Deadalis", 
+        "ELO": "6.47143461585"
+    }
+]
