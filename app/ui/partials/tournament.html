@@ -6,12 +6,6 @@
 	<li>Event: {{tournament.Game}}</li>
 </div>
 
-<!--TODO Change this to an embedded version of challonge with the bracket, or just link to challonge directly!-->
-<!--Have buttons up here for standings and then for individual matches
-		brackets should have a table like
-		//round, winners/losers, player 1, player 2, victor, p1 truskill change, p2 truskill change
-!-->
-
 <table class="table table-bordered">
 	<thead>
 		<tr>
@@ -32,8 +26,6 @@
 	</tbody>
 </table>
 
-
-<!--Since this table exists it would be nice to filter out BYES's and also allow filtering/searching to be useful!-->
 <table class="table table-bordered">
 	<thead>
 		<th>Round</th>
@@ -52,23 +44,3 @@
 		</tr>
 	</tbody>
 </table>
-<!--
-Losers
-<table class = "table table-bordered">
-	<thead>
-		<th>Round</th>
-		<th>Match</th>
-		<th>Player 1</th>
-		<th>Player 2</th>
-		<th>Winner</th>
-	</thead>
-	<tbody>
-		<tr ng-repeat="match in tournament.Matches | orderBy:orderProp" ng-hide="match.Player1 == BYE" ng-hide="match.Player2 == 'BYE'" ng-show="match.rnd < 0">
-			<th> {{match.rnd}}</th>
-			<th> {{match.number}}</th>
-			<th> {{match.Player1}}</th>
-			<th> {{match.Player2}}</th>
-			<th> {{match.winner}}</th>
-		</tr>
-	</tbody>
-</table>!-->
