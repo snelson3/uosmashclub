@@ -1,5 +1,4 @@
-
-myApp.controller('pmRankingController', ['$scope', '$http', 
+uoSmash.controller('pmRankingController', ['$scope', '$http', 
   function($scope, $http) {
     $scope.profiles=[];    
     var player = "";

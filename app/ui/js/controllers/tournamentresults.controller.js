@@ -1,4 +1,4 @@
-myApp.controller('tournamentResultsController', ['$scope', '$http', '$routeParams',
+uoSmash.controller('tournamentResultsController', ['$scope', '$http', '$routeParams',
   function($scope,$http,$routeParams){
     $scope.entrants = 0;
     $http.get('data/tournaments/' + $routeParams.tourneyId + '.json').success(function(data) {

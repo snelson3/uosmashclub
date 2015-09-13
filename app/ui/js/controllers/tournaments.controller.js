@@ -1,4 +1,4 @@
-myApp.controller('tournamentsController', ['$scope', '$http', 
+uoSmash.controller('tournamentsController', ['$scope', '$http', 
     function($scope,$http){
       $http.get('data/upcomingtournaments.json').success(function(data) {
         $scope.futuretournaments = data;

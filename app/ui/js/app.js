@@ -1,6 +1,6 @@
 
 // Declare app level module which depends on filters, and services
-var myApp = angular.module('myApp', [
+var uoSmash = angular.module('uoSmash', [
   'ngRoute',
   'filters',
 ]).

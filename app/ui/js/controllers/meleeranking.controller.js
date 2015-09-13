@@ -1,4 +1,4 @@
-myApp.controller('meleeRankingController', ['$scope', '$http', 
+uoSmash.controller('meleeRankingController', ['$scope', '$http', 
 function($scope, $http) {
   $scope.profiles=[];    
   var player = "";
