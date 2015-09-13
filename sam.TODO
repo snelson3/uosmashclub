@@ -1,6 +1,7 @@
 fix git (add a develop branch, make ci work off master and only have have permission to merge to master)
 Change myApp to uosmash
-fix the html links to bower and stuff
+fix the html links to bower and stuff (no more bootstrap folder in js)
+upgrade to version 1.4 of angular
 move a lot of the functionality in the controllers to services
 fix the errors that show up in the console
 fix formatting on the two tournament pages
