@@ -1,13 +1,13 @@
-uoSmash.controller('pmRankingController', ['$scope', '$http', 
-  function($scope, $http) {
+uoSmash.controller('pmRankingController', ['$scope', '$http', 'rankingService', 'profileService',
+  function($scope, $http,rankingService,profileService) {
     $scope.profiles=[];    
     var player = "";
     $scope.getProfile = function(pid) {
-      $http.get('data/profiles/'+pid+'.json').success(function(data) {
+      profileService.getProfile(pid).success(function(data) {
         $scope.profiles[$scope.profiles.length] = data;
     });};
     
-    $http.get('data/pm-playerlist.json').success(function(data) {
+    rankingService.getPlayerList('pm').success(function(data) {
       $scope.players = data;
       for (player in $scope.players) {
         $scope.getProfile($scope.players[player].name);

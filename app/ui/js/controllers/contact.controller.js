@@ -1,7 +1,7 @@
-uoSmash.controller('contactController', ['$scope','$http',
-function($scope,$http){
-  $http.get('data/facebookgroups.json').success(function(data) {
-    $scope.facebook = data;
-  });
-}
+uoSmash.controller('contactController', ['$scope','$http', 'contactService',
+	function($scope,$http,contactService){
+	  contactService.getFacebookGroups().success(function(data) {
+	    $scope.facebook = data;
+	  });
+	}
 ]);
