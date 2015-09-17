@@ -28,7 +28,7 @@
 	</thead>
 	<tbody>
 		<tr ng-repeat="match in player.matches">
-			<th> {{match.DATE}}</th>
+			<th><a href="#/tournaments/{{getTournamentID(match.DATE,player.game)}}"> {{match.DATE}}</a></th>
 			<th ng-hide="match.Player1 == player.name"> 
 			<a href="#/profiles/{{player.game}}-{{match.Player1}}">
 				{{match.Player1}}</a>

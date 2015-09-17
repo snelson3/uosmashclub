@@ -5,7 +5,8 @@ uoSmash.controller('pmRankingController', ['$scope', '$http', 'rankingService', 
     $scope.getProfile = function(pid) {
       profileService.getProfile(pid).success(function(data) {
         $scope.profiles[$scope.profiles.length] = data;
-    });};
+      });
+    };
     
     rankingService.getPlayerList('pm').success(function(data) {
       $scope.players = data;
