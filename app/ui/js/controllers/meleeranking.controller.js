@@ -1,6 +1,7 @@
 uoSmash.controller('meleeRankingController', ['$scope', '$http', 'rankingService', 'profileService',
   function($scope, $http,rankingService,profileService) {
     $scope.profiles=[];    
+    $scope.players=[];
     var player = "";
 
     $scope.getProfile = function(pid) {
