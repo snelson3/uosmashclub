@@ -26,6 +26,8 @@
 	</tbody>
 </table>
 
+<div class="col-md-4">Match Search: <input class="search-bar" ng-model="query"></div>
+
 <table class="table table-bordered">
 	<thead>
 		<th>Round</th>
@@ -35,7 +37,7 @@
 		<th>Winner</th>
 	</thead>
 	<tbody>
-		<tr ng-repeat="match in tournament.Matches | orderBy:orderProp" ng-hide="match.Player1 == BYE" ng-hide="match.Player2 == 'BYE'">
+		<tr ng-repeat="match in tournament.Matches | filter:query | orderBy:orderProp" ng-hide="match.Player1 == BYE" ng-hide="match.Player2 == 'BYE'">
 			<th> {{match.rnd}}</th>
 			<th> {{match.number}}</th>
 			<th> <a href="#/profiles/{{tournament.g}}-{{match.Player1}}">{{match.Player1}}</a> <p ng-class="{blue: match.P1SkillCH > 0, red: match.P1SkillCH < 0.0}">{{match.P1SkillCH*50 | number:0}}</p></th>

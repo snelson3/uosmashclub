@@ -17,6 +17,8 @@
 	<p>Wins: {{player.wins}}</p>
 	<p>Rating: {{player.rating*50 | number:0}}</p>
 
+<div class="col-md-4">Match Search: <input class="search-bar" ng-model="query"></div>
+
 	Matches played
 
 <table class="table table-bordered">
@@ -27,7 +29,7 @@
 		<th>Skill Change</th>
 	</thead>
 	<tbody>
-		<tr ng-repeat="match in player.matches">
+		<tr ng-repeat="match in player.matches | filter:query">
 			<th><a href="#/tournaments/{{getTournamentID(match.DATE,player.game)}}"> {{match.DATE}}</a></th>
 			<th ng-hide="match.Player1 == player.name"> 
 			<a href="#/profiles/{{player.game}}-{{match.Player1}}">

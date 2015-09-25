@@ -1,20 +1,17 @@
-
-fix formatting on the two tournament pages
-change the way tournaments are listed on the list page (one date, links to both games on one line)
 combine melee/pmrankings controllers
 add a search bar to the profile page, so you can filter to show matches only by a person (and filter tournament results)
 make sure the data is not in the git, just upload it to box or something and people can dl from there
-be able to click on tournaments in the profile page
 make the profile page have a dropdown of the tournaments they have been to
 better collation of matches in profile page (maybe collapsables by tournament)
 make the table just show the last couple games played, 
+figure out a way to archive the rankings, and whawt to do with new rankings
 Add a favico (the smash ball with uo wings)
 make the tabs active by the page, without duplicating code
 try to get rid of playerlist.json
 need to be able to see profiles of people who are 'unranked', don't make their elo visible maybe
 probably a good idea to write a custom filter to do the ELO * 50 thing and set as a number (| ELO)
-ability to tab between melee/pm in a players profile
 get rid of pasttournaments.json
+ability to tab between the melee/pm parts of a tournament
 tabs to switch between a players pm and melee rankings, hide if only one game
 use a database instead of json files
 fun stat analysis like nemesis (who beat you the most), and dominator (who you beat the most)
