@@ -1,6 +1,7 @@
 combine melee/pmrankings controllers
-add a search bar to the profile page, so you can filter to show matches only by a person (and filter tournament results)
 make sure the data is not in the git, just upload it to box or something and people can dl from there
+I think the profile page should show only the last 5 matches you have played (maybe no filter, unless I can just make it ng-repeat 5 times then the filter would just work)
+add a view all matches page, that will just show all your matches in a list, and show extended stats.
 make the profile page have a dropdown of the tournaments they have been to
 better collation of matches in profile page (maybe collapsables by tournament)
 make the table just show the last couple games played, 
