@@ -1,16 +1,23 @@
-combine melee/pmrankings controllers
+get the new homepage showing all the rankings (including smash 4)
+take the images away from the ranking pages
+make the homepage show upcoming tournaments
+make individual tournaments show standings
+make all past tournaments show upds
+rules
+
+  new homepage
 make sure the data is not in the git, just upload it to box or something and people can dl from there
 I think the profile page should show only the last 5 matches you have played (maybe no filter, unless I can just make it ng-repeat 5 times then the filter would just work)
 add a view all matches page, that will just show all your matches in a list, and show extended stats.
 make the profile page have a dropdown of the tournaments they have been to
 better collation of matches in profile page (maybe collapsables by tournament)
-make the table just show the last couple games played, 
+make the table just show the last couple games played,
 figure out a way to archive the rankings, and whawt to do with new rankings
-Add a favico (the smash ball with uo wings)
+  Add a favico (the smash ball with uo wings)
 make the tabs active by the page, without duplicating code
 try to get rid of playerlist.json
 need to be able to see profiles of people who are 'unranked', don't make their elo visible maybe
-probably a good idea to write a custom filter to do the ELO * 50 thing and set as a number (| ELO)
+  probably a good idea to write a custom filter to do the ELO * 50 thing and set as a number (| ELO)
 get rid of pasttournaments.json
 ability to tab between the melee/pm parts of a tournament
 tabs to switch between a players pm and melee rankings, hide if only one game
@@ -18,6 +25,7 @@ use a database instead of json files
 fun stat analysis like nemesis (who beat you the most), and dominator (who you beat the most)
 need to record placings for tournaments
 add search/filter on the rankings page
+get facebook linking to look right.
 write some unit/e2e tests
 get a CI setup working
 would love to have a way to display brackets on the tournament page
