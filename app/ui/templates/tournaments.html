@@ -27,14 +27,12 @@
 		<tr>
 			<th>Date</th>
 			<th>Results</th>
-			<th>Results</th>
 		</tr>
 	</thead>
 	<tbody ng-repeat="tournament in pasttournaments | orderBy: orderProp">
 		<tr>
 			<th>{{tournament.Date}}</th>
-			<th><a href="#/tournaments/{{tournament.id}}m">Melee</th>
-			<th><a href="#/tournaments/{{tournament.id}}pm">Project M</th>
+			<th><a href="#/tournaments/{{tournament.id}}">{{tournament.Game}}</th>
 		</tr>
 	</tbody>
 </table>
