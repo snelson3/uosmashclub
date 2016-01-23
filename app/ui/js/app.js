@@ -21,5 +21,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/collapse5',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
   $routeProvider.when('/collapse6',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
   $routeProvider.when('/collapse7',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
-  //$routeProvider.otherwise({redirectTo: 'rankings'});
+  $routeProvider.otherwise({redirectTo: 'rankings'});
 }]);
