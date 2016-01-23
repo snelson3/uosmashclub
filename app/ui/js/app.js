@@ -14,5 +14,12 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/profiles/:playerId', {templateUrl: 'ui/templates/profile.html', controller: 'profileController'});
   $routeProvider.when('/rules',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
   $routeProvider.when('/rankings',{isPNG:true, templateUrl: 'ui/templates/rankings.html', controller: 'homeController', img:'uosmash',title:'UO Smash Club Rankings'});
-  $routeProvider.otherwise({redirectTo: 'rankings'});
+  $routeProvider.when('/collapse1',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  $routeProvider.when('/collapse2',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  $routeProvider.when('/collapse3',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  $routeProvider.when('/collapse4',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  $routeProvider.when('/collapse5',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  $routeProvider.when('/collapse6',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  $routeProvider.when('/collapse7',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
+  //$routeProvider.otherwise({redirectTo: 'rankings'});
 }]);
