@@ -2,7 +2,9 @@ uoSmash.controller('matchupsController', ['$scope', '$http', 'rankingService', '
     function ($scope, $http, rankingService, profileService) {
         $scope.players = [];
 
-        rankingService.getPlayerList('melee').then(function(res) {
+        $scope.changeRadio = function(num) {
+            $scope.incnum = num;
+            rankingService.getPlayerList('melee').then(function(res) {
             if (res.statusText == "OK") {
                 $scope.players = res.data.sort(function(a,b){
                     if (a.ELO < b.ELO)
@@ -10,7 +12,7 @@ uoSmash.controller('matchupsController', ['$scope', '$http', 'rankingService', '
                     if (a.ELO == b.ELO)
                         return 0;
                     return -1;
-                }).slice(0,10);
+                }).slice(0,num);
                 $scope.scores = {};
                 $scope.playerlist = $scope.players.map(function(p) {
                     return p.name.slice(6);
@@ -38,6 +40,8 @@ uoSmash.controller('matchupsController', ['$scope', '$http', 'rankingService', '
                 });
             }
         });
+        };
 
+        $scope.changeRadio(10);
     }
 ]);

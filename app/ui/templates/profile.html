@@ -4,7 +4,7 @@
 <div class="col-md-4">
     <!-- I thought everyone was supposed to have at least 1 alias? !-->
     <!-- Implement Medals !-->
-    <p ng-if="player.aliases.length > 0">Aliases: <span ng-repeat="alias in player.aliases">{{  alias }}, </span></p>
+    <p ng-if="player.aliases.length > 0">Aliases: <span ng-repeat="alias in player.aliases">{{  alias }}<span ng-if="!$last">, </span></span> </span></p>
     <p>Games: {{ player.matches.length }}</p>
     <p ng-if="getWins() > 0">Wins: {{ getWins() }}</p>
     <p ng-if="player.place >= 0">Rating: {{ player.rating*50 | number:0}}</p>
