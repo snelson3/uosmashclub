@@ -1,10 +1,12 @@
 <div class="col-md-4" ng-cloak><!--<img ng-src="img/{{player.id}}.jpg" class="img-circle img-thumbnail">!--></div>
 <div class="col-md-8"><h1>{{ player.name }}</h1></div>
 <!--<div class="col-md-4"></div>!--><!--TODO This makes people without pictures not look righht!-->
-<div class="col-md-6">
+<div class="col-md-8">
     <!-- I thought everyone was supposed to have at least 1 alias? !-->
     <!-- Implement Medals !-->
-    <div ng-if="player.aliases.length > 0">Aliases: <span ng-repeat="alias in player.aliases">{{  alias }}<span ng-if="!$last">, </span></span> </div></span>
+    <div ng-if="player.aliases.length > 0">Aliases: <span ng-repeat="alias in player.aliases">{{ alias }}<span
+            ng-if="!$last">, </span></span></div>
+    </span>
     <div style="margin-top:5px;">Tournaments: {{ player.tournaments.length }}</div>
     <div style="margin-top:5px;">Games: {{ player.matches.length }}</div>
     <div style="margin-top:5px;" ng-if="getWins() > 0">Wins: {{ getWins() }}</div>
@@ -12,18 +14,35 @@
 
     <div></div>
 
-    <div style="margin-top:25px;">Match Search: <input class="search-bar" ng-model="query"></div>
-
-    <div ng-repeat="(key,value) in sortedMatches">
-        <div style="margin-left:150px;margin-bottom:4px;">{{ key }}</div>
-        <table style="margin-left:150px;" class="table table-bordered">
+    <div style="margin-top:25px;">
+        <span style="font-size:16px;">Earned Medals</span>
+        <table class="table table-bordered">
             <thead>
-            <th>Opponent</th>
-            <th>Win</th>
-            <th>Skill Change</th>
+                <th>Title</th>
+                <th>Earned On</th>
+                <th>Description</th>
             </thead>
             <tbody>
-            <tr></tr>
+                <tr ng-repeat="medal in player.medals | orderBy:'-seq'">
+                    <td>{{medal.title}}</td>
+                    <td>{{medal.short}}</td>
+                    <td>{{medal.long}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="margin-top:25px;margin-left:370px;margin-bottom:25px;font-size:24px">Matches</div>
+
+    <div ng-repeat="(key,value) in sortedMatches">
+        <div style="margin-left:155px;margin-bottom:4px;">{{ key }}</div>
+        <table style="margin-left:150px;" class="table table-bordered">
+            <thead>
+                <th>Opponent</th>
+                <th>Win</th>
+                <th>Skill Change</th>
+            </thead>
+            <tbody>
             <tr ng-repeat="match in value.matches | filter:query">
                 <td><a href="#/profiles/{{ player.game }}-{{ match.opponent }}">
                     {{ match.opponent }}</a></td>
@@ -41,4 +60,6 @@
             </tbody>
         </table>
     </div>
+
+    <div style="margin-top:25px;">Match Search: <input class="search-bar" ng-model="query"></div>
 </div>
