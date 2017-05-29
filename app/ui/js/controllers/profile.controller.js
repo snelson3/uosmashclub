@@ -23,6 +23,13 @@ uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'pro
                     sortedMatches[match.date] = {matches: [], date: date};
                 }
             });
+            $scope.sortedMedals = Object.values($scope.player.medals).sort(function(a,b){
+                    if (a.seq < b.seq)
+                        return 1;
+                    if (a.seq == b.seq)
+                        return 0;
+                    return -1;
+                });
             $scope.tournamentList = [];
             $scope.sortedMatches = sortedMatches;
             Object.keys(sortedMatches).forEach(function (k) {

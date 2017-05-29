@@ -23,7 +23,7 @@
                 <th>Description</th>
             </thead>
             <tbody>
-                <tr ng-repeat="medal in player.medals | orderBy:'-seq'">
+                <tr ng-repeat="medal in sortedMedals">
                     <td>{{medal.title}}</td>
                     <td>{{medal.short}}</td>
                     <td>{{medal.long}}</td>
