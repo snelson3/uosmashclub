@@ -1,7 +1,6 @@
 <div class="col-md-4"></div>
-<div class="col-md-4"><h3>UO Smash Club</h3></div>
 <div class="col-md-4"></div>
-<div class="col-md-8">
+<div class="col-md-8" style="margin-bottom:10px;">
 	<li>Date: {{tournament.date}}</li>
     <li>Number of Entrants: {{ tournament.entrants.length }}</li>
 </div>
@@ -16,15 +15,15 @@
 	</thead>
 	<tbody>
 		<tr ng-repeat="player in tournament.entrants | orderBy:orderProp">
-			<th>{{player.place}}</th>
-			<th><a href="#/profiles/{{tournament.game}}-{{player.real_name}}">{{player.name}}</a></th>
-			<th><p ng-if="player.rank_change != 'Unranked' || player.rank_change != 'Ranked!'" ng-class="{blue: player.rank_change > 0, red: player.rank_change < 0}" >
+			<td>{{player.place}}</td>
+			<td><a href="#/profiles/{{tournament.game}}-{{player.real_name}}">{{player.name}}</a></td>
+			<td><span ng-if="player.rank_change != 'Unranked' || player.rank_change != 'Ranked!'" ng-class="{blue: player.rank_change > 0, red: player.rank_change < 0}" >
 					{{player.rank_change*50| number:0}}
-                </p>
-                <p ng-if="player.rank_change == 'Unranked' || player.rank_change == 'Ranked!'" class="green">
+                </span>
+                <span ng-if="player.rank_change == 'Unranked' || player.rank_change == 'Ranked!'" class="green">
                     {{ player.rank_change }}
-                </p>
-            </th>
+                </span>
+            </td>
 		</tr>
 	</tbody>
 </table>
@@ -41,8 +40,8 @@
 	<tbody>
 		<tr ng-repeat="match in tournament.matches | filter:query | orderBy:orderProp">
 			<th> {{match.rnd}}</th>
-			<th> <a href="#/profiles/{{tournament.game}}-{{match.player1_real_name}}">{{match.player1}}</a> <p ng-class="{blue: match.p1_skill_change > 0, red: match.p1_skill_change < 0.0}">{{match.p1_skill_change*50 | number:0}}</p></th>
-			<th><a href="#/profiles/{{tournament.game}}-{{match.player2_real_name}}">{{match.player2}}</a> <p ng-class="{blue: match.p2_skill_change > 0, red: match.p2_skill_change < 0.0}">{{match.p2_skill_change*50 | number:0}}</p></th>
+			<th><a href="#/profiles/{{tournament.game}}-{{match.player1_real_name}}">{{match.player1}}</a> <span ng-class="{blue: match.p1_skill_change > 0, red: match.p1_skill_change < 0.0}">{{match.p1_skill_change*50 | number:0}}</span></th>
+			<th><a href="#/profiles/{{tournament.game}}-{{match.player2_real_name}}">{{match.player2}}</a> <span ng-class="{blue: match.p2_skill_change > 0, red: match.p2_skill_change < 0.0}">{{match.p2_skill_change*50 | number:0}}</span></th>
 			<th><a href="#/profiles/{{tournament.game}}-{{match.player2_real_name}}">{{match.winner}}</a></th>
 		</tr>
 	</tbody>
