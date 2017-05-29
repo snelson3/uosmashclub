@@ -20,7 +20,7 @@ uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'pro
                     sortedMatches[match.date].matches.push(match);
                 }
                 else {
-                    sortedMatches[match.date] = {matches: [], date: date};
+                    sortedMatches[match.date] = {matches: [match], date: date};
                 }
             });
             $scope.sortedMedals = Object.values($scope.player.medals).sort(function(a,b){
@@ -35,5 +35,6 @@ uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'pro
             Object.keys(sortedMatches).forEach(function (k) {
                 $scope.tournamentList.push(sortedMatches[k]);
             });
+            console.log($scope);
         });
     }]);
