@@ -1,11 +1,11 @@
-uoSmash.controller('tournamentResultsController', ['$scope', '$http', '$routeParams', 'tournamentService',
-  function($scope,$http,$routeParams,tournamentService){
-    $scope.entrants = 0;
-    tournamentService.getTournamentResults($routeParams.tourneyId).success(function(data) {
-      $scope.tournament = data;
-      for ($scope.entrant in data.results){
-        $scope.entrants +=1;
-      }
-    });
-    $scope.orderProp = "-rankchange";
-  }]);
+uoSmash.controller('tournamentResultsController', ['$scope', '$routeParams', 'tournamentService', 'rankingService',
+    function($scope, $routeParams, tournamentService, rankingService) {
+        $scope.orderProp = "place";
+
+
+        tournamentService.getTournamentResults($routeParams.tourneyId).then(function(res) {
+            if (res.statusText == "OK") {
+                $scope.tournament = res.data;
+            }
+        });
+    }]);

@@ -8,12 +8,24 @@ uoSmash.factory('tournamentService', [ '$http', function($http) {
 	};
 
 	var _getPastTournaments = function() {
-		return $http.get('data/pasttournaments.uotn');
+		return $http.get('data/melee-tournamentlist.json');
 	};
 
+    var _getTournamentID = function (date) {
+        var id = '';
+        for (var i = 0; i < date.length; i ++) {
+            var c = date[i];
+            if (c != '/')
+                id = id + c;
+        }
+        return id;
+    };
+
+    
 	return {
 		getTournamentResults : _getTournamentResults,
 		getUpcomingTournaments : _getUpcomingTournaments,
-		getPastTournaments : _getPastTournaments
+		getPastTournaments : _getPastTournaments,
+        getTournamentID : _getTournamentID
 	 };
 }]);

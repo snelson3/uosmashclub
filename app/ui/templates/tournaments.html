@@ -1,5 +1,5 @@
 <div class="col-md-4"></div>
-<div class="col-md-8"><p>Upcoming Tournaments</p></div>
+<!--<div class="col-md-8"><p>Upcoming Tournaments</p></div>
 
 <table class="table table-bordered">
 	<thead>
@@ -20,19 +20,21 @@
 	</tbody>
 </table>
 
-<p>Past Tournaments</p>
+<p>Past Tournaments</p>!-->
 
 <table class="table table-bordered">
 	<thead>
 		<tr>
 			<th>Date</th>
-			<th>Results</th>
+			<th>Entrants</th>
+            <th>Winner</th>
 		</tr>
 	</thead>
 	<tbody ng-repeat="tournament in pasttournaments | orderBy: orderProp">
 		<tr>
-			<th>{{tournament.Date}}</th>
-			<th><a href="#/tournaments/{{tournament.id}}">{{tournament.Game}}</th>
+			<th><a href="#/tournaments/{{ getTournamentID(tournament.date) }}">{{tournament.date}}</a></th>
+			<th>{{tournament.entrants}}</th>
+            <th>{{tournament.winner}}</th>
 		</tr>
 	</tbody>
 </table>

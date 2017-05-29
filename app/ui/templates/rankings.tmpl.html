@@ -15,14 +15,15 @@
 			<th>Rank</th>
 			<th>Player</th>
 			<th>Skill</th>
+<!--            <th>Medals</th>!-->
 		</tr>
 	</thead>
 	<tbody>
-		<tr ng-repeat="player in profiles | filter:GAME | orderBy:orderProp" ng-show="player.num_tourneys > 1">
+		<tr ng-repeat="player in profiles | orderBy:orderProp">
 			<td>{{$index+1}}</td>
 			<td><a href="#/profiles/{{player.game}}-{{player.name}}">{{player.name}}</a></td>
 			<td><p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating*50 > 1000.0, gold: player.rating*50 > 1700.0}">{{player.rating*50 | number:0}}</td>
-		</tr>
+        </tr>
 		</tbody>
 	</table>
 </div>

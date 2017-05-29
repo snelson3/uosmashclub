@@ -1,53 +1,86 @@
-<!--throw these into a template eventually!-->
+<!--throw these into a directive eventually!-->
 
-<div class="col-md-6">
-<!--Melee Top 10!-->
-Melee Top 10 (<a href="#/meleerankings">Click for full rankings</a>)
-<table class="table table-bordered">
- <thead><tr><th>Rank</th><th>Name</th><th>Skill</th></tr></thead>
- <tbody> <tr ng-repeat="player in meleeprofiles | filter:GAME | orderBy:orderProp | limitTo:10" ng-show="player.num_tourneys >= 1">
-   <div>
-    <td>{{$index+1}}</td>
-    <td><a href="#/profiles/{{player.game}}-{{player.name}}">{{player.name}}</a></td>
-    <td><p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating*50 > 1000.0, gold: player.rating*50 > 1700.0}">{{player.rating*50 | number:0}}</td>
-   </div>
-	</tr></tbody>
-</table>
+<div class="col-md-6" ng-if="showMelee">
+    <!--Melee Top 10!-->
+    Melee Top 10 (<a href="#/meleerankings">Click for full rankings</a>)
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Skill</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="player in meleeprofiles | orderBy:orderProp"
+            ng-if="true || player.tournaments.length >= 1">
+            <div>
+                <td>{{ $index +1 }}</td>
+                <td><a href="#/profiles/{{ player.game }}-{{ player.name }}">{{ player.name }}</a></td>
+                <td>
+                    <p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating*50 > 1000.0, gold: player.rating*50 > 1700.0}">
+                    {{ player.rating*50 | number:0}}</td>
+            </div>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
-<div class="col-md-6">
-<!--PM Top 10!-->
-Project M Top 10 (<a href="#/pmrankings">Click for full rankings</a>)
-<table class="table table-bordered">
- <thead><tr><th>Rank</th><th>Name</th><th>Skill</th></tr></thead>
- <tbody> <tr ng-repeat="player in pmprofiles | filter:GAME | orderBy:orderProp | limitTo:10" ng-show="player.num_tourneys >= 1">
-   <div>
-    <td>{{$index+1}}</td>
-    <td><a href="#/profiles/{{player.game}}-{{player.name}}">{{player.name}}</a></td>
-    <td><p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating* 50 > 1000.0, gold: player.rating*50 > 1700.0}">{{player.rating*50 | number:0}}</td>
-    </div>
-       </tr></tbody>
-</table>
+<div class="col-md-6" ng-if="showPM">
+    <!--PM Top 10!-->
+    Project M Top 10 (<a href="#/pmrankings">Click for full rankings</a>)
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Skill</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="player in pmprofiles | filter:GAME | orderBy:orderProp | limitTo:10"
+            ng-show="player.num_tourneys >= 1">
+            <div>
+                <td>{{$index+1}}</td>
+                <td><a href="#/profiles/{{ player.game }}-{{ player.name }}">{{ player.name }}</a></td>
+                <td>
+                    <p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating* 50 > 1000.0, gold: player.rating*50 > 1700.0}">
+                    {{ player.rating*50 | number:0}}</td>
+            </div>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
-<div class="col-md-6">
-<!--S4 Top 10!-->
-Smash 4 Top 10 (<a href="#/s4rankings">Click for full rankings</a>)
-<table class="table table-bordered">
- <thead><tr><th>Rank</th><th>Name</th><th>Skill</th></tr></thead>
- <tbody> <tr ng-repeat="player in s4profiles | filter:GAME | orderBy:orderProp | limitTo:10" ng-show="player.num_tourneys >= 1">
-   <div>
-    <td>{{$index+1}}</td>
-    <td><a href="#/profiles/{{player.game}}-{{player.name}}">{{player.name}}</a></td>
-    <td><p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating* 50 > 1000.0, gold: player.rating*50 > 1700.0}">{{player.rating*50 | number:0}}</td>
-    </div>
-       </tr></tbody>
-</table>
+<div class="col-md-6" ng-if="showS4">
+    <!--S4 Top 10!-->
+    Smash 4 Top 10 (<a href="#/s4rankings">Click for full rankings</a>)
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Skill</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="player in s4profiles | filter:GAME | orderBy:orderProp | limitTo:10"
+            ng-show="player.num_tourneys >= 1">
+            <div>
+                <td>{{$index+1}}</td>
+                <td><a href="#/profiles/{{ player.game }}-{{ player.name }}">{{ player.name }}</a></td>
+                <td>
+                    <p ng-class="{red: player.rating*50 < 1000.0, blue: player.rating* 50 > 1000.0, gold: player.rating*50 > 1700.0}">
+                    {{ player.rating*50 | number:0}}</td>
+            </div>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
-<div class="col-md-6">
-<!--Upcoming tournaments/misc news!-->
-<table class="table table-bordered">
-Go to OSU's Midnight Melee on NOV 13!
-</table>
+<div class="col-md-6" ng-if="showNews">
+    <!--Upcoming tournaments/misc news!-->
+    <table class="table table-bordered">
+        Go to OSU's Midnight Melee on NOV 13!
+    </table>
 </div>
