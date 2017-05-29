@@ -16,11 +16,11 @@ uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'pro
             var sortedMatches = {};
             $scope.player.matches.forEach(function (match) {
                 var date = $scope.getTournamentID(match.date);
-                if (sortedMatches[date]) {
-                    sortedMatches[date].matches.push(match);
+                if (sortedMatches[match.date]) {
+                    sortedMatches[match.date].matches.push(match);
                 }
                 else {
-                    sortedMatches[date] = {matches: [], date: date};
+                    sortedMatches[match.date] = {matches: [], date: date};
                 }
             });
             $scope.tournamentList = [];

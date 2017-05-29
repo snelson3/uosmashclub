@@ -14,31 +14,31 @@
 
     <div style="margin-top:25px;">Match Search: <input class="search-bar" ng-model="query"></div>
 
-    <table style="margin-left:150px;" class="table table-bordered">
-        <thead>
-        <th>Date</th>
-        <th>Opponent</th>
-        <th>Win</th>
-        <th>Skill Change</th>
-        </thead>
-        <tbody>
-        <tr></tr>
-        <tr ng-repeat="match in player.matches | filter:query">
-            <td><a href="#/tournaments/{{ getTournamentID(match.date) }}"> {{ match.date }}</a></td>
+    <div ng-repeat="(key,value) in sortedMatches">
+        <div style="margin-left:150px;margin-bottom:4px;">{{ key }}</div>
+        <table style="margin-left:150px;" class="table table-bordered">
+            <thead>
+            <th>Opponent</th>
+            <th>Win</th>
+            <th>Skill Change</th>
+            </thead>
+            <tbody>
+            <tr></tr>
+            <tr ng-repeat="match in value.matches | filter:query">
+                <td><a href="#/profiles/{{ player.game }}-{{ match.opponent }}">
+                    {{ match.opponent }}</a></td>
 
-            <td><a href="#/profiles/{{ player.game }}-{{ match.opponent }}">
-                {{ match.opponent }}</a></td>
+                <td ng-if="match.win"> {{ 'yes' }} </td>
+                <td ng-if="!match.win"> {{ 'no' }}</td>
 
-            <td ng-if="match.win"> {{ 'yes' }} </td>
-            <td ng-if="!match.win"> {{ 'no' }}</td>
+                <td>
+                    <span ng-class="{blue:match.skill_change*40 > 0, red:match.skill_change*40 < 0}">
+                        {{ match.skill_change*50 | number:0}}
+                    </span>
+                </td>
 
-            <td>
-                <span ng-class="{blue:match.skill_change*40 > 0, red:match.skill_change*40 < 0}">
-                    {{ match.skill_change*50 | number:0}}
-                </span>
-            </td>
-
-        </tr>
-        </tbody>
-    </table>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
