@@ -34,7 +34,7 @@
 		<tr>
 			<th><a href="#/tournaments/{{ getTournamentID(tournament.date) }}">{{tournament.date}}</a></th>
 			<th>{{tournament.entrants}}</th>
-            <th>{{tournament.winner}}</th>
+            <th><a href="#/profiles/Melee-{{ tournament.winner.real_name }}">{{tournament.winner.name}}</a></th>
 		</tr>
 	</tbody>
 </table>
