@@ -1,20 +1,20 @@
 <div class="col-md-4" ng-cloak><!--<img ng-src="img/{{player.id}}.jpg" class="img-circle img-thumbnail">!--></div>
 <div class="col-md-8"><h1>{{ player.name }}</h1></div>
 <!--<div class="col-md-4"></div>!--><!--TODO This makes people without pictures not look righht!-->
-<div class="col-md-4">
+<div class="col-md-6">
     <!-- I thought everyone was supposed to have at least 1 alias? !-->
     <!-- Implement Medals !-->
-    <p ng-if="player.aliases.length > 0">Aliases: <span ng-repeat="alias in player.aliases">{{  alias }}<span ng-if="!$last">, </span></span> </span></p>
-    <p>Tournaments: {{ player.tournaments.length }}</p>
-    <p>Games: {{ player.matches.length }}</p>
-    <p ng-if="getWins() > 0">Wins: {{ getWins() }}</p>
-    <p ng-if="player.place >= 0">Rating: {{ player.rating*50 | number:0}}</p>
+    <div ng-if="player.aliases.length > 0">Aliases: <span ng-repeat="alias in player.aliases">{{  alias }}<span ng-if="!$last">, </span></span> </div></span>
+    <div style="margin-top:5px;">Tournaments: {{ player.tournaments.length }}</div>
+    <div style="margin-top:5px;">Games: {{ player.matches.length }}</div>
+    <div style="margin-top:5px;" ng-if="getWins() > 0">Wins: {{ getWins() }}</div>
+    <div style="margin-top:5px;" ng-if="player.place >= 0">Rating: {{ player.rating*50 | number:0}}</div>
 
-    <div class="col-md-4">Match Search: <input class="search-bar" ng-model="query"></div>
+    <div></div>
 
-    Matches played
+    <div style="margin-top:25px;">Match Search: <input class="search-bar" ng-model="query"></div>
 
-    <table class="table table-bordered">
+    <table style="margin-left:150px;" class="table table-bordered">
         <thead>
         <th>Date</th>
         <th>Opponent</th>
@@ -24,19 +24,19 @@
         <tbody>
         <tr></tr>
         <tr ng-repeat="match in player.matches | filter:query">
-            <th><a href="#/tournaments/{{ getTournamentID(match.date) }}"> {{ match.date }}</a></th>
+            <td><a href="#/tournaments/{{ getTournamentID(match.date) }}"> {{ match.date }}</a></td>
 
-            <th><a href="#/profiles/{{ player.game }}-{{ match.opponent }}">
-                {{ match.opponent }}</a></th>
+            <td><a href="#/profiles/{{ player.game }}-{{ match.opponent }}">
+                {{ match.opponent }}</a></td>
 
-            <th ng-if="match.win"> {{ 'yes' }} </th>
-            <th ng-if="!match.win"> {{ 'no' }}</th>
+            <td ng-if="match.win"> {{ 'yes' }} </td>
+            <td ng-if="!match.win"> {{ 'no' }}</td>
 
-            <th>
-                <p ng-class="{blue:match.skill_change*40 > 0, red:match.skill_change*40 < 0}">
+            <td>
+                <span ng-class="{blue:match.skill_change*40 > 0, red:match.skill_change*40 < 0}">
                     {{ match.skill_change*50 | number:0}}
-                </p>
-            </th>
+                </span>
+            </td>
 
         </tr>
         </tbody>
