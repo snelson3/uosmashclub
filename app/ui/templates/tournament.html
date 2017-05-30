@@ -16,7 +16,7 @@
 	<tbody>
 		<tr ng-repeat="player in tournament.entrants | orderBy:orderProp">
 			<td>{{player.place}}</td>
-			<td><a href="#/profiles/{{tournament.game}}-{{player.real_name}}">{{player.name}}</a></td>
+			<td><a href="#/profiles/Melee-{{player.real_name}}">{{player.name}}</a></td>
 			<td><span ng-if="player.rank_change != 'Unranked' || player.rank_change != 'Ranked!'" ng-class="{blue: player.rank_change > 0, red: player.rank_change < 0}" >
 					{{player.rank_change*50| number:0}}
                 </span>
@@ -40,9 +40,9 @@
 	<tbody>
 		<tr ng-repeat="match in tournament.matches | filter:query | orderBy:orderProp">
 			<th> {{match.rnd}}</th>
-			<th><a href="#/profiles/{{tournament.game}}-{{match.player1_real_name}}">{{match.player1}}</a> <span ng-class="{blue: match.p1_skill_change > 0, red: match.p1_skill_change < 0.0}">{{match.p1_skill_change*50 | number:0}}</span></th>
-			<th><a href="#/profiles/{{tournament.game}}-{{match.player2_real_name}}">{{match.player2}}</a> <span ng-class="{blue: match.p2_skill_change > 0, red: match.p2_skill_change < 0.0}">{{match.p2_skill_change*50 | number:0}}</span></th>
-			<th><a href="#/profiles/{{tournament.game}}-{{match.player2_real_name}}">{{match.winner}}</a></th>
+			<th><a href="#/profiles/Melee-{{match.player1_real_name}}">{{match.player1}}</a> <span ng-class="{blue: match.p1_skill_change > 0, red: match.p1_skill_change < 0.0}">{{match.p1_skill_change*50 | number:0}}</span></th>
+			<th><a href="#/profiles/Melee-{{match.player2_real_name}}">{{match.player2}}</a> <span ng-class="{blue: match.p2_skill_change > 0, red: match.p2_skill_change < 0.0}">{{match.p2_skill_change*50 | number:0}}</span></th>
+			<th><a href="#/profiles/Melee-{{match.player2_real_name}}">{{match.winner}}</a></th>
 		</tr>
 	</tbody>
 </table>
