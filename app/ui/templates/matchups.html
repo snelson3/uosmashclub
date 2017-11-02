@@ -25,12 +25,12 @@
     <thead>
         <tr>
             <th></th>
-            <th ng-repeat="p in playerlist"><a href="#/profiles/{{ game }}/{{ p }}">{{ p }}</a></th>
+            <th ng-repeat="p in playerlist"><a href="#/{{ game }}/profiles/{{ p }}">{{ p }}</a></th>
         </tr>
     </thead>
     <tbody>
         <tr ng-repeat="p in playerlist">
-            <td><a href="#/profiles/{{ game }}/{{ p }}">{{ p }}</a></td>
+            <td><a href="#/{{ game }}/profiles/{{ p }}">{{ p }}</a></td>
             <td ng-repeat="o in playerlist">
                 <span ng-if="p == o">X</span>
                 <span ng-if="p != o && (scores[p][o].wins > 0 || scores[p][o].losses > 0)" >{{ scores[p][o].wins }} - {{ scores[p][o].losses }}</span>

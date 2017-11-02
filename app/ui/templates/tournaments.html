@@ -32,9 +32,9 @@
 	</thead>
 	<tbody ng-repeat="tournament in pasttournaments | orderBy: orderProp">
 		<tr>
-			<th><a href="#/tournaments/{{ game }}/{{ getTournamentID(tournament.date) }}">{{tournament.date}}</a></th>
+			<th><a href="#/{{ game }}/tournaments/{{ getTournamentID(tournament.date) }}">{{tournament.date}}</a></th>
 			<th>{{tournament.entrants}}</th>
-            <th><a href="#/profiles/{{ game }}/{{ tournament.winner.real_name }}">{{tournament.winner.name}}</a></th>
+            <th><a href="#/{{ game }}/profiles/{{ tournament.winner.real_name }}">{{tournament.winner.name}}</a></th>
 		</tr>
 	</tbody>
 </table>

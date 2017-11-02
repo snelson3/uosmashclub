@@ -1,6 +1,6 @@
-uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'profileService', 'tournamentService',
-    function ($scope, $routeParams, $http, profileService, tournamentService) {
-        $scope.game = 'melee';
+uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'profileService', 'tournamentService', '$route',
+    function ($scope, $routeParams, $http, profileService, tournamentService, $route) {
+        $scope.game = $route.current.game;
         $scope.getTournamentID = tournamentService.getTournamentID;
 
         $scope.getWins = function () {
@@ -11,11 +11,11 @@ uoSmash.controller('profileController', ['$scope', '$routeParams', '$http', 'pro
             }
         };
 
-        profileService.getProfile($routeParams.playerId, $scope.game).success(function (data) {
+        profileService.getProfile($routeParams.playerId, $route.current.game).success(function (data) {
             $scope.player = data;
             var sortedMatches = {};
             $scope.player.matches.forEach(function (match) {
-                var date = $scope.getTournamentID(match.date, $scope.game);
+                var date = $scope.getTournamentID(match.date, $route.current.game);
                 if (sortedMatches[match.date]) {
                     sortedMatches[match.date].matches.push(match);
                 }

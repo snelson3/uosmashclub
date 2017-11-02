@@ -44,7 +44,7 @@
             </thead>
             <tbody>
             <tr ng-repeat="match in value.matches | filter:query">
-                <td><a href="#/profiles/{{ game }}/{{ match.opponent }}">
+                <td><a href="#/{{ game }}/profiles/{{ match.opponent }}">
                     {{ match.opponent }}</a></td>
 
                 <td ng-if="match.win"> {{ 'yes' }} </td>

@@ -45,20 +45,20 @@
     </div>
     <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-            <li><a href="#/meleerankings">Rankings</a></li>
-            <li><a href="#/matchups">Matchups</a></li>
+            <li><a href="#/{{ $route.current.game }}/rankings">Rankings</a></li>
+            <li><a href="#/{{ $route.current.game }}/matchups">Matchups</a></li>
             <!--
             <li><a href="#/meleerankings">Melee Rankings</a> </li>
             <li><a href="#/pmrankings">Project M Rankings</a></li>
             <li><a href="#/s4rankings">Smash 4 Rankings</a></li>!-->
-            <li><a href="#/tournaments">Tournament Results</a></li>
-            <li><a href="#/contact">Contact Oregon Smashers</a></li>
-            <li><a href="#/rules">Getting Started/Rules</a></li>
+            <li><a href="#/{{ $route.current.game }}/tournaments">Tournament Results</a></li>
+            <li><a href="#/{{ $route.current.game }}/contact">Contact Oregon Smashers</a></li>
+            <li><a href="#/{{ $route.current.game }}/rules">Getting Started/Rules</a></li>
         </ul>
         <ul class="nav navbar-nav pull-right">
-            <li><a href="#" ng-click="console.log('Melee')" ng-class="{'fa fa-check': game=='Melee'}">Melee</a>
+            <li><a href="#" ng-click="console.log('Melee')" ng-class="{'fa fa-check': $route.current.game=='melee'}">Melee</a>
             </li>
-            <li><a href="#" ng-click="console.log('Sm4sh')" ng-class="{'fa fa-check': game=='Sm4sh'}">Sm4sh</a>
+            <li><a href="#" ng-click="console.log('Sm4sh')" ng-class="{'fa fa-check': $route.current.game=='sm4sh'}">Sm4sh</a>
             </li>
         </ul>
     </div>

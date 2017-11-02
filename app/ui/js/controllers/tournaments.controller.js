@@ -1,9 +1,10 @@
-uoSmash.controller('tournamentsController', ['$scope', '$http', 'tournamentService',
-    function ($scope, $http, tournamentService) {
+uoSmash.controller('tournamentsController', ['$scope', '$http', 'tournamentService', '$route',
+    function ($scope, $http, tournamentService, $route) {
+        $scope.game = $route.current.game;
         // tournamentService.getUpcomingTournaments().success(function (data) {
         //     $scope.futuretournaments = data;
         // });
-        tournamentService.getPastTournaments().success(function (data) {
+        tournamentService.getPastTournaments($route.current.game).success(function (data) {
             $scope.pasttournaments = data;
         });
         $scope.orderProp = "date";

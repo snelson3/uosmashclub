@@ -1,3 +1,3 @@
 uoSmash.controller('mainController',['$scope','$route',function($scope, $route){
-  $scope.$route = $route;
+    $scope.$route = $route;
 }]);
