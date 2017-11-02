@@ -1,14 +1,14 @@
 uoSmash.factory('tournamentService', [ '$http', function($http) {
-	var _getTournamentResults = function(tid) {
-		return $http.get('data/tournaments/'+tid+'.uotn');
+	var _getTournamentResults = function(tid, game) {
+		return $http.get('ranking-data/'+game+'-files/updated/'+tid+'.uotn');
 	};
 
 	var _getUpcomingTournaments = function() {
 		return $http.get('data/upcomingtournaments.uotn');
 	};
 
-	var _getPastTournaments = function() {
-		return $http.get('data/melee-tournamentlist.json');
+	var _getPastTournaments = function(game) {
+		return $http.get('ranking-data/'+game+'-files/'+'tournamentlist.json');
 	};
 
     var _getTournamentID = function (date) {

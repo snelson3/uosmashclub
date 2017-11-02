@@ -1,10 +1,11 @@
 uoSmash.controller('matchupsController', ['$scope', '$http', 'rankingService', 'profileService',
     function ($scope, $http, rankingService, profileService) {
+        $scope.game = 'melee';
         $scope.players = [];
 
         $scope.changeRadio = function(num) {
             $scope.incnum = num;
-            rankingService.getPlayerList('melee').then(function(res) {
+            rankingService.getPlayerList($scope.game).then(function(res) {
             if (res.statusText == "OK") {
                 $scope.players = res.data.sort(function(a,b){
                     if (a.ELO < b.ELO)
@@ -19,7 +20,7 @@ uoSmash.controller('matchupsController', ['$scope', '$http', 'rankingService', '
                 });
                 $scope.playerlist.forEach(function (player) {
                     var pscore = {};
-                    profileService.getProfile('Melee-'+player).then(function (res) {
+                    profileService.getProfile(player,$scope.game).then(function (res) {
                         if (res.statusText == "OK") {
                            $scope.playerlist.forEach(function (p) {
                                 pscore[p] = {"wins": 0, "losses": 0}

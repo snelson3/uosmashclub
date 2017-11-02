@@ -5,4 +5,5 @@ update.sh
 node_modules
 app/ui/bower_components
 app/data
+app/ranking-data
 .idea
