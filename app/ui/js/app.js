@@ -10,8 +10,8 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/s4rankings',{isPNG:true, templateUrl:'ui/templates/rankings.tmpl.html',controller:'rankingsController', img:'uosmash', title:'Smash 4 Rankings',rankings:true,game:'s4'});
   $routeProvider.when('/tournaments', {isJPG:true, templateUrl: 'ui/templates/tournaments.html', controller: 'tournamentsController', img:'mango', title:'Tournaments'});
   $routeProvider.when('/contact', {isJPG:true, templateUrl: 'ui/templates/contact.html', controller: 'contactController', img:'icies', title:'Contact Us'});
-  $routeProvider.when('/tournaments/melee/:tourneyId', {isJPG:true, templateUrl: 'ui/templates/tournament.html', controller: 'tournamentResultsController',img:'mango', title:'Tournaments'});
-  $routeProvider.when('/profiles/melee/:playerId', {templateUrl: 'ui/templates/profile.html', controller: 'profileController'});
+  $routeProvider.when('/tournaments/Melee/:tourneyId', {isJPG:true, templateUrl: 'ui/templates/tournament.html', controller: 'tournamentResultsController',img:'mango', title:'Tournaments'});
+  $routeProvider.when('/profiles/Melee/:playerId', {templateUrl: 'ui/templates/profile.html', controller: 'profileController'});
   $routeProvider.when('/rules',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
   $routeProvider.when('/rankings',{isPNG:true, templateUrl: 'ui/templates/rankings.html', controller: 'homeController', img:'uosmash',title:'UO Smash Club Rankings'});
   $routeProvider.when('/matchups',{isPNG:false, templateUrl: 'ui/templates/matchups.html', controller: 'matchupsController'});
@@ -22,5 +22,5 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/collapse5',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
   $routeProvider.when('/collapse6',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
   $routeProvider.when('/collapse7',{isJPG:true, templateUrl: 'ui/templates/rules.html',img:'foxo',title:'Ruleset'});
-  $routeProvider.otherwise({redirectTo: '/meleerankings'});
+   $routeProvider.otherwise({redirectTo: '/meleerankings'});
 }]);
